@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="/assets/css/passwd.css">
+
+<div class="my-center-right pull-right col-xs-7 nopadding">
+    <div class="center-right-title">修改帐号密码</div>
+
+    <div class="security-modify-account-password">
+        <form class="security-account-password-from security-content-from" method="POST"
+              action="">
+            <div class="security-from-raw clearfix">
+                <div class="col-lg-5 text-right">
+                    <label>当前密码:</label>
+                </div>
+                <div class="col-lg-7 nopadding text-left">
+                    <input type="password" name="oldpassword">
+                    <span name="currentPassword" class="error ">
+                                </span>
+                </div>
+            </div>
+            <div class="security-from-raw clearfix">
+                <div class="col-lg-5 text-right">
+                    <label>新密码:</label>
+                </div>
+                <div class="col-lg-7 nopadding text-left">
+                    <input type="password" name="newpassword">
+                    <span name="newPassword" class="error ">
+                                </span>
+                </div>
+            </div>
+            <div class="security-from-raw clearfix">
+                <div class="col-lg-5 text-right">
+                    <label>重复新密码:</label>
+                </div>
+                <div class="col-lg-7 nopadding text-left">
+                    <input type="password" name="renewpassword">
+                    <span name="renewPassword" class="error ">
+                                </span>
+                </div>
+            </div>
+            <div class="security-from-raw clearfix" style="margin-top: 35px;">
+                <div class="col-lg-5 text-right"></div>
+                <div class="col-lg-7 nopadding text-left">
+                    <button type="submit">确认修改</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

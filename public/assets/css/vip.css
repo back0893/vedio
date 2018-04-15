@@ -1,0 +1,4450 @@
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-search, [riot-tag=rv-video-title-bar] .v-selftime-title-main-tag, [riot-tag=rv-video-title-bar] .v-selftime-title-main-user, [riot-tag=rv-video-title-bar] .v-selftime-title-main-video {
+    display: inline-block;
+    font-size: 18px;
+    height: 37px;
+    line-height: 37px;
+    cursor: pointer
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-video {
+    width: 65px;
+    display: inline-block;
+    color: #58b49d;
+    height: 36px;
+    border-bottom: 2px solid #58b49d
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-tag, [riot-tag=rv-video-title-bar] .v-selftime-title-main-video-unclick {
+    width: 65px;
+    display: inline-block;
+    color: #999;
+    height: 36px
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-tag-click {
+    width: 65px;
+    display: inline-block;
+    color: #58b49d;
+    height: 36px;
+    border-bottom: 2px solid #58b49d
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-user {
+    width: 65px;
+    display: inline-block;
+    color: #999;
+    height: 36px
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-user-click {
+    width: 65px;
+    color: #58b49d;
+    display: inline-block;
+    height: 36px;
+    border-bottom: 2px solid #58b49d
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-search.v-float-left {
+    text-align: center
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-search {
+    color: #EF3E36
+}
+
+[riot-tag=rv-video-title-bar] .v-video-total {
+    margin-left: 35px;
+    color: #333;
+    font-size: 14px
+}
+
+[riot-tag=rv-video-title-bar] .v-seachvideo-total {
+    color: #171716;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block
+}
+
+[riot-tag=rv-video-title-bar] .v-seachvideo-rank {
+    font-weight: 400
+}
+
+[riot-tag=rv-video-title-bar] .v-seachvideo-rank > div, [riot-tag=rv-video-title-bar] .v-seachvideo-rank > label {
+    display: inline-block
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main {
+    margin-right: 35px;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px solid #58b49d
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-search {
+    margin-right: 35px;
+    height: 37px;
+    font-weight: 400
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-xyvideo-icon-movie {
+    color: #fc4d51
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-xyvideo-icon-query {
+    color: #eee
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-xyvideo-icon-newest-self-video {
+    color: #58b49d
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-rank {
+    margin-top: 9px;
+    font-size: 15px;
+    color: #171616 !important
+}
+
+[riot-tag=rv-video-title-bar] .v-float-left {
+    float: left
+}
+
+[riot-tag=rv-video-title-bar] .v-float-right {
+    float: right
+}
+
+[riot-tag=rv-stvideolist] .v-float-left, [riot-tag=rv-type-bar] .v-ul-type-bar li {
+    float: left
+}
+
+[riot-tag=rv-video-title-bar] .v-margin-right {
+    margin-right: 15px
+}
+
+[riot-tag=rv-video-title-bar] .xyvideo-selftitle-icon-xyvideo-icon-movie {
+    color: #fc4d51;
+    font-size: 28px
+}
+
+[riot-tag=rv-video-title-bar] .xyvideo-selftitle-icon-xyvideo-icon-query {
+    color: #eb3341;
+    font-size: 18px
+}
+
+[riot-tag=rv-video-title-bar] .xyvideo-selftitle-icon-xyvideo-icon-newest-self-video {
+    color: #58b49d;
+    font-size: 28px
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-rank a {
+    color: #171616;
+    text-decoration: none
+}
+
+[riot-tag=rv-video-title-bar] .v-selftime-title-rank-a {
+    color: #f72abb
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-newest-self-video > a {
+    color: #ef374c
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-newest-self-video > a {
+    color: #333
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-newest-self-video > a {
+    color: #ef374c
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-newest-self-video > a {
+    color: #333
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-query > a {
+    color: #EF3E36
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-query > a {
+    color: #999
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-query > a {
+    color: #EF3E36
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-query > a {
+    color: #333
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-movie > a {
+    color: #EF3E36
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-movie > a {
+    color: #333
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-movie > a {
+    color: #EF3E36
+}
+
+[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-movie > a {
+    color: #333
+}
+
+[riot-tag=rv-type-bar] .v-ul-type-bar {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7px
+}
+
+[riot-tag=rv-type-bar] .v-ul-type-bar li span {
+    color: #58b49d;
+    vertical-align: top
+}
+
+[riot-tag=rv-type-bar] .v-ul-type-bar li a {
+    font-size: 14px;
+    color: #58b49d;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none
+}
+
+[riot-tag=rv-type-bar] .v-ul-type-bar li a:hover {
+    color: #58b49d;
+    text-decoration: none;
+    transition: all .3s ease 0s
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container {
+    border: 1px solid #eee
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-orginal-img {
+    position: relative
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-orginal-img img {
+    width: 220px;
+    height: 140px
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-orginal-img .v-mask-layer {
+    width: 60px;
+    height: 18px;
+    background-color: #000;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    opacity: .6;
+    font-size: 12px
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc {
+    padding: 12px 10px 0;
+    font-size: 12px;
+    color: #aaa;
+    background-color: #fff
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc .v-videoname {
+    font-size: 14px;
+    max-height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    width: 200px;
+    height: 48px;
+    line-height: 24px
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc .v-videoname a {
+    color: #666;
+    transition: .2s linear
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc .v-selftime-content .v-mask-layer-left {
+    color: #aaa;
+    line-height: 25px;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    padding-left: 10px;
+    display: inline-block
+}
+
+[riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc .v-selftime-content .v-mask-layer-right {
+    color: #aaa;
+    line-height: 25px;
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    padding-right: 10px;
+    display: inline-block
+}
+
+[riot-tag=rv-stvideolist] .v-videoname-hover {
+    color: #58b49d !important
+}
+
+[riot-tag=rv-stvideolist] .v-float-right {
+    float: right
+}
+
+[riot-tag=rv-stvideolist] .v-margin-bottom {
+    margin-bottom: 14px
+}
+
+[riot-tag=rv-daterankingtitle] .ranking-title {
+    float: left;
+    width: 100%
+}
+
+[riot-tag=rv-daterankingtitle] label {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 15px;
+    color: #fff;
+    background: 0 0;
+    font-weight: 400
+}
+
+[riot-tag=rv-daterankinglist] .v-dateranking-list-container {
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 118px;
+    position: relative;
+    transition: background-color .5s
+}
+
+[riot-tag=rv-daterankinglist] .v-dateranking-list-container:hover {
+    background-color: #ccc
+}
+
+[riot-tag=rv-daterankinglist] .v-monthranking-list-container {
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 118px;
+    position: relative;
+    transition: background-color .5s
+}
+
+[riot-tag=rv-daterankinglist] .v-monthranking-list-container:hover {
+    background-color: #ccc
+}
+
+[riot-tag=rv-daterankinglist] .v-dateranking-list-container .v-container-left, [riot-tag=rv-daterankinglist] .v-monthranking-list-container .v-container-left {
+    width: 50px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+    font-style: italic;
+    font-weight: 700
+}
+
+[riot-tag=rv-daterankinglist] .v-container-left .v-number-title {
+    font-size: 20px;
+    color: #22b3eb;
+    font-style: oblique;
+    margin-top: 25px;
+    font-weight: 400
+}
+
+[riot-tag=rv-daterankinglist] .v-dateranking-list-container .v-container-middle {
+    width: 148px;
+    height: 100%;
+    float: left;
+    position: relative
+}
+
+[riot-tag=rv-daterankinglist] .v-dateranking-list-container .v-container-right {
+    width: 115px;
+    height: 100%;
+    float: left;
+    padding-left: 10px
+}
+
+[riot-tag=rv-daterankinglist] .v-monthranking-list-container .v-container-middle {
+    width: 148px;
+    height: 100%;
+    float: left;
+    position: relative
+}
+
+[riot-tag=rv-daterankinglist] .v-monthranking-list-container .v-container-right {
+    width: 115px;
+    height: 100%;
+    float: left;
+    padding-left: 10px
+}
+
+[riot-tag=rv-daterankinglist] .v-container-right-text1 {
+    width: 7em;
+    height: 48px;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all
+}
+
+[riot-tag=rv-daterankinglist] .v-container-right-text1 a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none
+}
+
+[riot-tag=rv-daterankinglist] .v-container-right-text2 {
+    font-size: 12px;
+    color: #FFF;
+    margin-bottom: 14px;
+    width: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all
+}
+
+[riot-tag=rv-daterankinglist] .v-container-right-text3 {
+    width: 68px;
+    background-color: #22b3eb;
+    color: #FFF;
+    text-align: center !important;
+    padding-top: 4px
+}
+
+[riot-tag=rv-daterankinglist] .v-block {
+    display: block
+}
+
+[riot-tag=rv-daterankinglist] .v-video-img {
+    height: 80px;
+    width: 148px;
+    border: 0
+}
+
+[riot-tag=rv-daterankinglist] .v-list-left {
+    width: 50px;
+    height: 118px;
+    float: left;
+    padding-top: 18px;
+    padding-bottom: 18px
+}
+
+[riot-tag=rv-daterankinglist] .v-list-right, [riot-tag=rv-daterankinglist] .v-list-right-first {
+    float: right;
+    width: 266px;
+    height: 118px;
+    padding-top: 18px;
+    padding-bottom: 18px
+}
+
+[riot-tag=rv-page-box] .v-page-box {
+    width: 673px;
+    height: 36px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button-activity {
+    background-color: #58b49d !important;
+    color: #fff !important
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button-activity a {
+    color: #fff !important
+}
+
+[riot-tag=rv-page-box] .v-page-container {
+    height: 100%;
+    display: inline-block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+[riot-tag=rv-page-box] .v-page-container a {
+    text-decoration: none;
+    color: #999
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button, [riot-tag=rv-page-box] .v-page-number-button {
+    height: 100%;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 5px;
+    transition: background-color .5s;
+    background-color: #aaa;
+    text-align: center;
+    float: left
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button {
+    width: 54px;
+    line-height: 36px
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button a {
+    line-height: 34px;
+    padding: 0 14px
+}
+
+[riot-tag=rv-page-box] .v-page-number-button {
+    line-height: 36px;
+    width: 36px
+}
+
+[riot-tag=rv-page-box] .v-page-number-button a {
+    line-height: 34px;
+    padding: 0 14px
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button:hover, [riot-tag=rv-page-box] .v-page-number-button:hover {
+    background-color: #58b49d !important;
+    color: #fff !important;
+    cursor: pointer
+}
+
+[riot-tag=rv-page-box] .v-page-forl-button a:hover, [riot-tag=rv-page-box] .v-page-number-button a:hover {
+    color: #fff !important
+}
+
+[riot-tag=rv-page-box] .v-page-text {
+    position: relative;
+    line-height: 34px;
+    color: #999;
+    font-size: 14px;
+    bottom: 12px;
+    left: 10px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box {
+    float: left;
+    height: auto;
+    border: 1px solid #eee
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-34 {
+    margin-right: 34px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-13, [riot-tag=rv-preview-video-box] .v-search-video-box-marginright-20 {
+    margin-right: 5px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginbottom {
+    margin-bottom: 14px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-15 {
+    margin-right: 15px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-42 {
+    margin-right: 42px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-44 {
+    margin-right: 44px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-margin-bottom-20 {
+    margin-bottom: 20px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-video-info {
+    position: relative;
+    width: 220px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-box-video-info .v-search-video-time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #58b49d;
+    width: 80px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-layer-left, [riot-tag=rv-preview-video-box] .v-mask-layer-right {
+    color: #FFF;
+    display: inline-block;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-img img {
+    width: 220px;
+    height: 140px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-layer {
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    line-height: 30px;
+    opacity: .6
+}
+
+[riot-tag=rv-preview-video-box] .v-float-left {
+    float: left
+}
+
+[riot-tag=rv-preview-video-box] .v-float-right {
+    float: right
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-layer-left {
+    width: 60%;
+    text-align: left;
+    padding-left: 10px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-layer-right {
+    width: 40%;
+    text-align: right;
+    padding-right: 10px
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-desc {
+    font-size: 12px;
+    color: #aaa;
+    background-color: #fff
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-name {
+    width: 220px;
+    height: 53px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    padding: 5px 10px 10px;
+    color: #58b49d
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-name-hover {
+    color: #58b49d !important
+}
+
+[riot-tag=rv-preview-video-box] .v-search-video-name a {
+    color: #666;
+    text-decoration: none
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-modify {
+    height: 120px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    z-index: 100001;
+    top: 0;
+    line-height: 30px;
+    color: #000
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-modify-play-btn {
+    width: 100%;
+    font-size: 48px;
+    height: 110px;
+    text-align: center;
+    line-height: 120px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-modify-font {
+    position: absolute;
+    bottom: -20px;
+    height: 30px;
+    background-color: #ee374c;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-delete {
+    height: 120px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    line-height: 30px;
+    color: #000
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-delete-play-btn {
+    width: 100%;
+    font-size: 48px;
+    height: 110px;
+    text-align: center;
+    line-height: 120px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-delete-play-btn a {
+    color: #fff;
+    opacity: .6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-delete-font {
+    position: absolute;
+    bottom: -20px;
+    height: 30px;
+    background-color: #ef374c;
+    z-index: 100001;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-not-reviewed {
+    width: 220px;
+    height: 140px;
+    background-color: #fec51c;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100005;
+    text-align: center;
+    line-height: 140px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-not-reviewed span {
+    font-size: 38px;
+    vertical-align: middle
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-reviewing {
+    width: 200px;
+    height: 120px;
+    background-color: #ef3e36;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100005;
+    text-align: center
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-reviewing-top {
+    height: 80px;
+    line-height: 80px
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-reviewing-top span {
+    font-size: 38px;
+    vertical-align: middle
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail-title span, [riot-tag=rv-profile-data] .myprofile-info-titile span {
+    vertical-align: text-top
+}
+
+[riot-tag=rv-preview-video-box] .v-mask-video-reviewing-bottom {
+    text-align: left !important;
+    height: 40px;
+    margin-top: -10px;
+    padding-left: 7px;
+    padding-right: 5px
+}
+
+[riot-tag=rv-pager] .pagination-centered, [riot-tag=rv-pager] .xvideo-pager {
+    text-align: center
+}
+
+[riot-tag=rv-vcomments] .v-comment-title {
+    width: 100%;
+    height: 29px;
+    line-height: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333
+}
+
+[riot-tag=rv-vcomments] .v-boder-red {
+    border-bottom: 1px solid #58b49d;
+    padding-bottom: 8px
+}
+
+[riot-tag=rv-vcomments] .xvideo-panel-body {
+    min-height: 68px !important;
+    font-size: 16px
+}
+
+[riot-tag=rv-vcomment] .xvideo-panel-header {
+    color: #999;
+    border-bottom: none !important
+}
+
+[riot-tag=rv-vcomment] .xyvideo-icon-face {
+    position: relative;
+    top: 4px;
+    color: #999;
+    font-size: 20px;
+    margin-right: 5px
+}
+
+[riot-tag=rv-vcomment] .btn-link-commentor {
+    font-size: 14px;
+    color: #58b49d;
+    padding-left: 0;
+    margin-right: 60px
+}
+
+[riot-tag=rv-vcomment] .xvideo-comment-title > span {
+    border-bottom: 2px solid #fc4d51
+}
+
+[riot-tag=rv-vcomment] a.btn-link-report {
+    font-size: 14px;
+    color: #58b49d
+}
+
+[riot-tag=rv-vcomment] .text-color-999 {
+    color: #999
+}
+
+[riot-tag=rv-vcomment] li .xvideo-panel .xvideo-panel-body {
+    min-height: auto
+}
+
+[riot-tag=rv-pager] a {
+    color: #08c;
+    text-decoration: none
+}
+
+[riot-tag=rv-pager] a:hover {
+    color: #005580;
+    text-decoration: underline
+}
+
+[riot-tag=rv-pager] h2 {
+    padding-top: 20px
+}
+
+[riot-tag=rv-pager] h2:first-of-type {
+    padding-top: 0
+}
+
+[riot-tag=rv-pager] ul {
+    padding: 0
+}
+
+[riot-tag=rv-pager] .xvideo-pager-infos {
+    position: relative;
+    line-height: 34px;
+    color: #999;
+    font-size: 14px;
+    bottom: 12px;
+    left: 10px
+}
+
+[riot-tag=rv-pager] .pagination {
+    height: 36px;
+    margin: 18px 0
+}
+
+[riot-tag=rv-pager] .pagination ul {
+    display: inline-block;
+    margin-left: 0;
+    margin-bottom: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+[riot-tag=rv-pager] .pagination li {
+    display: inline-block;
+    margin-right: 5px
+}
+
+[riot-tag=rv-pager] .pagination a {
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #aaa
+}
+
+[riot-tag=rv-pager] .pagination a.disabled {
+    color: #fff;
+    cursor: default;
+    background-color: #aaa
+}
+
+[riot-tag=rv-pager] .pagination .active a, [riot-tag=rv-pager] .pagination a:hover {
+    color: #fff;
+    background-color: #58b49d
+}
+
+[riot-tag=rv-pager] .pagination .active a {
+    color: #fff;
+    cursor: default;
+    background-color: #58b49d
+}
+
+[riot-tag=rv-pager] .pagination .disabled a, [riot-tag=rv-pager] .pagination .disabled a:hover, [riot-tag=rv-pager] .pagination .disabled span {
+    color: #fff;
+    background-color: transparent;
+    cursor: default
+}
+
+[riot-tag=rv-pager] .pagination li:first-child a {
+    border-left-width: 1px;
+    border-radius: 0
+}
+
+[riot-tag=rv-pager] .pagination li:last-child a {
+    border-radius: 0
+}
+
+[riot-tag=rv-pager] .pagination-right {
+    text-align: right
+}
+
+[riot-tag=rv-pager] .pager {
+    margin-left: 0;
+    margin-bottom: 18px;
+    list-style: none;
+    text-align: center
+}
+
+[riot-tag=rv-pager] .pager:after, [riot-tag=rv-pager] .pager:before {
+    display: table;
+    content: ""
+}
+
+[riot-tag=rv-pager] .pager:after {
+    clear: both
+}
+
+[riot-tag=rv-pager] .pager li {
+    display: inline
+}
+
+[riot-tag=rv-pager] .pager a {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px
+}
+
+[riot-tag=rv-pager] .pager a:hover {
+    text-decoration: none;
+    background-color: #f5f5f5
+}
+
+[riot-tag=rv-pager] .pager .next a {
+    float: right
+}
+
+[riot-tag=rv-myvideo-box] .v-float-left, [riot-tag=rv-pager] .pager .previous a {
+    float: left
+}
+
+[riot-tag=rv-pager] .pager .disabled a, [riot-tag=rv-pager] .pager .disabled a:hover {
+    color: #999;
+    background-color: #fff;
+    cursor: default
+}
+
+[riot-tag=rv-profile-data] .myprofile-border {
+    border: 1px solid #ddd;
+    background-color: #fff
+}
+
+[riot-tag=rv-profile-data] .xvideo-hide {
+    display: none
+}
+
+[riot-tag=rv-profile-data] .myprofile {
+    width: 900px;
+    height: auto;
+    box-shadow: 0 1px 10px #d8d8d8
+}
+
+[riot-tag=rv-profile-data] .myprofile-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail {
+    width: 700px;
+    height: 200px;
+    margin: 40px 0 0 100px
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail-info {
+    margin-left: 42px;
+    font-size: 14px
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail-info div {
+    margin-top: 16px;
+    margin-bottom: 0;
+    height: 20px;
+    padding: 0
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail-info div label {
+    width: 50px;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    font-weight: 400;
+    color: #666
+}
+
+[riot-tag=rv-profile-data] .myprofile-detail-info div div {
+    width: 256px;
+    height: 20px;
+    padding: 0;
+    margin-top: 0;
+    line-height: 20px;
+    color: #666
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo {
+    width: 700px;
+    height: 170px;
+    margin: 36px 0 0 100px
+}
+
+[riot-tag=rv-profile-data] .myprofile-info-titile {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-info {
+    margin-left: 42px;
+    font-size: 14px
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-info > div {
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-info > div label {
+    width: 55px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 400;
+    color: #666
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-info > div > div > input {
+    width: 300px;
+    height: 30px
+}
+
+[riot-tag=rv-profile-data] .myprofile-myprofile-psninfo-character {
+    width: 700px;
+    height: 156px;
+    margin: 36px 0 0 100px
+}
+
+[riot-tag=rv-profile-data] .myprofile-character-titile {
+    border-bottom: 1px dashed #d9d9d;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info {
+    margin-left: 15px;
+    font-size: 14px
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div {
+    margin-top: 20px;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0;
+    color: #666
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div label {
+    width: 83px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-weight: 400
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div > div {
+    width: 256px;
+    height: 30px;
+    padding: 0
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div > div input {
+    width: 256px;
+    height: 100px
+}
+
+[riot-tag=rv-profile-data] .myprofiler-psninfo-btn {
+    width: 700px !important;
+    height: 75px !important;
+    margin: 20px 0 20px 100px !important
+}
+
+[riot-tag=rv-profile-data] .myprofiler-psninfo-btn-titile {
+    border-bottom: 1px dashed gray;
+    font-size: 16px;
+    color: #ef3e36
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-btn-info {
+    margin-left: 100px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-btn-info button {
+    width: 256px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-profile-data] .myprofile-vertical-line {
+    margin-top: 5px;
+    width: 2px;
+    height: 30px;
+    background-color: #D8D8D8;
+    padding-right: 0 !important;
+    padding-left: 0 !important
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info textarea {
+    height: 110px;
+    width: 300px;
+    color: #666;
+    border: 1px solid #d9d9d9
+}
+
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info-help-block {
+    color: red;
+    display: none;
+    margin-left: 400px;
+    margin-top: 43px
+}
+
+[riot-tag=rv-profile-data] .rv-profile-select-province div select {
+    color: #666;
+    border: 1px solid #d9d9d9
+}
+
+[riot-tag=rv-profile-data] #birthday {
+    background-color: #fff;
+    color: #666;
+    border: 1px solid #d9d9d9
+}
+
+[riot-tag=rv-psncenter-myvideo-vtitle] a {
+    color: #ef3e36;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s ease 0s;
+    margin-right: 20px
+}
+
+[riot-tag=rv-psncenter-myvideo-vtitle] .myvideo-vtitle {
+    color: #ef3e36;
+    font-size: 16px;
+    border-bottom: 2px solid #ef3e36;
+    width: 900px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-play-btn a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .6
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-container {
+    margin-top: 17px;
+    margin-bottom: 20px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-box {
+    float: left;
+    width: 222px;
+    border: 1px solid #eee;
+    height: auto
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-box .myvideo-box-top {
+    position: relative;
+    width: 220px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-box-marginright-33 {
+    margin-right: 5px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-box-marginbottom-14px {
+    margin-bottom: 14px
+}
+
+[riot-tag=rv-myvideo-box] .v-psncenter-margin-bottom-23 {
+    margin-bottom: 23px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer {
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    opacity: .6;
+    line-height: 30px
+}
+
+[riot-tag=rv-myvideo-box] .v-float-right {
+    float: right
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-left {
+    color: #FFF;
+    margin-left: 5px;
+    line-height: 30px;
+    width: 112px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-right {
+    color: #FFF;
+    margin-right: 5px;
+    line-height: 30px;
+    width: 78px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-desc {
+    display: none;
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    opacity: .5;
+    line-height: 30px;
+    color: #fff
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-desc-title {
+    height: 25px;
+    width: 180px;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-desc-info {
+    height: 30px;
+    width: 100%;
+    margin-left: 10px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-desc-watch {
+    display: inline-block
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-desc-conmments {
+    display: inline-block;
+    margin-left: 30px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-videotime {
+    width: 40%;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    float: right;
+    height: 30px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-layer-play-btn {
+    font-size: 48px;
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 120px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-myvideo-name {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    width: 100%;
+    padding: 12px 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    overflow: hidden;
+    background-color: #fff
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-modify {
+    width: 100%;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    line-height: 30px;
+    color: #000;
+    z-index: 20001
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-modify-play-btn {
+    width: 100%;
+    background-color: #000;
+    font-size: 48px;
+    height: 90px;
+    text-align: center;
+    line-height: 120px;
+    opacity: .5;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-modify-play-btn a {
+    color: #fff;
+    opacity: .6
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-modify-font {
+    position: absolute;
+    bottom: -20px;
+    height: 30px;
+    background-color: #ef374c;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-delete {
+    width: 100%;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    line-height: 30px;
+    color: #000;
+    z-index: 20001
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-delete-play-btn {
+    width: 100%;
+    background-color: #000;
+    font-size: 48px;
+    height: 90px;
+    text-align: center;
+    line-height: 120px;
+    opacity: .5;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-delete-play-btn a {
+    color: #fff;
+    opacity: .6
+}
+
+[riot-tag=rv-myvideo-box] .myvideo-mask-myvido-delete-font {
+    position: absolute;
+    bottom: -20px;
+    height: 30px;
+    background-color: #ef374c;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px
+}
+
+[riot-tag=rv-myvideo-box] .v-mask-video-not-reviewed {
+    width: 200px;
+    height: 120px;
+    background-color: #fec51c;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 120px;
+    margin-bottom: 17px
+}
+
+[riot-tag=rv-myvideo-box] .v-mask-video-not-reviewed span {
+    font-size: 38px;
+    vertical-align: middle
+}
+
+[riot-tag=rv-myvideo-nothing] .myvideo-nothing {
+    text-align: center;
+    line-height: 155px;
+    height: 155px;
+    font-size: 18px;
+    color: #b5b5b5
+}
+
+[riot-tag=rv-myvideo-nothing] .myvideo-nothing span {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+[riot-tag=rv-myvideo-nothing] .myvideo-nothing a {
+    font-size: 18px;
+    color: #58b49d
+}
+
+[riot-tag=rv-myvideo-nothing-upload] .myvideo-nothing-upload {
+    text-align: center;
+    line-height: 155px;
+    height: 155px;
+    font-size: 18px;
+    color: #b5b5b5
+}
+
+[riot-tag=rv-myvideo-nothing-upload] .myvideo-nothing-upload span {
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+[riot-tag=rv-myvideo-nothing-upload] .myvideo-nothing-upload a {
+    font-size: 18px;
+    color: #58b49d
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-vtitle-container div.pull-left {
+    border-bottom: 1px solid #58b49d
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-vipinfo {
+    width: 900px;
+    height: 60px;
+    background-color: #e9e9e9;
+    font-size: 12px;
+    color: #58b49d;
+    line-height: 60px;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-vipinfo span {
+    vertical-align: middle
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-link-content {
+    margin: 32px 0 32px 200px
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-link-content label {
+    font-weight: 400;
+    height: 42px;
+    line-height: 42px;
+    color: #58b49d;
+    font-size: 18px
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-link-input {
+    font-size: 14px;
+    color: #58b49d;
+    border: 1px solid #58b49d;
+    border-radius: 5px;
+    height: 42px;
+    line-height: 42px;
+    width: 295px
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-link-btn {
+    background-color: #58b49d;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    width: 105px
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-mycollection, [riot-tag=rv-myvideo-recordlist] .myvideorecord-myvideolist, [riot-tag=rv-myvideo-recordlist] .myvideorecord-recredlist {
+    width: 928px
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-vtitle-container a {
+    color: #58b49d;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s ease 0s
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-vtitle-container {
+    color: #58b49d;
+    font-size: 16px;
+    border-bottom: 2px solid #c6e4dd;
+    width: 900px;
+    height: 26.9px
+}
+
+[riot-tag=rv-myvideo-recordlist] .myvideo-search-img img {
+    width: 220px;
+    height: 140px
+}
+
+[riot-tag=rv-mycollection] .mycollection-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 2.4;
+    position: relative
+}
+
+[riot-tag=rv-mycollection] .mycollection-content {
+    margin-top: 20px;
+    width: 928px
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-upload {
+    width: 900px;
+    height: 88px;
+    border-bottom: 1px solid #ddd
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-upload-desc {
+    height: 48px;
+    width: 280px;
+    margin: auto;
+    position: relative
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-upload-desc-img {
+    background-image: url(../images/upload1.png);
+    background-position: 0 48px;
+    position: absolute;
+    height: 48px;
+    width: 280px;
+    top: 20px;
+    left: 0
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-upload-desc-img:hover {
+    background-image: url(../images/upload1.png);
+    background-position: 0 0;
+    background-color: transparent
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-videolist {
+    width: 100%
+}
+
+[riot-tag=rv-psncenter-myvideo] .v-psncenter-myvideo-pagging {
+    text-align: center;
+    width: 100%;
+    margin: auto
+}
+
+[riot-tag=rv-psncenter-myvideo] .myvideo-videolist-box {
+    margin-top: 20px;
+    width: 915px
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-content {
+    margin-top: 40px;
+    margin-left: 100px;
+    border-bottom: 1px dashed #ccc
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-content-detail label {
+    width: 80px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    text-align: right;
+    font-weight: 400;
+    color: #666
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-content-title label {
+    width: 80px;
+    height: 30px
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-content-title input {
+    height: 30px;
+    width: 400px;
+    color: #666;
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-content-desc textarea {
+    height: 200px;
+    width: 400px;
+    resize: none;
+    color: #666;
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-check a {
+    background-color: #58b49d;
+    font-size: 14px;
+    color: #fff
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-tips {
+    height: 30px;
+    margin-left: 10px;
+    color: gray
+}
+
+[riot-tag=rv-modifymyvideo] .myvideo-btn {
+    margin-left: 175px;
+    width: 256px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+[riot-tag=rv-modifymyvideo] .myvideo-btn button {
+    width: 256px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-deletebtn {
+    margin-top: 4px;
+    width: 70px;
+    margin-right: 20px;
+    font-size: 14px;
+    background-color: #58b49d;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn {
+    text-decoration: none;
+    color: #fff
+}
+
+[riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn .btn:focus, [riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn .btn:hover {
+    color: #fff
+}
+
+[riot-tag=rv-myphoto] .myphoto-border {
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-myphoto] .myphoto-list-mask {
+    height: 20px;
+    width: 20px;
+    background-color: #1CE259;
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    box-shadow: 0 0 5px #fff;
+    border-radius: 25px;
+    display: none
+}
+
+[riot-tag=rv-myphoto] .myphoto-list-mask span {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 3px
+}
+
+[riot-tag=rv-myphoto] .myphoto-list ul > li {
+    float: left;
+    margin-right: 20px;
+    margin-top: 18px
+}
+
+[riot-tag=rv-myphoto] .myphoto-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-myphoto] .myphoto-choose-btn button {
+    width: 160px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1771ec
+}
+
+[riot-tag=rv-myphoto] .myphoto-content-title, [riot-tag=rv-myphoto] .myphoto-set-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-myphoto] .myphoto-choose-btn {
+    width: 160px;
+    margin: 78px auto auto
+}
+
+[riot-tag=rv-myphoto] .myphoto-content {
+    width: 700px;
+    height: 200px;
+    margin: 40px 0 0 100px
+}
+
+[riot-tag=rv-myphoto] .myphoto-set {
+    width: 700px;
+    margin: 40px 0 0 100px
+}
+
+[riot-tag=rv-myphoto] .myphoto-content-tips, [riot-tag=rv-myphoto] .myphoto-set-tips {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #999
+}
+
+[riot-tag=rv-myphoto] .myphoto-content-img img {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 140px;
+    height: 140px
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist {
+    width: 708px;
+    height: 192px;
+    border: 1px solid #ddd;
+    margin-left: 15px
+}
+
+[riot-tag=rv-myphoto] .myphoto-btn-modify {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 700px;
+    border-top: 1px dashed #d9d9d9;
+    margin-bottom: 30px
+}
+
+[riot-tag=rv-myphoto] .myphoto-modifybtn {
+    margin-top: 0;
+    margin-left: 0
+}
+
+[riot-tag=rv-myphoto] .myphoto-modifybtn button {
+    margin-top: 20px;
+    width: 256px;
+    height: 34px;
+    margin-left: 15px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul > li a, [riot-tag=rv-myphoto] .myphoto-photolist-title ul > li a:hover {
+    border: 0;
+    width: 100px;
+    padding: 0;
+    line-height: 33px;
+    color: #000;
+    height: 35px;
+    text-align: center
+}
+
+[riot-tag=rv-myphoto] .myphoto-set-choosephoto {
+    margin-left: 18px
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist-title {
+    margin-left: 15px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 20px
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul {
+    height: 35px;
+    border-bottom: 0
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul > li {
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+    border: 0
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul > li a:hover {
+    background-color: #CCC
+}
+
+[riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs > li.active > a, [riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs > li.active > a:focus, [riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs > li.active > a:hover {
+    background-color: #58b49d;
+    color: #fff;
+    border: none
+}
+
+[riot-tag=rv-myphoto-user-icon] .myphoto-list ul > li {
+    float: left;
+    margin-right: 20px;
+    margin-top: 18px
+}
+
+[riot-tag=rv-myphoto-choose-btn] .myphoto-choose-btn button {
+    width: 160px;
+    height: 35px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1771ec
+}
+
+[riot-tag=rv-myphoto-choose-btn] .myphoto-choose-btn {
+    width: 160px;
+    margin: 78px auto auto
+}
+
+[riot-tag=rv-myattlist] .myattention-list ul > li {
+    float: left;
+    margin-right: 47px;
+    margin-top: 30px
+}
+
+[riot-tag=rv-myattlist] .myattention-border {
+    border: 1px solid #ddd;
+    height: 825px;
+    background-color: #fff
+}
+
+[riot-tag=rv-myattlist] .myattention-list-name {
+    text-align: center;
+    width: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ccc
+}
+
+[riot-tag=rv-myattlist] .myattention-nothing {
+    margin-top: 100px;
+    margin-left: 288px;
+    font-size: 20px;
+    color: #999;
+    text-align: center
+}
+
+[riot-tag=rv-myattlist] .myattention-nothing span {
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-myattlist] .myattention-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4;
+    position: relative
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title {
+    width: 700px;
+    height: 34px;
+    border-bottom: 1px solid #58b49d;
+    font-size: 18px;
+    top: 80px;
+    position: absolute;
+    left: 100px;
+    line-height: 34px
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title > div {
+    display: inline-block;
+    text-align: center
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title div:hover {
+    border-radius: 10px 10px 0 0;
+    height: 34px;
+    width: 100px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title div:link, [riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-attme, [riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-myatt {
+    color: #4a4a4a;
+    height: 34px;
+    width: 100px
+}
+
+[riot-tag=rv-myattlist] .myattention-content-list {
+    position: absolute;
+    top: 115px;
+    left: 100px
+}
+
+[riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-pagging {
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 550px
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title ul {
+    height: 34px;
+    border-bottom: 0
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title ul > li {
+    height: 34px;
+    width: 100px;
+    font-size: 14px;
+    border: 0
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title ul > li a {
+    border: 0;
+    text-align: center;
+    width: 100px;
+    height: 33px;
+    padding: 0;
+    line-height: 33px;
+    color: #666
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title ul > li a:hover {
+    border: 0;
+    text-align: center;
+    width: 100px;
+    height: 33px;
+    padding: 0;
+    line-height: 33px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-myattlist] .myattention-content-title .nav-tabs > li.active > a, [riot-tag=rv-myattlist] .myattention-content-title .nav-tabs > li.active > a:focus, [riot-tag=rv-myattlist] .myattention-content-title .nav-tabs > li.active > a:hover {
+    background-color: #58b49d;
+    color: #fff;
+    border: none
+}
+
+[riot-tag=rv-mytab-content] .myattention-list ul > li {
+    float: left;
+    margin-right: 47px;
+    margin-top: 30px
+}
+
+[riot-tag=rv-mytab-content] .myattention-list ul li div {
+    text-align: center
+}
+
+[riot-tag=rv-myatt-nothing] .myattention-nothing {
+    margin-top: 100px;
+    margin-left: 288px;
+    font-size: 20px;
+    color: #999;
+    text-align: center
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .video-psncenter-email-next {
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] input {
+    color: #666;
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-info {
+    width: 900px;
+    height: 817px;
+    border: 1px solid #d9d9d9
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-info-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-mail {
+    width: 700px;
+    height: 817px;
+    margin: 40px auto
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-div {
+    font-size: 14px;
+    text-align: center;
+    background: url(../images/nav.png) 0 186px;
+    height: 30px;
+    margin-top: 15px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-div div {
+    height: 30px;
+    width: 233px;
+    display: inline-block;
+    float: left;
+    line-height: 30px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-verify-div-first {
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-tips {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info {
+    margin-left: 110px;
+    margin-top: 45px;
+    text-align: right
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-entermail {
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info label {
+    width: 80px;
+    height: auto;
+    padding: 0;
+    line-height: 35px;
+    font-weight: 400
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-entermail div {
+    width: 260px;
+    height: 30px;
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-entermail div input {
+    height: 35px;
+    width: 260px;
+    color: #333
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-enterverifycode {
+    margin-top: 23px;
+    margin-bottom: 0;
+    height: auto;
+    padding: 0;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-enterverifycode div {
+    width: 120px;
+    height: auto;
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-enterverifycode div input {
+    height: 35px !important;
+    width: 120px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-sendbtn {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    float: left;
+    margin-left: -40px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-sendbtn button {
+    width: 60px;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-sendbutton {
+    background-color: #b5b5b5
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-modifybtn {
+    margin-top: 10px;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-modifybtn div {
+    display: inline-block;
+    width: 260px;
+    height: auto;
+    float: left
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-modifybtn div button {
+    width: 260px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .xvideo-bindmail-button-box {
+    display: inline-block;
+    width: 260px;
+    height: 30px;
+    float: left
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .xvideo_count_time {
+    margin: 10px 0;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-info-enterverifycode-tips {
+    display: inline-block;
+    margin-left: 18px;
+    vertical-align: middle;
+    color: red;
+    line-height: 31px;
+    width: 210px !important;
+    text-align: left
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enterverifycode-tips-help {
+    display: none;
+    font-size: 16px;
+    color: red;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-bindmail-verifymail] .security-enterverifycode-tips-warning {
+    display: none;
+    font-size: 15px;
+    color: green;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .video-psncenter-info-mail-btn {
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .video-psncenter-info-mail-btn:hover {
+    background-color: #58b49d
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] input {
+    color: #333;
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-info {
+    width: 900px;
+    height: 817px;
+    border: 1px solid #d9d9d9
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-info-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-mail {
+    width: 700px;
+    height: 817px;
+    margin: 40px auto
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-div {
+    font-size: 14px;
+    text-align: center;
+    background-image: url(../images/nav.png);
+    background-position: 0 154px;
+    height: 30px;
+    margin-top: 15px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-div div {
+    height: 30px;
+    width: 233px;
+    display: inline-block;
+    float: left;
+    line-height: 30px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-verify-div-first, [riot-tag=rv-psncenter-bindmail-enternewmail] .security-verify-div-second {
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-tips {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info {
+    margin-left: 110px;
+    margin-top: 45px;
+    text-align: right
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail {
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info label {
+    width: 80px;
+    height: 35px;
+    padding: 0;
+    line-height: 35px;
+    font-weight: 400
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail div {
+    width: 260px;
+    height: 30px;
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail div input {
+    height: 36px;
+    width: 260px;
+    color: #333
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail form-control[disabled] {
+    color: #333
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-enterverifycode {
+    margin-top: 23px;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-enterverifycode div {
+    width: 120px;
+    height: auto;
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-enterverifycode div input {
+    height: 35px !important;
+    width: 120px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-sendbtn {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    float: left;
+    margin-left: -40px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-sendbtn button {
+    width: 60px;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-sendbutton {
+    background-color: #58b49d
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-modifybtn {
+    margin-top: 33px;
+    margin-bottom: 0;
+    height: 30px;
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-modifybtn div {
+    display: inline-block;
+    width: 260px;
+    height: auto;
+    float: left
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-modifybtn div button {
+    width: 260px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .xvideo-bindmail-button-box {
+    display: inline-block;
+    width: 260px;
+    height: 30px;
+    float: left
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .xvideo_count_time {
+    margin: 10px 0;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail-tips {
+    color: red;
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    left: 352px;
+    text-align: left
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail-tips-help {
+    display: none;
+    font-size: 16px;
+    color: red;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-entermail-tips-warning {
+    display: none;
+    font-size: 16px;
+    color: green;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-info-enterverifycode-tips {
+    display: inline-block;
+    margin-left: 18px;
+    vertical-align: middle;
+    color: red;
+    line-height: 31px;
+    width: 210px !important;
+    text-align: left
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-new-enterverifycode-tips-help {
+    display: none;
+    font-size: 15px;
+    color: red;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-new-enterverifycode-tips-warning {
+    display: none;
+    font-size: 16px;
+    color: green;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .xingyu-psncenter-bindsuc-center {
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-success] input {
+    color: #333;
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-info {
+    width: 900px;
+    height: 817px;
+    border: 1px solid #d9d9d9
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-info-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-mail {
+    width: 700px;
+    height: auto;
+    margin: 40px 0 0 100px
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-div {
+    font-size: 14px;
+    text-align: center;
+    background: url(../images/nav.png) 0 123px;
+    height: 30px;
+    margin-top: 15px
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-div div {
+    height: 30px;
+    width: 233px;
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-tips {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-info {
+    border-bottom: 1px dashed #d9d9d9;
+    height: 80px;
+    width: 700px;
+    margin-top: 55px;
+    font-size: 18px;
+    color: #18bf5f
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-info-right {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-info-right img {
+    width: 50px;
+    height: 50px;
+    margin-left: 140px;
+    vertical-align: text-top
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-info-desc {
+    display: inline-block;
+    float: left;
+    margin-left: 150px;
+    padding-top: 15px
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-btngrp {
+    width: 700px;
+    height: 50px;
+    margin-top: 23px;
+    margin-left: 210px
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-btngrp button {
+    width: 100px
+}
+
+[riot-tag=rv-psncenter-bindmail-success] .xingyu-psncenter-bindsuc-index {
+    margin-left: 50px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] input {
+    color: #333;
+    border: 1px solid #ddd
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-info {
+    width: 900px;
+    height: 817px;
+    border: 1px solid #ddd;
+    background-color: #fff
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-info-title {
+    width: 900px;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 2.4
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-info-mail-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail {
+    width: 700px;
+    height: auto;
+    margin: 40px 0 0 100px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details {
+    font-size: 12px;
+    color: #fea331
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details > span {
+    margin-top: 20px;
+    line-height: 5
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div {
+    padding: 0;
+    margin-bottom: 0
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div label, [riot-tag=rv-psncenter-security-center-bindemail] div {
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div label {
+    text-align: right;
+    width: 95px;
+    height: 30px;
+    margin-bottom: 0;
+    line-height: 30px;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    padding-right: 20px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div > div {
+    width: 256px;
+    height: 30px;
+    margin-bottom: 20px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div > div > input {
+    width: 256px;
+    height: 30px;
+    color: #333;
+    background-color: #fff
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div > div > button {
+    width: 256px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .bindStatus-unbind {
+    color: red;
+    line-height: 30px;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .bindStatus-bind {
+    color: green;
+    line-height: 30px;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd {
+    width: 700px;
+    margin: 20px 0 0 100px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-title {
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    color: #58b49d
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-info {
+    font-size: 12px;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table {
+    margin-left: 5px;
+    margin-top: 20px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div {
+    padding: 0;
+    margin-bottom: 0
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div label, [riot-tag=rv-psncenter-security-center-bindemail] div {
+    padding: 0
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div label {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 0;
+    line-height: 30px;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div > div {
+    width: 256px;
+    height: 30px;
+    margin-bottom: 20px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div > div > input {
+    width: 256px;
+    height: 30px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table button {
+    width: 256px;
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-info-enterverifycode {
+    margin-bottom: 20px !important
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-info-enterverifycode input {
+    width: 160px !important
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-info-enterverifycode button {
+    margin-left: 5px;
+    height: 34px;
+    width: 90px !important
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo_count_time {
+    margin: 10px 0;
+    text-align: center;
+    width: 70%;
+    height: auto;
+    color: #ff9311
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-con-pwd-tips, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-org-pwd-tips {
+    color: red;
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 352px;
+    text-align: left
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips-help {
+    display: none;
+    font-size: 16px;
+    color: red;
+    vertical-align: text-bottom
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-confirm-pwd-tips-help, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-original-pwd-tips-help {
+    display: none;
+    font-size: 16px;
+    color: red;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-confirm-pwd-tips-warning, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips-warning, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-original-pwd-tips-warning {
+    display: none;
+    font-size: 16px;
+    color: green;
+    vertical-align: text-bottom;
+    margin-right: 3px
+}
+
+[riot-tag=rv-myvip] .myvip-title {
+    width: 900px;
+    height: 222px;
+    background-color: #222;
+    position: relative
+}
+
+[riot-tag=rv-myvip] .myvip-info {
+    background-image: url(../../images/VIPcenterbg.jpg);
+    width: 900px;
+    height: 222px
+}
+
+[riot-tag=rv-myvip] .myvip-info-title {
+    position: absolute;
+    font-size: 18px;
+    color: #58b49d;
+    top: 36px;
+    left: 13px
+}
+
+[riot-tag=rv-myvip] .myvip-info-content {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 72px;
+    text-align: center
+}
+
+[riot-tag=rv-myvip] .myvip-info-expiretime {
+    font-size: 20px;
+    color: #fff
+}
+
+[riot-tag=rv-myvip] .myvip-info-btn {
+    width: 130px;
+    height: 30px;
+    margin: 15px auto
+}
+
+[riot-tag=rv-myvip] .myvip-btn-recharge {
+    background-color: #ffe50f;
+    color: #58b49d;
+    width: 130px;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 19px !important
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-HD, [riot-tag=rv-myvip] .myvip-privilege-gift {
+    background-color: #58b49d
+}
+
+[riot-tag=rv-myvip] .myvip-info-order {
+    margin: 0 auto;
+    font-size: 14px
+}
+
+[riot-tag=rv-myvip] .myvip-info-order a {
+    color: #fff
+}
+
+[riot-tag=rv-myvip] .myvip-title-line {
+    border-bottom: 2px solid #c6e4dd;
+    width: 362px;
+    margin-top: 25px
+}
+
+[riot-tag=rv-myvip] .myvip-title-desc {
+    font-size: 32px;
+    color: #58b49d;
+    margin: 0 30px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-div {
+    width: 280px;
+    height: 110px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    float: left;
+    padding-top: 26px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-div img {
+    width: 58px;
+    height: 58px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-accelerate {
+    background-image: url(../../images/r1_c1.jpg)
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-accelerate img {
+    margin-left: 32px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-download {
+    background-image: url(../../images/r1_c2.jpg)
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-download img {
+    margin-left: 38px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-HD img, [riot-tag=rv-myvip] .myvip-privilege-icon img {
+    margin-left: 32px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-icon {
+    background-image: url(../../images/r1_c3.jpg)
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-noad {
+    background-image: url(../../images/r1_c4.jpg)
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-noad img {
+    margin-left: 38px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-gift img {
+    margin-left: 32px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-info {
+    display: inline-block;
+    vertical-align: middle
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-info .myvip-privilege-bigfont {
+    font-size: 18px;
+    color: #fff
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-info .myvip-privilege-smallfont {
+    font-size: 12px;
+    color: #fff
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    opacity: .6;
+    text-align: center;
+    width: 280px;
+    height: 110px;
+    line-height: 110px
+}
+
+[riot-tag=rv-myvip] .myvip-privilege-content {
+    width: 930px
+}
+
+[riot-tag=rv-myvip] .myvip-div {
+    height: 110px;
+    width: 280px;
+    display: inline-block
+}
+
+[riot-tag=rv-myvip] .myvip-div-big {
+    font-size: 16px;
+    color: #fff
+}
+
+[riot-tag=rv-myvip] .myvip-div-small {
+    font-size: 13px;
+    color: #fff
+}
+
+[riot-tag=rv-myvip] .myvip-exchange {
+    position: relative
+}
+
+[riot-tag=rv-myvip] .myvip-exchange-a {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    font-size: 12px;
+    color: #58b49d;
+    margin-left: 10px
+}
+
+[riot-tag=rv-myvip] .myvip-exchange-input {
+    border: 1px solid #58b49d;
+    width: 245px;
+    height: 42px;
+    color: #58b49d;
+    font-size: 14px;
+    border-radius: 5px
+}
+
+[riot-tag=rv-myvip] .myvip-btn-exchange {
+    background-color: #58b49d;
+    color: #fff;
+    height: 42px;
+    width: 105px;
+    font-size: 16px;
+    line-height: 42px
+}
+
+[riot-tag=rv-myvip] .myvip-exchange-content {
+    margin-top: 70px;
+    margin-left: 287px
+}
+
+[riot-tag=rv-myspread] .myspread-spread-title-line {
+    border-bottom: 2px solid #c6e4dd;
+    width: 362px;
+    margin-top: 25px
+}
+
+[riot-tag=rv-myspread] .myspread-spread-title-desc {
+    font-size: 32px;
+    color: #58b49d;
+    margin: 0 23px
+}
+
+[riot-tag=rv-myspread] .myspread-div-title {
+    position: relative
+}
+
+[riot-tag=rv-myspread] .myspread-div-title .myspread-exchange-title-line {
+    border-bottom: 2px solid #c6e4dd;
+    width: 362px;
+    margin-top: 25px
+}
+
+[riot-tag=rv-myspread] .myspread-div-title .myspread-exchange-title-desc {
+    font-size: 32px;
+    color: #58b49d;
+    margin: 0 13px
+}
+
+[riot-tag=rv-myspread] .myspread-div-title .myspread-exchange-code-a {
+    position: absolute;
+    right: 3px;
+    top: 8px;
+    font-size: 12px;
+    color: #58b49d
+}
+
+[riot-tag=rv-myspread] .myspread-how-title-line {
+    border-bottom: 2px solid #c6e4dd;
+    width: 330px;
+    margin-top: 25px
+}
+
+[riot-tag=rv-myspread] .myspread-how-title-desc {
+    font-size: 32px;
+    color: #58b49d;
+    margin: 0 13px
+}
+
+[riot-tag=rv-myspread] .myspread-link-btn {
+    font-size: 16px
+}
+
+[riot-tag=rv-myspread] .myspread-link-content {
+    margin: 50px 0 50px 200px
+}
+
+[riot-tag=rv-myspread] .myspread-link-content label {
+    font-weight: 400;
+    height: 42px;
+    line-height: 42px;
+    color: #58b49d;
+    font-size: 18px
+}
+
+[riot-tag=rv-myspread] .myspread-link-input {
+    font-size: 14px;
+    color: #58b49d;
+    border: 1px solid #58b49d;
+    border-radius: 5px;
+    height: 42px;
+    line-height: 42px;
+    width: 295px
+}
+
+[riot-tag=rv-myspread] .myspread-link-btn {
+    background-color: #58b49d;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    width: 105px
+}
+
+[riot-tag=rv-myspread] .myspread-exchange-content {
+    margin: 50px 0 60px 260px;
+    font-size: 16px;
+    color: #666
+}
+
+[riot-tag=rv-myspread] .myspread-lable {
+    text-align: right;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: 400
+}
+
+[riot-tag=rv-myspread] .myspread-btn-exchage {
+    width: 130px;
+    background-color: #58b49d;
+    color: #fff;
+    margin-left: 118px;
+    margin-top: 26px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 5px;
+    font-size: 16px
+}
+
+[riot-tag=rv-myspread] .rv-myspread-select-viptype div select {
+    color: #666;
+    border: 1px solid #58b49d
+}
+
+[riot-tag=rv-myspread] .myspread-to-vip-desc {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    width: 800px;
+    padding: 30px 0 0 65px;
+    line-height: 30px
+}
+
+[riot-tag=rv-myspread] .p-margin-left {
+    margin-left: 11px
+}
+
+[riot-tag=rv-myspread] .myspread-to-vip-btn {
+    height: 24px;
+    line-height: 24px;
+    width: 72px;
+    background-color: #58b49d;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    border: 0;
+    font-size: 14px
+}
+
+[riot-tag=rv-myorders] .myorders-title {
+    width: 900px;
+    height: 40px;
+    border-bottom: 2px solid #c6e4dd;
+    color: #58b49d;
+    line-height: 2.4;
+    position: relative
+}
+
+[riot-tag=rv-myorders] .myorders-title-desc {
+    height: 40px;
+    border-bottom: 2px solid #58b49d;
+    font-size: 18px;
+    padding: 0 12px
+}
+
+[riot-tag=rv-myorders] .myorders-title-return {
+    font-size: 14px;
+    margin-top: 8px;
+    cursor: pointer
+}
+
+[riot-tag=rv-myorders] .myorders-content {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+[riot-tag=rv-myorders] .myorders-content-table {
+    width: 900px
+}
+
+[riot-tag=rv-myorders] .myorders-content-table thead {
+    height: 40px;
+    line-height: 40px;
+    background-color: #58b49d
+}
+
+[riot-tag=rv-myorders] .myorders-content-table thead tr th {
+    font-size: 14px;
+    color: #fff;
+    text-align: center
+}
+
+[riot-tag=rv-myorders] .myorders-content-table tr td {
+    font-size: 14px;
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    text-align: center
+}
+
+[riot-tag=rv-myorders] .myorders-content-table tr {
+    border-bottom: 1px solid #ccc
+}
+
+[riot-tag=rv-myorders] .myorders-pay-btn {
+    width: 52px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #58b49d;
+    line-height: 20px;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+[riot-tag=rv-myorders] .myorders-nothing {
+    margin-top: 65px;
+    text-align: center
+}
+
+[riot-tag=rv-myorders] .myorders-nothing-list {
+    color: #999;
+    margin-bottom: 55px;
+    font-size: 22px
+}
+
+[riot-tag=rv-myorders] .myorders-nothing-list span {
+    margin-right: 8px;
+    vertical-align: middle
+}
+
+[riot-tag=rv-myorders] .myorders-nothing-btn {
+    width: 130px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #58b49d;
+    border-radius: 5px;
+    margin: 0 auto
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-title {
+    width: 900px;
+    height: 40px;
+    border-bottom: 2px solid #c6e4dd;
+    color: #58b49d;
+    line-height: 2.4;
+    position: relative
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-title-desc {
+    height: 40px;
+    border-bottom: 2px solid #58b49d;
+    font-size: 18px;
+    padding: 0 12px
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-title-return {
+    font-size: 14px;
+    margin-top: 8px;
+    cursor: pointer
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-content {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-content-table {
+    width: 900px
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-content-table thead {
+    height: 40px;
+    line-height: 40px;
+    background-color: #58b49d
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-content-table thead tr th {
+    font-size: 14px;
+    color: #fff;
+    text-align: center
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-content-table tr td {
+    font-size: 14px;
+    color: #333;
+    height: 50px;
+    line-height: 50px;
+    text-align: center
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-content-table tr {
+    border-bottom: 1px solid #ccc
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-copy-btn {
+    width: 52px;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #58b49d;
+    line-height: 20px;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-nothing {
+    margin-top: 65px;
+    text-align: center
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-nothing-list {
+    color: #999;
+    margin-bottom: 55px;
+    font-size: 22px
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-nothing-list span {
+    margin-right: 8px;
+    vertical-align: middle
+}
+
+[riot-tag=rv-myexcodes] .myexcodes-nothing-btn {
+    width: 130px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #58b49d;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer
+}
+
+[riot-tag=rv-vchunk-ie8] .rv-vchunk-list {
+    width: 1170px;
+    margin-left: 20px
+}
+
+[riot-tag=rv-vchunk-ie8] .rv-vchunk-container {
+    width: 1170px;
+    margin-top: 20px
+}
+
+[riot-tag=rv-vchunk-ie8] .rv-vchunk-container .rv-vtitle {
+    margin-bottom: 20px
+}
+
+[riot-tag=rv-vchunk-ie8] .xvideo-vchunk-morevideos a {
+    color: #58b49d;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s ease 0s
+}
+
+[riot-tag=rv-vchunk-ie8] .xvideo-vtitle-container {
+    color: #f72abb;
+    font-size: 28px;
+    width: 1170px
+}
+
+[riot-tag=rv-vchunk-ie8] .xyvideo-icon-size90E {
+    font-size: 28px
+}
+
+[riot-tag=rv-vchunk-ie8] .xvideo-vchunk-refresh {
+    position: relative;
+    bottom: 3px;
+    color: #f72abb;
+    font-size: 16px
+}
+
+[riot-tag=rv-vtitle-ie8] .rv-vchunk-container {
+    width: 1170px;
+    margin-top: 27px
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.dimred .xvideo-vchunk-morevideos a, [riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.red .xvideo-vchunk-morevideos a {
+    color: #58b49d;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s ease 0s
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container {
+    height: 38px;
+    color: #58b49d;
+    font-size: 22px;
+    width: 1170px;
+    border-bottom: 2px solid #a7e1f8
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vchunk-morevideos {
+    position: relative;
+    right: 1px;
+    width: 50%
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.dimred {
+    height: 38px;
+    color: #fc4d51
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.red {
+    color: #58b49d;
+    height: 38px
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.dimred .xyvideo-vtitle-icon {
+    color: #fc4d51;
+    padding-left: 10px;
+    font-size: 28px
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.red .xyvideo-vtitle-icon {
+    color: #58b49d;
+    font-size: 28px
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vchunk-refresh {
+    position: relative;
+    bottom: -8px;
+    color: #fc4d51;
+    width: 72px;
+    height: 23px;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid #fc4d51;
+    border-radius: 15px;
+    margin-left: 20px;
+    vertical-align: middle;
+    font-size: 12px
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vchunk-refresh:hover {
+    color: #111;
+    text-decoration: none;
+    background-color: #fc4d51;
+    border: 1px solid #fc4d51;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1) .2s
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-order, [riot-tag=rv-vtitle-ie8] .xvideo-vtitle-total {
+    margin-left: 35px;
+    color: #171716;
+    font-size: 14px
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-order a {
+    color: #171716
+}
+
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-order a.xvideo-vtitle-order-active {
+    color: #ef3e36
+}
+
+[riot-tag=rv-vtitle-ie8] .refresh-desc {
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    color: #fc4d51;
+    margin-left: 20px;
+    font-size: 14px
+}
+
+[riot-tag=rv-vtitle-ie8] .xyvideo-icon-announcement {
+    margin-left: 30px
+}
+
+[riot-tag=rv-profile-title] .profile-title {
+    width: 100%;
+    color: #58b49d;
+    font-size: 18px
+}
+
+[riot-tag=rv-profile-title] .profile-title-left, [riot-tag=rv-profile-title] .profile-title-right {
+    padding-bottom: 3px
+}
+
+[riot-tag=rv-profile-title] .profile-title-left {
+    width: 90px;
+    text-align: center;
+    border-bottom: 2px solid #58b49d
+}
+
+[riot-tag=rv-profile-title] .profile-title-right {
+    float: right;
+    width: 585px;
+    padding-right: 20px;
+    border-bottom: 2px solid #c6e4dd
+}
+
+[riot-tag=rv-profile-title] .xvideo-float-left {
+    float: left
+}
+
+[riot-tag=rv-profile-title] .xvideo-float-right {
+    float: right
+}
+
+[riot-tag=rv-profile-title] .profile-title-right a {
+    color: #58b49d;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s ease 0s
+}
+
+[riot-tag=rv-profile-left] #unattention {
+    background-color: #58b49d;
+    color: #fff
+}
+
+[riot-tag=rv-profile-left] .profile-button-group .btn-danger {
+    background: linear-gradient(to bottom, rgba(212, 7, 120, .5) 0, #58b49d 100%) #58b49d;
+    border-color: #58b49d
+}
+
+[riot-tag=rv-profile-left] .profile-button-group .btn-danger:hover {
+    background-color: rgba(212, 7, 120, .5)
+}
+
+[riot-tag=rv-profile-left] .profile-button-group .xyvideo-icon-focus {
+    position: relative;
+    font-size: 16px;
+    top: 2px;
+    right: 3px
+}
+
+[riot-tag=rv-profile-left] .profile-vertical-line {
+    margin-top: 8px;
+    width: 2px;
+    height: 40px;
+    background-color: #D8D8D8
+}
+
+[riot-tag=rv-profile-left] .psninfo-sex {
+    background: url(../images/sex.png)
+}
+
+[riot-tag=rv-profile-left] .profile-footer-report.xvideo-float-right.active {
+    color: #333
+}
+
+[riot-tag=rv-profile-left] .profile-attention {
+    background-color: #999;
+    color: #FFF
+}
+
+[riot-tag=rv-profile-left] .profile-attention:hover {
+    background-color: #58b49d;
+    color: #FFF
+}
+
+[riot-tag=rv-upload-tips] .upload-tips-title {
+    font-size: 20px;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: #58b49d;
+    padding-left: 20px;
+    color: #fff
+}
+
+[riot-tag=rv-upload-tips] .upload-tips-body {
+    width: 600px;
+    height: 240px;
+    text-align: center;
+    margin: 0 auto
+}
+
+[riot-tag=rv-upload-tips] .upload-tips-body-head {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 30px
+}
+
+[riot-tag=rv-upload-tips] .upload-tips-body-head span {
+    font-size: 55px;
+    vertical-align: middle
+}
+
+[riot-tag=rv-upload-tips] .upload-tips-body-foot {
+    padding-top: 15px;
+    padding-bottom: 54px;
+    border-top: 1px dashed #23b3eb
+}
+
+[riot-tag=rv-upload-tips] .upload-tips-body-foot button {
+    height: 35px;
+    margin-right: 40px
+}
+
+[riot-tag=rv-upload-tips] .v-color-success {
+    color: #18bf5f
+}
+
+[riot-tag=rv-upload-tips] .v-color-fail {
+    color: #ef3e36
+}
+
+[riot-tag=rv-upload-tips] .btn-return-ingdex {
+    background-color: #58b49d;
+    color: #fff
+}
+
+.commonTransform {
+    transform: rotate(360deg)
+}
+
+.verticalCenter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.commonFlexBox {
+    display: -ms-flexbox;
+    display: flex
+}
+
+.commonFlexOne {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    width: 20%;
+    -ms-flex: 1;
+    flex: 1
+}
+
+.my-primary-center {
+    width: 1200px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+
+.my-center-container-left, .my-center-personinfo {
+    width: 280px;
+    height: auto
+}
+
+.my-center-personinfo {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fff
+}
+
+.xvideo-psncenter-psninfo-info {
+    height: auto;
+    border-bottom: 1px dashed gray
+}
+
+.my-center-psninfo-phote {
+    display: inline-block
+}
+
+.my-center-psninfo-phote img {
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 80px;
+    width: 80px
+}
+
+.xvideo-psncenter-psninfo-info .my-center-psninfo-prifile {
+    margin: 20px 25px auto auto;
+    font-size: 15px;
+    color: #d8d8d8;
+    cursor: pointer
+}
+
+.xvideo-psncenter-psninfo-vipinfo {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    color: #58b49d;
+    vertical-align: middle
+}
+
+.xvideo-psncenter-psninfo-vipinfo img {
+    vertical-align: baseline;
+    margin-left: 2px
+}
+
+.xvideo-psncenter-psninfo-vipinfo span {
+    line-height: 29px;
+    font-size: 19px
+}
+
+.xvideo-psncenter-psninfo-vip {
+    display: inline-block;
+    background-image: url(../images/spirit-imgs-portal.png);
+    width: 60px;
+    height: 30px;
+    background-position: -226px -27px;
+    vertical-align: bottom
+}
+
+.xvideo-psncenter-psninfo-list {
+    color: #000;
+    width: 100%;
+    text-align: center
+}
+
+.xvideo-psncenter-psninfo-list ul li {
+    display: inline-block
+}
+
+.xvideo-psncenter-psninfo-list ul li div {
+    display: inline-block;
+    line-height: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 8px
+}
+
+.xvideo-psncenter-psninfo-list ul {
+    margin-bottom: 10px;
+    display: inline-block
+}
+
+.xvideo-psncenter-psninfo-list ul li div a {
+    font-size: 16px;
+    color: #666;
+    display: block;
+    text-decoration: none;
+    cursor: default
+}
+
+.xvideo-psncenter-psninfo-list ul li div > a {
+    height: 22px;
+    font-size: 14px;
+    color: #666;
+    display: block
+}
+
+.xvideo-psncenter-psninfo-list ul li span {
+    color: gray;
+    font-size: 26px;
+    vertical-align: text-bottom
+}
+
+.xvideo-psncenter-psninfo-option ul {
+    font-size: 0;
+    line-height: 0;
+    margin-top: 3px
+}
+
+.xvideo-psncenter-psninfo-option ul li {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #000;
+    text-align: center
+}
+
+.xvideo-psncenter-psninfo-option span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    margin-right: 3px
+}
+
+.xvideo-psncenter-psninfo-option ul li a {
+    height: 45px;
+    width: 280px;
+    font-size: 14px;
+    padding: 16px 100px;
+    color: #666
+}
+
+.xvideo-psncenter-psninfo-option ul li a:hover {
+    height: 45px;
+    width: 280px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #58b49d
+}
+
+.my-center-infolist {
+    width: 900px;
+    height: auto
+}
+
+.xvideo-vertical-line {
+    margin-top: 10px;
+    width: 2px;
+    height: 30px;
+    background-color: #666;
+    padding-right: 0 !important;
+    padding-left: 0 !important
+}
+
+.my-center-right {
+    width: 900px;
+    height: auto
+}
+
+.my-center-right .center-right-title {
+    width: 100%;
+    font-size: 20px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 4px
+}
+
+.v-rv-page-box, .v-rv-page-box ul > li {
+    font-size: 16px
+}
+
+.v-rv-page-box ul > li > a, .v-rv-page-box ul > li > span {
+    border: none;
+    margin-right: 5px;
+    padding: 9px 16px;
+    transition: background-color .5s
+}
+
+.v-rv-page-box {
+    text-align: center;
+    color: #666
+}
+
+.v-rv-page-box ul {
+    vertical-align: middle;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
+}
+
+.v-rv-page-box ul > li > span {
+    color: #666;
+    background-color: #ddd;
+    border-radius: 0 !important
+}
+
+.v-rv-page-box ul > li > span:hover {
+    color: #fff;
+    background-color: #58b49d
+}
+
+.v-rv-page-box ul > li > a {
+    color: #666;
+    background-color: #ddd;
+    border-radius: 0 !important
+}
+
+.v-rv-page-box ul .active > a, .v-rv-page-box ul .active > a:hover, .v-rv-page-box ul .active > span, .v-rv-page-box ul .active > span:hover, .v-rv-page-box ul > li:hover > a, .v-rv-page-box ul > li:hover > span, .v-rv-page-box ul > li > a:hover {
+    background-color: #58b49d;
+    color: #fff
+}
+
+.v-rv-page-box ul > li:first-child > a, .v-rv-page-box ul > li:first-child > span, .v-rv-page-box ul > li:last-child > a, .v-rv-page-box ul > li:last-child > span {
+    border: none
+}
+
+.vip-accountInfo {
+    width: 100%;
+    height: 225px;
+    padding: 25px 30px;
+    border: 1px solid #ddd;
+    position: relative;
+    margin-bottom: 30px
+}
+
+.vip-accountInfo .accountInfo-title {
+    font-size: 18px;
+    color: #333
+}
+
+.vip-accountInfo .accountInfo-title > div {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 6px;
+    position: relative
+}
+
+.vip-accountInfo .accountInfo-title > div > img {
+    width: 16px;
+    height: 16px
+}
+
+.vip-accountInfo .accountInfo-title > div .accountInfo-tips {
+    visibility: hidden;
+    transition: visibility .2s;
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    left: -160px;
+    width: 320px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 15px 20px;
+    z-index: 20
+}
+
+.vip-accountInfo .accountInfo-title > div:hover .accountInfo-tips {
+    visibility: visible
+}
+
+.vip-accountInfo .accountInfo-title > span {
+    font-size: 14px;
+    color: #999
+}
+
+.vip-accountInfo .vip-accountInfo-left {
+    float: left;
+    vertical-align: top
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-points-info {
+    font-size: 0;
+    margin-top: 16px
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-points-info > div {
+    display: inline-block;
+    font-size: 22px;
+    color: #58b49d
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-points-info > div > img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-points-info > div > span {
+    display: inline-block;
+    max-width: 74px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-points-info > div > a {
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-vip-date {
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+    margin: 20px 0
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-vip-detail {
+    font-size: 0
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-vip-detail > li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 14px
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-vip-detail > li > a {
+    color: #333
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-vip-detail > li > a:hover {
+    color: #58b49d
+}
+
+.vip-accountInfo .vip-accountInfo-left .left-vip-detail > li:last-child {
+    margin: 0
+}
+
+.vip-accountInfo .accountInfo-separate-line {
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid #ddd;
+    margin: 0 30px;
+    float: left
+}
+
+.vip-accountInfo .vip-accountInfo-right {
+    float: left;
+    vertical-align: top
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container {
+    margin-top: 17px
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li {
+    float: left;
+    margin-right: 8px
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li input:checked + .pay-label {
+    border: 1px solid #58b49d;
+    color: #58b49d
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li input:checked + .pay-label:after {
+    content: ' ';
+    position: absolute;
+    display: inline-block;
+    height: 19px;
+    line-height: 38px;
+    font-size: 18px;
+    right: 0;
+    background-image: url(/images/c-my-vip-selected.png);
+    bottom: 0;
+    width: 19px
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label {
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li .pay-label {
+    border: 1px solid #eee;
+    height: 38px;
+    line-height: 38px;
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    padding: 0 10px;
+    background-color: #f5f5f5
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container {
+    position: relative;
+    height: 38px;
+    width: 80px;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    display: inline-block
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333;
+    width: 62px;
+    text-align: center;
+    height: 100%;
+    line-height: 38px;
+    background-color: #f5f5f5;
+    border: none;
+    font-size: 14px
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container input:focus {
+    font-size: 16px
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container button {
+    height: 19px;
+    width: 18px;
+    background-color: #CCC;
+    position: absolute;
+    border: none
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container button.btn-up {
+    top: 0;
+    right: 0
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container button.btn-up:after {
+    content: "";
+    width: 0;
+    display: inline-block;
+    position: absolute;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container button.btn-down {
+    bottom: 0;
+    right: 0
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .recharge-detail li label.input-container button.btn-down:after {
+    content: "";
+    width: 0;
+    display: inline-block;
+    position: absolute;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container ul.payment-way {
+    margin: 17px 0;
+    height: auto
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container ul.payment-way li {
+    width: auto;
+    height: auto
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container ul.payment-way li input {
+    height: 16px;
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container ul.payment-way li label {
+    float: left;
+    display: inline-block;
+    font-weight: 400;
+    height: 16px;
+    font-size: 16px;
+    color: #333;
+    line-height: 16px;
+    background-repeat: no-repeat;
+    margin-bottom: 0
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container button.button-pay {
+    height: 38px;
+    width: 120px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 38px;
+    background-color: #58b49d;
+    border-radius: 2px;
+    border: 0
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .calculateResult {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #999;
+    max-width: 250px;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 400
+}
+
+.vip-accountInfo .vip-accountInfo-right .right-recharge-container .calculateResult > span {
+    display: inline-block;
+    max-width: 86px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle
+}
+
+.vip-recharge .center-right-title {
+    position: relative
+}
+
+.vip-recharge .center-right-title .vip-exchange-vip {
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    display: inline-block;
+    font-size: 16px;
+    color: #333
+}
+
+.vip-recharge .center-right-title .vip-exchange-vip > input {
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #58b49d;
+    border-radius: 2px 0 0 2px;
+    font-size: 14px;
+    color: #999;
+    padding-left: 10px;
+    margin-left: 10px
+}
+
+.vip-recharge .center-right-title .vip-exchange-vip > input:focus {
+    color: #333
+}
+
+.vip-recharge .center-right-title .vip-exchange-vip > button {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #58b49d;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    margin-left: -4px
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form {
+    width: 935px
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw {
+    float: left;
+    position: relative;
+    margin: 20px 20px 30px 0
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw input:checked + .recharge-package-detail {
+    border: 1px solid #58b49d
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw label {
+    margin-bottom: 0
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail {
+    width: 210px;
+    height: 170px;
+    border: 1px solid #ddd;
+    text-align: center
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail .recharge-money {
+    margin-top: 36px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 400
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail .recharge-money > span {
+    color: #58b49d;
+    font-size: 23px;
+    margin: 0 10px
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail .recharge-tips {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail > button {
+    background-color: #58b49d;
+    width: 150px;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 2px;
+    margin-top: 15px;
+    border: none
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail > button:hover {
+    background-color: #46927f
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw > span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff7800;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 8px
+}
+
+.vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw:hover .recharge-package-detail {
+    border: 1px solid #58b49d
+}
+
+.vip-privilege .vip-privilege-container ul {
+    width: 935px
+}
+
+.vip-privilege .vip-privilege-container ul li {
+    float: left;
+    padding: 30px 0 0 30px;
+    border: 1px solid #ddd;
+    width: 280px;
+    height: 130px;
+    margin: 20px 30px 20px 0
+}
+
+.vip-privilege .vip-privilege-container ul li > img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: bottom
+}
+
+.vip-privilege .vip-privilege-container ul li > div {
+    display: inline-block;
+    color: #666;
+    vertical-align: text-bottom
+}
+
+.vip-privilege .vip-privilege-container ul li > div > p {
+    font-size: 22px
+}
+
+.vip-privilege .vip-privilege-container ul li > div > span {
+    font-size: 14px
+}
+
+.my-vip-layer {
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100
+}
+
+.my-vip-layer .my-vip-layer-container {
+    width: 980px;
+    height: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -490px;
+    margin-top: -260px;
+    background-color: #fff;
+    padding: 50px 35px 60px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-close {
+    background: url(../../images/c-pay-close.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    right: 15px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-userInfo > img {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 15px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-userInfo > div {
+    font-size: 20px;
+    color: #333;
+    float: left
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-userInfo > div > span {
+    font-size: 14px;
+    color: #333;
+    margin-left: 60px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package {
+    margin: 40px 0
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-title {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 6px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container {
+    width: 945px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    text-align: center
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw input:checked + .l-package-detail {
+    border: 1px solid #58b49d
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw label {
+    font-weight: 400
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw .l-package-detail {
+    border: 1px solid #ddd;
+    width: 220px;
+    height: 120px;
+    padding-top: 30px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw .l-package-detail .l-package-money {
+    font-size: 20px;
+    color: #333
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw .l-package-detail .l-package-money > span {
+    font-size: 23px;
+    color: #58b49d;
+    margin: 0 8px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw .l-package-detail .l-package-tips {
+    display: block;
+    font-size: 14px;
+    color: #666
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw > span {
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff7800;
+    padding: 0 8px;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-package .l-package-container .l-package-raw:hover .l-package-detail {
+    border: 1px solid #58b49d
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-payType {
+    font-size: 0;
+    margin-bottom: 50px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-payType > div {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-payType > div img {
+    width: 120px;
+    height: 35px;
+    margin-left: 15px
+}
+
+.my-vip-layer .my-vip-layer-container .vip-layer-payType .l-pay-type-separate {
+    height: 20px;
+    border-left: 1px solid #666;
+    vertical-align: middle;
+    margin: 0 20px
+}
+
+.my-vip-layer .my-vip-layer-container .layer-pay-btn {
+    border: none;
+    border-radius: 2px;
+    background-color: #58b49d;
+    color: #fff;
+    font-size: 16px;
+    width: 300px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 auto
+}
+
+.my-vip-layer .my-vip-layer-container .layer-pay-btn:hover {
+    background-color: #46927f
+}

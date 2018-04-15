@@ -1,0 +1,240 @@
+<link rel="stylesheet" href="/assets/css/vip.css">
+
+<div class="my-center-right pull-right col-xs-7 nopadding">
+    <div class="vip-accountInfo clearfix">
+        <div class="vip-accountInfo-left">
+            <div class="accountInfo-title">账户余额:</div>
+            <div class="left-points-info">
+                <div>
+                    <img src="http://qcstatic.qstaic.com/images/c-my-vip-points-e5eccf87ca.png">
+                    <span title="0">0</span>
+                    <a>积分</a>
+                </div>
+                <div style="margin-left:30px;">
+                    <img src="http://qcstatic.qstaic.com/images/c-my-vip-diamond-c6974f07e6.png">
+                    <span title="0">0</span>
+                    <a href="/live" target="_blank">直播打赏</a>
+                </div>
+            </div>
+            <div class="left-vip-date">
+                非会员
+            </div>
+            <div class="left-vip-detail">
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/my/order">我的订单</a>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/my/bill">交易明细</a>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/my/coupon">兑换码</a>
+                </li>
+            </div>
+        </div>
+        <div class="accountInfo-separate-line"></div>
+        <div class="vip-accountInfo-right">
+            <div class="accountInfo-title">账户充值
+                <div>
+                    <img src="http://qcstatic.qstaic.com/images/c-my-vip-tip-02be186c8a.png">
+                    <div class="accountInfo-tips">
+                        1元可购买100积分或10钻石，积分可以用来下载视频，钻石可在直播频道打赏主播。
+                    </div>
+                </div>
+                <span>充值满100返5%,满500返8%,满800返12%</span>
+            </div>
+            <div class="right-recharge-container">
+                <form method="Post" class="vip-pay-form" action="http://email.qingcaodizhi.at.gmx.com.q4c7.space/payment/pay">
+                    <input type="hidden" name="_token" value="eSx07pE1tKqU8sp01UcoBjs0AtLTSyOqb5IVltA8">
+                    <input type="hidden" name="name" value="back0893">
+                    <ul class="recharge-detail clearfix">
+                        <li>
+                            <input id="pay-10" type="radio" name="amount" value="10" checked="" hidden="">
+                            <label for="pay-10" class="pay-label">10元</label>
+                        </li>
+                        <li>
+                            <input id="pay-50" type="radio" name="amount" value="50" hidden="">
+                            <label for="pay-50" class="pay-label">50元</label>
+                        </li>
+                        <li>
+                            <input id="pay-100" type="radio" name="amount" value="100" hidden="">
+                            <label for="pay-100" class="pay-label">100元</label>
+                        </li>
+                        <li>
+                            <input id="pay-150" type="radio" name="amount" value="150" hidden="">
+                            <label for="pay-150" class="pay-label">150元</label>
+                        </li>
+                        <li>
+                            <input id="pay-300" type="radio" name="amount" value="300" hidden="">
+                            <label for="pay-300" class="pay-label">300</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="amount" value="0" id="pay-custom" hidden="">
+                            <label class="input-container pull-left" for="pay-custom">
+                                <input class="input-recharge" type="text" value="" placeholder="自定义">
+                                <input type="hidden" name="viptype" value="15">
+                                <button type="button" class="btn-up"></button>
+                                <button type="button" class="btn-down"></button>
+                            </label>
+                        </li>
+                    </ul>
+                    <ul class="payment-way clearfix">
+                        <li class="wechat-pay clearfix pull-left">
+                            <input type="radio" name="paytype" value="1" id="pay_1" checked="">
+                            <label for="pay_1">
+                                支付宝支付
+                            </label>
+                        </li>
+                        <li class="pull-left" style="padding:0 20px;color: #999;height: 16px;line-height: 16px;">
+                            |
+                        </li>
+                        <li class="wechat-pay clearfix pull-left">
+                            <input type="radio" name="paytype" value="3" id="pay_3" 1="">
+                            <label for="pay_3">
+                                微信支付
+                            </label>
+                        </li>
+                    </ul>
+                    <button class="button-pay pull-left">
+                        立即充值
+                    </button>
+                    <label class="pull-left calculateResult">
+                        <span class="span-score">1000</span>积分
+                        /
+                        <span class="span-diamond">100</span>钻石
+                    </label>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="vip-recharge">
+        <div class="center-right-title">充值会员
+            <div class="vip-exchange-vip">
+                兑换VIP :<input type="text" name="exchange-code" placeholder="请输入兑换码">
+                <button class="vip-exchange-btn">兑换</button>
+            </div>
+        </div>
+        <div class="vip-recharge-container">
+            <form class="vip-recharge-form clearfix">
+                <div class="vip-recharge-raw">
+                    <input type="radio" id="0months" name="viptype" hidden="">
+                    <label for="0months" class="recharge-package-detail">
+                        <label for="0months" class="recharge-money">
+                            7天VIP<span>30.00</span>元
+                        </label>
+                        <label for="0months" class="recharge-tips">
+
+                        </label>
+                        <button type="button" data-vip-type="0months" class="recharge-package-btn">
+                            立即加入
+                        </button>
+                    </label>
+                    <span>
+                                        火爆4.29元/天
+                                </span>
+                </div>
+                <div class="vip-recharge-raw">
+                    <input type="radio" id="1months" name="viptype" hidden="">
+                    <label for="1months" class="recharge-package-detail">
+                        <label for="1months" class="recharge-money">
+                            月度VIP<span>100.00</span>元
+                        </label>
+                        <label for="1months" class="recharge-tips">
+
+                        </label>
+                        <button type="button" data-vip-type="1months" class="recharge-package-btn">
+                            立即加入
+                        </button>
+                    </label>
+                    <span>
+                                        火爆3.33元/天
+                                </span>
+                </div>
+                <div class="vip-recharge-raw">
+                    <input type="radio" id="2months" name="viptype" hidden="">
+                    <label for="2months" class="recharge-package-detail">
+                        <label for="2months" class="recharge-money">
+                            季度VIP<span>200.00</span>元
+                        </label>
+                        <label for="2months" class="recharge-tips">
+
+                        </label>
+                        <button type="button" data-vip-type="2months" class="recharge-package-btn">
+                            立即加入
+                        </button>
+                    </label>
+                    <span>
+                                        火爆2元/天
+                                </span>
+                </div>
+                <div class="vip-recharge-raw">
+                    <input type="radio" id="3months" name="viptype" hidden="">
+                    <label for="3months" class="recharge-package-detail">
+                        <label for="3months" class="recharge-money">
+                            半年VIP<span>300.00</span>元
+                        </label>
+                        <label for="3months" class="recharge-tips">
+
+                        </label>
+                        <button type="button" data-vip-type="3months" class="recharge-package-btn">
+                            立即加入
+                        </button>
+                    </label>
+                    <span>
+                                        火爆1.46元/天
+                                </span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="vip-privilege">
+        <div class="center-right-title">会员特权</div>
+        <div class="vip-privilege-container">
+            <ul class="clearfix">
+                <li>
+                    <img src="http://qcstatic.qstaic.com/images/c-pay-download-116880fad4.png">
+                    <div>
+                        <p>无限下载</p>
+                        <span>免费下载,保存到本地</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://qcstatic.qstaic.com/images/c-pay-accelerate-ae42ba2b22.png">
+                    <div>
+                        <p>极速播放</p>
+                        <span>观看更快,体验更爽</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://qcstatic.qstaic.com/images/c-pay-gg-f06b56e10d.png">
+                    <div>
+                        <p>屏蔽广告</p>
+                        <span>无广告,观看无干扰</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://qcstatic.qstaic.com/images/c-pay-badge-d7ce366a6e.png">
+                    <div>
+                        <p>尊贵徽章</p>
+                        <span>尊贵身份,如影随形</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://qcstatic.qstaic.com/images/c-pay-multi-a89ec7b5de.png">
+                    <div>
+                        <p>多屏共享</p>
+                        <span>移动/PC会员权益共享</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://qcstatic.qstaic.com/images/c-pay-hd-309f276a45.png">
+                    <div>
+                        <p>清晰无码</p>
+                        <span>海量视频,全部无码</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
