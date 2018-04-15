@@ -38,7 +38,8 @@
             "font-style: normal;}" +
             '</style>');
     </script>
-    <link rel="stylesheet" href="http://qcstatic.qstaic.com/css/vs-daa0d61020.min.css" />
+    <!--<link rel="stylesheet" href="http://qcstatic.qstaic.com/css/vs-daa0d61020.min.css" />-->
+    <link rel="stylesheet" href="/assets/css/sb.css">
     <link rel="shortcut icon" href="http://qcstatic.qstaic.com/images/favicon-bc325230c7.ico" />
     <!--[if lte IE 10]>
     <script type="text/javascript" src="http://qcstatic.qstaic.com/js/v-ie8-ae20bd4c59.min.js"></script>
@@ -63,7 +64,7 @@
             <div class="pull-right xingyu-topnav-btn-group">
                 <div class="topnav-border" style="line-height: 26px;color: #fff">
                     欢迎                        <div class="btn-group" style="height: 26px;margin-top: -5px;">
-                    <button href="#" class="btn btn-user-profile" title="back0893">back0893</button>
+                    <button href="#" class="btn btn-user-profile" title="back0893">{$user.username}</button>
                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                         <span class="caret" style="color: #58b49d;"></span>
@@ -74,7 +75,7 @@
                             <a href="{:url('user/vip')}">我的帐户</a>
                             <a href="{:url('user/profile')}">我的资料</a>
                             <a href="{:url('user/collection')}">我的收藏</a>
-                            <a href="{:url('user/video')}">我的视频</a>
+                            <a href="{:url('user/vedio')}">我的视频</a>
                             <a href="{:url('user/security')}">帐号安全</a>
                         </li>
                     </ul>
@@ -88,7 +89,7 @@
     <div class="v-container clearfix">
 
         <div class="topnav-mainnav pull-left clearfix">
-            <a href="/"><img class="clearfix topnav-logo-img" src="/images/logo.png"/></a>
+            <a href="/"><img class="clearfix topnav-logo-img" src="/assets/img/logo.jpg"/></a>
 
             <div class="mainnav-nav-div">
                 <ul>

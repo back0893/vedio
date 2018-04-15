@@ -2,6 +2,7 @@
 
 namespace app\index\controller;
 
+use app\admin\library\Auth;
 use app\common\controller\Frontend;
 use app\common\model\Vedio;
 use think\Config;

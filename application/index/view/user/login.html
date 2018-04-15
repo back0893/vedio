@@ -1,74 +1,86 @@
 <link rel="stylesheet" href="/assets/css/login.css">
-<div class="col-xs-6">
-    <div class="xvideo-panel">
-        <div class="xvideo-panel-header">
-            <div class="xvideo-panel-header-title pull-left">
-                视频通行证登录
-            </div>
-            <div class="xvideo-panel-header-opeartion pull-right">
+<div class="col-xs-12 nopadding" style="margin-top:25px;margin-bottom:20px">
+    <div class="col-xs-6" style="text-align: center;padding: 0;height: 498px;display: table;">
+        <div style="display: table-cell;vertical-align: middle;">
 
-            </div>
         </div>
-        <div class="xvideo-panel-body">
-            <form class="xvideo-form form-horizontal" role="form" method="POST"  autocomplete="off">
-               {:token()}
-                <div class="form-group">
-                    <label class="col-xs-3 control-label">账户:</label>
+    </div> 
+    <div class="col-xs-6">
+        <div class="xvideo-panel">
+            <div class="xvideo-panel-header">
+                <div class="xvideo-panel-header-title pull-left">
+                    视频通行证登录
+                </div>
+                <div class="xvideo-panel-header-opeartion pull-right">
 
-                    <div class="col-xs-8">
-                        <input type="text" style="display:none"><!-- for disable autocomplete on chrome -->
-                        <input type="text" class="form-control" name="account" value="" placeholder="请输入用户名或邮箱" autocomplete="off">
+                </div>
+            </div>
+            <div class="xvideo-panel-body">
+                <form class="xvideo-form form-horizontal" role="form" method="POST" autocomplete="off">
+                    {:token()}
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">账户:</label>
 
-                        <div class="">
-                            <i name="name" class="icon "></i>
-                            <label name="name" class=""></label>
+                        <div class="col-xs-8">
+                            <input type="text" style="display:none">
+                            <!-- for disable autocomplete on chrome -->
+                            <input type="text" class="form-control" name="account" value="" placeholder="请输入用户名或邮箱" autocomplete="off">
+
+                            <div class="">
+                                <i name="name" class="icon "></i>
+                                <label name="name" class=""></label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <label class="col-xs-3 control-label">密码:</label>
+                    <div class="form-group">
+                        <label class="col-xs-3 control-label">密码:</label>
 
-                    <div class="col-xs-8">
-                        <input type="password" style="display:none"><!-- for disable autocomplete on chrome -->
-                        <input type="password" class="form-control" name="password" placeholder="请输入登录密码" autocomplete="off">
+                        <div class="col-xs-8">
+                            <input type="password" style="display:none">
+                            <!-- for disable autocomplete on chrome -->
+                            <input type="password" class="form-control" name="password" placeholder="请输入登录密码" autocomplete="off">
 
-                        <div class="">
-                            <i name="password" class="icon "></i>
-                            <label name="password" class=""></label>
+                            <div class="">
+                                <i name="password" class="icon "></i>
+                                <label name="password" class=""></label>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-4 col-xs-offset-2 xvideo-remeber-username nopadding">
-                        <div class="checkbox">
-                            <label>
-                                <div class="icheckbox_square-pink" style="position: relative;"><input type="checkbox" name="remember" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> 记住用户名
-                            </label>
+                    <div class="form-group">
+                        <div class="col-xs-4 col-xs-offset-2 xvideo-remeber-username nopadding">
+                            <div class="checkbox">
+                                <label>
+                                    <div class="icheckbox_square-pink" style="position: relative;">
+                                        <input type="checkbox" name="remember" style="position: absolute; opacity: 0;">
+                                        <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                                    </div> 记住用户名
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <a class="btn btn-link" href="{:url('user/forget')}">忘记密码?</a>
                         </div>
                     </div>
-                    <div class="col-xs-4">
-                        <a class="btn btn-link" href="{:url('user/forget')}">忘记密码?</a>
+                    <div class="form-group">
+                        <div class="col-xs-8 col-xs-offset-2 xvideo-btn-login">
+                            <button id="ap-login-button" type="submit" class="btn btn-lg btn-danger ap-login">
+                                <i class="fa fa-btn fa-sign-in"></i>登 录
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-8 col-xs-offset-2 xvideo-btn-login">
-                        <button id="ap-login-button" type="submit" class="btn btn-lg btn-danger ap-login">
-                            <i class="fa fa-btn fa-sign-in"></i>登 录
-                        </button>
+                    <div class="form-group">
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <span style="color: #959595;">还没有账户? </span>
+                            <a class="btn-link" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/register" style="">点此注册</a>
+                        </div>
+                        <div class="col-xs-10 col-xs-offset-2 xvideo-btn-login text-danger">
+                            <i name="all_check_result" class="has-error"></i>
+                            <label name="all_check_result" class=""></label>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-8 col-xs-offset-2">
-                        <span style="color: #959595;">还没有账户?  </span>
-                        <a class="btn-link" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/register" style="">点此注册</a>
-                    </div>
-                    <div class="col-xs-10 col-xs-offset-2 xvideo-btn-login text-danger">
-                        <i name="all_check_result" class="has-error"></i>
-                        <label name="all_check_result" class=""></label>
-                    </div>
-                </div>
-                <input type="submit" name="submit" hidden="">
-            </form>
+                    <input type="submit" name="submit" hidden="">
+                </form>
+            </div>
         </div>
     </div>
 </div>
