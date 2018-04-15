@@ -9,14 +9,14 @@ class Vedio extends Model
 {
     // 表名
     protected $name = 'vedio';
-    
+    protected $dateFormat='Y-m-d H:i:s';
     // 自动写入时间戳字段
     protected $autoWriteTimestamp = 'int';
 
     // 定义时间戳字段名
     protected $createTime = 'created';
     protected $updateTime = false;
-    
+
     // 追加属性
     protected $append = [
         'is_tj_text'
@@ -28,11 +28,11 @@ class Vedio extends Model
     public function getIsTjList()
     {
         return ['4' => __('Is_tj 4')];
-    }     
+    }
 
 
     public function getIsTjTextAttr($value, $data)
-    {        
+    {
         $value = $value ? $value : $data['is_tj'];
         $list = $this->getIsTjList();
         return isset($list[$value]) ? $list[$value] : '';

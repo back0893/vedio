@@ -201,11 +201,7 @@ class User extends Frontend
         $this->auth->logout();
         $synchtml = '';
         ////////////////同步到Ucenter////////////////
-        if (defined('UC_STATUS') && UC_STATUS) {
-            $uc = new \addons\ucenter\library\client\Client();
-            $synchtml = $uc->uc_user_synlogout();
-        }
-        $this->success(__('Logout successful') . $synchtml, url('user/index'));
+        $this->success(__('Logout successful') . $synchtml, url('/'));
     }
 
     /**
