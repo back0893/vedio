@@ -1,0 +1,110 @@
+<div class="my-center-infolist pull-right col-xs-7 nopadding">
+    <div class="my-center-infolist-container" riot-tag="rv-myvideo-recordlist">
+        <div class="myvideorecord-vipinfo"><span class="xyvideo-icon xyvideo-icon-announcement"></span> 会员公告区</div>
+        <div class="myvideorecord-recredlist clearfix">
+            <div class="myvideorecord-recredlist-title">
+                <div class="myvideorecord-vtitle-container clearfix">
+                    <div class="pull-left"> 最近浏览记录</div>
+                </div>
+            </div>
+            <div class="myvideorecord-recredlist-info" riot-tag="rv-myvideo-nothing">
+                {if count($user.history)}
+                {foreach $user.history as $h}
+                <div class="myvideo-container clearfix">
+                    <div class="myvideo-box myvideo-box-marginright-33 myvideo-box-marginbottom-14px">
+                        <div class="myvideo-box-top">
+                            <a target="_blank" style="text-decoration: none;"
+                               href="{:url('vedio/detail',['id'=>$h.id])}"
+                               data-video-id="24557">
+                                <div class="myvideo-search-img"><img
+                                        src="{$h.fengmian}">
+                                </div>
+                            </a><a class="xvideo-thumbnail-mask hide" target="_blank" style=""
+                                   href="{:url('vedio/detail',['id'=>$h.id])}"><i
+                                class="xyvideo-icon xyvideo-icon-play"></i></a>
+                            <div class="myvideo-mask-layer">
+                                <div class="myvideo-mask-layer-left v-float-left">{:mt_rand(1000,10000)}人观看</div>
+                                <div class="myvideo-mask-layer-right v-float-right"><i
+                                        class="xyvideo-icon xyvideo-icon-clock"></i>1:15:54
+                                </div>
+                            </div>
+                            <div class="myvideo-mask-layer-desc">
+                                <div class="myvideo-mask-layer-play-btn"><a target="_blank"
+                                                                            style="text-decoration: none;"
+                                                                            href="{:url('vedio/detail',['id'=>$h.id])}"><i
+                                        class="xyvideo-icon xyvideo-icon-video"></i></a></div>
+                            </div>
+                        </div>
+                        <a class="myvideo-myvideo-name" target="_blank" href="{:url('vedio/detail',['id'=>$h.id])}">{$h.name} </a>
+                    </div>
+                </div>
+                {/foreach}
+                {else/}
+                <div class="myvideo-nothing"><span class="xyvideo-icon xyvideo-icon-warning"></span>暂无记录,去<a href="/"
+                                                                                                             style="">首页</a>观看视频
+                </div>
+                {/if}
+            </div>
+        </div>
+        <div class="myvideorecord-myvideolist clearfix">
+            <div class="myvideorecord-myvideolist-title">
+                <div class="myvideorecord-vtitle-container clearfix">
+                    <div class="pull-left"> 我的视频</div>
+                    <div class="pull-right "><a href="javaScript:void(0)">查看更多&gt;&gt;</a></div>
+                </div>
+            </div>
+            <div class="myvideorecord-myvideolist-info" riot-tag="rv-myvideo-nothing-upload">
+                <div class="myvideo-nothing-upload"><span
+                        class="xyvideo-icon xyvideo-icon-warning"></span>您还没有上传视频哦，现在<a href="/v/upload"
+                                                                                        style="">上传视频</a></div>
+            </div>
+        </div>
+        <div class="myvideorecord-mycollection clearfix">
+            <div class="myvideorecord-mycollection-title">
+                <div class="myvideorecord-vtitle-container clearfix">
+                    <div class="pull-left"> 我的收藏</div>
+                    <div class="pull-right myvideorecord-mycollection-link"><a
+                            href="javaScript:void(0)">查看更多&gt;&gt;</a></div>
+                </div>
+            </div>
+            <div class="myvideorecord-mycollection-info" riot-tag="rv-myvideo-nothing">
+                {if count($user.collection)}
+                {foreach $user['collection'] as $h}
+                <div class="myvideo-container clearfix">
+                    <div class="myvideo-box myvideo-box-marginright-33 myvideo-box-marginbottom-14px">
+                        <div class="myvideo-box-top">
+                            <a target="_blank" style="text-decoration: none;"
+                               href="{:url('vedio/detail',['id'=>$h.id])}"
+                               data-video-id="24557">
+                                <div class="myvideo-search-img"><img
+                                        src="{$h.fengmian}">
+                                </div>
+                            </a><a class="xvideo-thumbnail-mask hide" target="_blank" style=""
+                                   href="{:url('vedio/detail',['id'=>$h.id])}"><i
+                                class="xyvideo-icon xyvideo-icon-play"></i></a>
+                            <div class="myvideo-mask-layer">
+                                <div class="myvideo-mask-layer-left v-float-left">{:mt_rand(1000,10000)}人观看</div>
+                                <div class="myvideo-mask-layer-right v-float-right"><i
+                                        class="xyvideo-icon xyvideo-icon-clock"></i>1:15:54
+                                </div>
+                            </div>
+                            <div class="myvideo-mask-layer-desc">
+                                <div class="myvideo-mask-layer-play-btn"><a target="_blank"
+                                                                            style="text-decoration: none;"
+                                                                            href="{:url('vedio/detail',['id'=>$h.id])}"><i
+                                        class="xyvideo-icon xyvideo-icon-video"></i></a></div>
+                            </div>
+                        </div>
+                        <a class="myvideo-myvideo-name" target="_blank" href="{:url('vedio/detail',['id'=>$h.id])}">{$h.name} </a>
+                    </div>
+                </div>
+                {/foreach}
+                {else/}
+                <div class="myvideo-nothing"><span class="xyvideo-icon xyvideo-icon-warning"></span>暂无记录,去<a href="/"
+                                                                                                             style="">首页</a>观看视频
+                </div>
+                {/if}
+            </div>
+        </div>
+    </div>
+</div>
