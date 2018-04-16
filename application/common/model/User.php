@@ -146,13 +146,13 @@ class User Extends Model
         if(empty($value)){
             return [];
         }
-        $ids=unserialize($value);
+        $ids=explode(',',$value);
         $data=Vedio::where(['id'=>['in',$ids]])
             ->select();
         return $data;
     }
     public function setCollectionAttr($value){
-        return serialize($value);
+        return implode(',',$value);
     }
     public static function addHistory($id){
         $user=Auth::instance()->getUser();

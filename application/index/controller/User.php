@@ -276,6 +276,14 @@ class User extends Frontend
         return $this->fetch();
     }
     public function vedio(){
+        $sim=false;
+        $agent=$this->request->header('User-Agent');
+        if(strpos('Android',$agent)!==false || strpos('Apple',$agent) !==false){
+            $sim=true;
+        }
+        $vedio=Vedio::where(['uid'=>$this->auth->id])
+            ->paginate(12,$sim);
+        $this->assign('vedio',$vedio);
         return $this->fetch();
     }
     public function upload(){

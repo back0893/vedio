@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
@@ -13,8 +14,11 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=.3"/>
     <![endif]-->
-    <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <meta name="keywords" content=""><meta name="description" content=""><title>会员中心 - 轻草视频</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>会员中心 - 轻草视频</title>
     <meta name="csrf-token" content="eSx07pE1tKqU8sp01UcoBjs0AtLTSyOqb5IVltA8">
     <script type="text/javascript">
         document.write('<style>' +
@@ -34,12 +38,12 @@
             "url('/fonts/icomoon.ttf?mm4ssd') format('truetype')," +
             "url('/fonts/icomoon.woff?mm4ssd') format('woff')," +
             "url('/fonts/icomoon.svg?mm4ssd#icomoon') format('svg');" +
-            "font-weight: normal;" +
+            // "font-weight: normal;" +
             "font-style: normal;}" +
             '</style>');
     </script>
-    <!--<link rel="stylesheet" href="http://qcstatic.qstaic.com/css/vs-daa0d61020.min.css" />-->
-    <link rel="stylesheet" href="/assets/css/sb.css">
+    <!-- <link rel="stylesheet" href="http://qcstatic.qstaic.com/css/vs-daa0d61020.min.css" /> -->
+    <link rel="stylesheet" href="http://vedio.cc/assets/css/sb.css" />
     <link rel="shortcut icon" href="http://qcstatic.qstaic.com/images/favicon-bc325230c7.ico" />
     <!--[if lte IE 10]>
     <script type="text/javascript" src="http://qcstatic.qstaic.com/js/v-ie8-ae20bd4c59.min.js"></script>
@@ -51,152 +55,149 @@
 
     <script src="http://qcstatic.qstaic.com/js/vj-020e9fbc3e.min.js"></script>
     <script src="http://qcstatic.qstaic.com/js/ly/layer-1512b84986.min.js"></script>
-    <link rel="stylesheet" data-security="security" href="http://qcstatic.qstaic.com/css/mycenter-6cb5611afd.min.css"/>
+    <!-- <link rel="stylesheet" data-security="security" href="http://qcstatic.qstaic.com/css/mycenter-6cb5611afd.min.css" /> -->
+
+    <link rel="stylesheet" href="http://vedio.cc/assets/css/mycenter.css" />
+    <link rel="stylesheet" href="http://vedio.cc/assets/css/xingyu-index.css" />
+    <link rel="stylesheet" href="http://vedio.cc/assets/css/main.css" />
+
 </head>
+
 <body>
-<nav class="xingyu-topnav">
-    <div class="topnav-fix-nav">
-        <div class="v-container clearfix">
-            <a class="top-nav-fix-guide" href="http://d.z.v2dz.space/qc/?489" target="_blank">地址发布页</a>
-            <span class="top-nav-fix-guide">&nbsp|&nbsp</span>
-            <a class="top-nav-fix-guide" href="/about/accessguide" target="_blank">访问指南</a>
+<div class="topnav-fix-nav black-xingyu-topnav">
+    <div class="container clearfix">
+        <a class="top-nav-fix-guide" href="http://d.z.v2dz.space/qc/?489" target="_blank">地址发布页</a>
+        <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
+        <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide" target="_blank">访问指南</a>
 
-            <div class="pull-right xingyu-topnav-btn-group">
-                <div class="topnav-border" style="line-height: 26px;color: #fff">
-                    欢迎                        <div class="btn-group" style="height: 26px;margin-top: -5px;">
-                    <button href="#" class="btn btn-user-profile" title="back0893">{$user.username}</button>
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                        <span class="caret" style="color: #58b49d;"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu xvideo-dropdown-menu">
-                        <li>
-                            <a href="{:url('user/vip')}">我的帐户</a>
-                            <a href="{:url('user/profile')}">我的资料</a>
-                            <a href="{:url('user/collection')}">我的收藏</a>
-                            <a href="{:url('user/vedio')}">我的视频</a>
-                            <a href="{:url('user/security')}">帐号安全</a>
-                        </li>
-                    </ul>
-                </div>
-                    <a class="xingyu-btn-exit" href="{:url('user/logout')}">退出</a>
-                </div>
+        <div class="pull-right xingyu-topnav-btn-group">
+            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" name="btn-login" class="top-nav-fix-guide">登录</a>
+            <span>|</span>
+            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/register" name="btn-register" class="top-nav-fix-guide">注册</a>
 
-            </div>
         </div>
     </div>
-    <div class="v-container clearfix">
+</div>
 
-        <div class="topnav-mainnav pull-left clearfix">
-            <a href="/"><img class="clearfix topnav-logo-img" src="/assets/img/logo.jpg"/></a>
-
-            <div class="mainnav-nav-div">
-                <ul>
-                    <a href="/upgrade" >
-                        <li>VIP</li>
-                    </a>
-                    <a href="/integral" >
-                        <li>大秀套餐</li>
-                    </a>
-                    <a href="/v/upload" >
-                        <li>上传</li>
-                    </a>
-                    <a href="http://baicai.bc88.space/prize"  target="_blank" >
-                        <li>領紅包</li>
-                    </a>
-                </ul>
-            </div>
+<header class="xingyu-topnav navbar navbar-static-top navbar-inverse" style="border: none;" id="top">
+    <div class="v-container clearfix topnav-mainnav">
+        <div class="navbar-header">
+            <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
+                    aria-controls="bs-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/" class="navbar-brand">
+                <img class="clearfix topnav-logo-img " src="http://vedio.cc/assets/img/logo.jpg">
+            </a>
         </div>
+        <nav id="bs-navbar" class="collapse navbar-collapse " style="border:none;">
+            <ul class="nav navbar-nav mainnav-nav-div">
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/upgrade" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', 'VIP'])">VIP</a>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/integral" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '大秀套餐'])">大秀套餐</a>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/v/upload" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '上传'])">上传</a>
+                </li>
+                <li>
+                    <a href="http://baicai.bc88.space/prize" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '領紅包'])">領紅包</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right visible-lg">
+                <li>
+                    <div style="padding-top: 15px;font-size:0;">
+                        <div class="xingyu-search">
+                            <form method="GET" action="http://email.qingcaodizhi.at.gmx.com.q4c7.space/v/search" style="width: 265px;">
+                                <input type="hidden" name="_token" value="4qlbf0t6HQaYSrPALKvvZQINcwfT9LlfcZx2Qitx">
+                                <input type="text" class="form-control" name="title" placeholder="">
+                                <a style="text-decoration: none" href="javascript:void(0)" class="xvideo-href-search">
+                                    <span class="xyvideo-icon xyvideo-icon-query"></span>
+                                </a>
+                                <input type="submit" class="hide btn-xvideo-search">
+                            </form>
+                        </div>
 
-
-        <div class="pull-right clearfix" style="padding-top: 15px;font-size:0;">
-            <div class="xingyu-search">
-                <form method="GET" action="/v/search" style="width: 265px;">
-                    <input type="hidden" name="_token" value="eSx07pE1tKqU8sp01UcoBjs0AtLTSyOqb5IVltA8">
-                    <input type="text" class="form-control" name="title" placeholder="">
-                    <a style="text-decoration: none" href="javascript:void(0)" class="xvideo-href-search">
-                        <span class="xyvideo-icon xyvideo-icon-query"></span>
-                    </a>
-                    <input type="submit" class="hide btn-xvideo-search"/>
-                </form>
-            </div>
-
-            <div class="top-main-nav-collection">
-                <img src="/images/collection.png"/>收藏书签
-            </div>
-        </div>
-
+                        <div class="top-main-nav-collection">
+                            <img src="public/img/collection.png">收藏书签
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </div>
-</nav>
-
+</header>
 <div class="v-container clearfix">
-    <div class="my-primary-center col-xs-5 nopadding">
+    <div class="my-primary-center  nopadding">
         {notempty name='$user'}
-        <div class="my-center-container-left pull-left">
-            <div class="my-center-personinfo pull-left col-xs-5 nopadding" style="">
-                <div class="xvideo-psncenter-psninfo-info" style="">
-                    <div class="my-center-psninfo-phote" style="">
+        <div class="my-center-container-left pull-left col-xs-12 col-md-3 col-sm-3">
+            <div class="my-center-personinfo " >
+                <div class="xvideo-psncenter-psninfo-info" >
+                    <div class="my-center-psninfo-phote" >
                         <a href="{:url('user/avatar')}">
-                            <img src="{$user.avatar}" class="img-circle" style="">
+                            <img src="{$user.avatar}" class="img-circle" >
                         </a>
                     </div>
                     <a href="{:url('user/profile')}">
-                        <span class="xyvideo-icon xyvideo-icon-edit pull-right my-center-psninfo-prifile" style=""></span>
+                        <span class="xyvideo-icon xyvideo-icon-edit pull-right my-center-psninfo-prifile" ></span>
                     </a>
 
-                    <div class="xvideo-psncenter-psninfo-vipinfo" style="">
-                        <span style="">{$user.username}</span>
+                    <div class="xvideo-psncenter-psninfo-vipinfo" >
+                        <span >{$user.username}</span>
                     </div>
-                    <div class="xvideo-psncenter-psninfo-list clearfix" style="">
+                    <div class="xvideo-psncenter-psninfo-list clearfix" >
                         <ul class="clearfix">
-                            <li class="pull-left" style="">
-                                <div style="">
-                                    <a href="javaScript:void(0)" style="">积分</a>
-                                    <a href="javaScript:void(0)" style="">{$user.score}</a>
+                            <li class="pull-left" >
+                                <div >
+                                    <a href="javaScript:void(0)" >积分</a>
+                                    <a href="javaScript:void(0)" >{$user.score}</a>
                                 </div>
                             </li>
-                            <div class="xvideo-vertical-line pull-left"></div>
+                            <div class="xvideo-vertical-line pull-left hidden-sm"></div>
                             <li class="pull-left ">
-                                <div style="" class="xvideo-psncenter-psninfo-list-myvideo">
+                                <div  class="xvideo-psncenter-psninfo-list-myvideo">
                                     <a href="{:url('user/vedio')}" style="cursor: pointer; ">视频</a>
                                     <a href="{:url('user/vedio')}" style="cursor: pointer; ">
                                         {:count($user.vedio)}</a>
                                 </div>
                             </li>
-                            <div class="xvideo-vertical-line pull-left"></div>
-                            <li class="pull-left" style="">
-                                <div style="">
-                                    <a href="javaScript:void(0)" style="">注册于</a>
-                                    <a href="javaScript:void(0)" style="">{:date('Y/m/d',$user.jointime)}</a>
+                            <div class="xvideo-vertical-line pull-left hidden-sm"></div>
+                            <li class="pull-left" >
+                                <div >
+                                    <a href="javaScript:void(0)" >注册于</a>
+                                    <a href="javaScript:void(0)" >{:date('Y/m/d',$user.jointime)}</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="xvideo-psncenter-psninfo-option">
-                    <ul class="current" style="">
-                        <li style="">
+                    <ul class="current" >
+                        <li >
                             <a href="{:url('user/vip')}">
                                 <span class="icon-VIP"></span>我的帐号
                             </a>
                         </li>
-                        <li style="">
+                        <li >
                             <a href="{:url('user/profile')}" data-tag-name="rv-profile-data">
                                 <span class="xyvideo-icon xyvideo-icon-my-details"></span>我的资料
                             </a>
                         </li>
-                        <li style="">
+                        <li >
                             <a href="{:url('user/collection')}" data-tag-name="rv-psncenter-mycollection">
                                 <span class="xyvideo-icon xyvideo-icon-my-favorite"></span>我的收藏
                             </a>
                         </li>
-                        <li style="">
+                        <li >
                             <a href="{:url('user/vedio')}" data-tag-name="rv-psncenter-myvideo">
                                 <span class="xyvideo-icon xyvideo-icon-my-movie"></span>我的视频
                             </a>
                         </li>
-                        <li style="">
+                        <li >
                             <a href="{:url('user/security')}" data-tag-name="rv-psncenter-security-center">
                                 <span class="xyvideo-icon xyvideo-icon-safe-center"></span>帐号安全
                             </a>
@@ -210,7 +211,6 @@
         {/notempty}
 
         {__CONTENT__}
-
     </div>
 </div>
 <!-- 尾部导航 -->
@@ -231,7 +231,8 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.qingcaodizhi.at.gmail.com.qa0.space/v/search?title=%E5%9B%BD%E4%BA%A7&amp;d=1" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.qingcaodizhi.at.gmail.com.qa0.space/v/search?title=%E5%9B%BD%E4%BA%A7&amp;d=1" class="xvideo-footer-partner-content"
+                       target="_blank">
                         国产精选视频
                     </a>|
                 </div>
@@ -537,8 +538,7 @@
 
     <div class="xvideo-footer-caution v-container">
         <p>
-            <span style="font-size: 14px;color: #333;">警告</span>: 此网站只适合十八岁或以上人士观看, 此网站内容可能令人反感；不可将此区域的内容派发，传阅，出售，出租，交给或者
-            借予年龄未满18岁的人士或将本网站内容向该人士出售，播放或放映，如果你是该影片的版权方所有者而要求删除影片的，请联系
+            <span style="font-size: 14px;color: #333;">警告</span>: 此网站只适合十八岁或以上人士观看, 此网站内容可能令人反感；不可将此区域的内容派发，传阅，出售，出租，交给或者 借予年龄未满18岁的人士或将本网站内容向该人士出售，播放或放映，如果你是该影片的版权方所有者而要求删除影片的，请联系
             我们，我们会很快做出回复。
         </p>
     </div>
@@ -546,23 +546,23 @@
         <ul class="xvideo-footer-nav v-container">
             <li class="current">
                 <a href="/about/question">常见问题</a>
-                <span style="">|&nbsp;</span>
+                <span >|&nbsp;</span>
             </li>
             <li>
                 <a href="/about/contact">联系我们</a>
-                <span style="">|&nbsp;</span>
+                <span >|&nbsp;</span>
             </li>
             <li>
                 <a href="/about/privacy">隐私政策</a>
-                <span style="">|&nbsp;</span>
+                <span >|&nbsp;</span>
             </li>
             <li>
                 <a href="/about/agreement">用户协议</a>
-                <span style="">|&nbsp;</span>
+                <span >|&nbsp;</span>
             </li>
             <li>
                 <a href="/about/dmca">DMCA</a>
-                <span style="">|&nbsp;</span>
+                <span >|&nbsp;</span>
             </li>
             <li>
                 <a href="/about/partner">合作伙伴</a>
@@ -575,10 +575,12 @@
     </p>
 </div>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-86458345-1', 'auto');
     ga('send', 'pageview');
@@ -587,10 +589,11 @@
 <script type="text/javascript">
     $('a[title="站长统计"]').hide();
 </script>
-<script>window.xvideoData = window.xvideoData || {};xvideoData.user_info = {"user_id":2312178,"name":"back0893","head_href":"http:\/\/img.qstaic.com:80\/user_head\/default_2_2.jpg","credit":0,"all_video_count":0,"register_days":"2\u5c0f\u65f6\u524d","video_count":0,"selftime_count":0,"title":0,"sex":1,"location":[],"my_location":null,"birthday":null,"signature":"","register_region":"","email":"back0893@163.com","bindemail":0,"vip":0,"end_time":"1970\u5e7401\u670801\u65e5","pay_password":""};xvideoData.share_url = 'http://d88.li/s/VJAiy7';xvideoData.exchange_type = [{"type_id":7,"type_name":"VIP30\u5929","price":8000},{"type_id":6,"type_name":"VIP7\u5929","price":2000},{"type_id":5,"type_name":"VIP3\u5929","price":1000}];</script><script src="http://qcstatic.qstaic.com/js/vl-c95914139e.min.js"></script>
+<script>window.xvideoData = window.xvideoData || {}; xvideoData.user_info = { "user_id": 2312178, "name": "back0893", "head_href": "http:\/\/img.qstaic.com:80\/user_head\/default_2_2.jpg", "credit": 0, "all_video_count": 0, "register_days": "2\u5c0f\u65f6\u524d", "video_count": 0, "selftime_count": 0, "title": 0, "sex": 1, "location": [], "my_location": null, "birthday": null, "signature": "", "register_region": "", "email": "back0893@163.com", "bindemail": 0, "vip": 0, "end_time": "1970\u5e7401\u670801\u65e5", "pay_password": "" }; xvideoData.share_url = 'http://d88.li/s/VJAiy7'; xvideoData.exchange_type = [{ "type_id": 7, "type_name": "VIP30\u5929", "price": 8000 }, { "type_id": 6, "type_name": "VIP7\u5929", "price": 2000 }, { "type_id": 5, "type_name": "VIP3\u5929", "price": 1000 }];</script>
+<script src="http://qcstatic.qstaic.com/js/vl-c95914139e.min.js"></script>
 <script src="http://qcstatic.qstaic.com/js/va-de541266f9.min.js"></script>
 <script type="text/javascript">
-    $(function() {
+    $(function () {
         FastClick.attach(document.body);
     });
 </script>
@@ -598,4 +601,5 @@
 <script src="http://qcstatic.qstaic.com/js/page-mycenter-714c2c2970.min.js"></script>
 <script src="http://qcstatic.qstaic.com/js/clipboard-321d00b0dd.min.js "></script>
 </body>
+
 </html>

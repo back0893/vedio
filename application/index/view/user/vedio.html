@@ -1,61 +1,98 @@
-<div class="my-center-infolist pull-right col-xs-7 nopadding">
+<div class="my-center-infolist pull-left col-xs-12 col-md-9 col-sm-9">
     <div class="my-center-infolist-container" riot-tag="rv-psncenter-myvideo">
-        <div class="myvideo-border">
-            <div class="myvideo-title" style=""><span style="">我的视频</span></div>
-            <div class="myvideo-upload">
-                <div class="myvideo-upload-desc"><a class="myvideo-upload-desc-img" href="{:url('user/upload')}"></a></div>
+        <div class="myvideo-border"  riot-tag="rv-preview-video-box">
+            <div class="myvideo-title">
+                <span>我的视频</span>
             </div>
-            {if count($user.vedio)}
-            <?php $collection=$user['vedio'];?>
+            <div class="myvideo-upload">
+                <div class="myvideo-upload-desc">
+                    <a class="myvideo-upload-desc-img" href="/v/upload"></a>
+                </div>
+            </div>
+            {if count($vedio)}
+            <?php $collection=$vedio->toArray()['data'];?>
             <?php while(count($collection)):;?>
             <?php $row=array_splice($collection,0,4);?>
-            <div class="mycollection-content" riot-tag="rv-preview-video-box">
-                {foreach($row as $r)}
-                <div class="v-search-video-box v-search-video-box-marginright-20 v-search-video-box-marginbottom">
-                    <div class="v-search-video-box-video-info"><a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
-                        <div class="v-search-video-img"><img
-                                src="{$r.fengmian}">
+            <!-- <div class="mycollection-content"> -->
+            {foreach($row as $r)}
+            <div class="  col-lg-3  v-search-video-box v-search-video-box-marginbottom">
+                <div class="v-search-video-box-video-info">
+                    <a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
+
+                        <div class="v-search-video-img">
+                            <img src="{$r.fengmian}">
                         </div>
                     </a>
-                        <a class="xvideo-thumbnail-mask hide" target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}"><span
-                                class="xyvideo-icon xyvideo-icon-play"></span></a>
-                        <div class="v-mask-layer">
-                            <div class="v-mask-layer-left">{:mt_rand(1000,7000)}人观看</div>
-                            <div class="v-mask-layer-right"><i class="xyvideo-icon xyvideo-icon-clock"></i> 1:15:54
-                            </div>
+                    <a class="xvideo-thumbnail-mask hide" target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
+                        <span class="xyvideo-icon xyvideo-icon-play"></span>
+                    </a>
+                    <div class="v-mask-layer">
+                        <div class="v-mask-layer-left">{:mt_rand(1000,7000)}人观看</div>
+                        <div class="v-mask-layer-right">
+                            <i class="xyvideo-icon xyvideo-icon-clock"></i> 1:15:54
                         </div>
-                        <div class="v-mask-video-modify"><a target="_blank" style="text-decoration: none;"
-                                                            href="/v/S0k9G3UUMNyiM6fN">
+                    </div>
+                    <div class="v-mask-video-modify">
+                        <a target="_blank" style="text-decoration: none;" href="/v/S0k9G3UUMNyiM6fN">
                             <div class="v-mask-video-modify-play-btn"></div>
                         </a>
-                            <div class="v-mask-video-modify-font" data-video-id="24557">编辑</div>
-                        </div>
-                        <div class="v-mask-video-delete"><a target="_blank" style="text-decoration: none;"
-                                                            href="{:url('vedio/detail',['id'=>$r.id])}">
+                        <div class="v-mask-video-modify-font" data-video-id="24557">编辑</div>
+                    </div>
+                    <div class="v-mask-video-delete">
+                        <a target="_blank" style="text-decoration: none;" href="{:url('vedio/detail',['id'=>$r.id])}">
                             <div class="v-mask-video-delete-play-btn"></div>
                         </a>
-                            <div class="v-mask-video-delete-font" data-collectionvideo-id="{$r.id}">删除</div>
-                        </div>
-                    </div>
-                    <div class="v-search-video-desc">
-                        <div class="v-search-video-name"><a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
-                            <lable>{$r.name}</lable>
-                        </a></div>
+                        <div class="v-mask-video-delete-font" data-collectionvideo-id="{$r.id}">删除</div>
                     </div>
                 </div>
-                {/foreach}
-                <div style="clear:both"></div>
+                <div class="v-search-video-desc">
+                    <div class="v-search-video-name">
+                        <a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
+                            <lable>{$r.name}</lable>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="v-rv-page-box" style="padding: 0px 0px 10px 0px;"></div>
+            {/foreach}
+            <!-- <div style="clear:both"></div> -->
+            <!-- </div> -->
+            <!-- <div class="v-rv-page-box"></div> -->
             <?php endwhile;?>
             {else/}
             <div class="myvideo-videolist-box" riot-tag="rv-myvideo-nothing">
-                <div class="myvideo-nothing"><span class="xyvideo-icon xyvideo-icon-warning"></span>暂无记录,去<a href="/"
-                                                                                                             style="">首页</a>观看视频
+                <div class="myvideo-nothing">
+                    <span class="xyvideo-icon xyvideo-icon-warning"></span>暂无记录,去
+                    <a href="/">首页</a>观看视频
                 </div>
             </div>
             {/if}
-            <div class="v-rv-page-box" style="padding: 0px 0px 10px 0px;"></div>
+
+        </div>
+        <div class="v-rv-page-box">
+            {$vedio->render()}
         </div>
     </div>
 </div>
+<!--
+<div class="my-center-infolist pull-left col-xs-12 col-md-9 col-sm-9">
+    <div class="my-center-infolist-container" riot-tag="rv-psncenter-myvideo">
+        <div class="myvideo-border">
+            <div class="myvideo-title" style="">
+                <span style="">我的视频</span>
+            </div>
+            <div class="myvideo-upload">
+                <div class="myvideo-upload-desc">
+                    <a class="myvideo-upload-desc-img" href="/v/upload"></a>
+                </div>
+            </div>
+            <div class="myvideo-videolist-box" riot-tag="rv-myvideo-nothing">
+                <div class="myvideo-nothing">
+                    <span class="xyvideo-icon xyvideo-icon-warning"></span>暂无记录,去
+                    <a href="/" style="">首页</a>观看视频 </div>
+            </div>
+            <div class="v-rv-page-box" style="padding: 0px 0px 10px 0px;"></div>
+
+
+        </div>
+    </div>
+</div> -->

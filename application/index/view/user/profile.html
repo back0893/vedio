@@ -1,96 +1,94 @@
-<div class="my-center-infolist pull-right col-xs-7 nopadding">
-    <div class="my-center-infolist-container">
-<div class="my-center-infolist-container" riot-tag="rv-profile-data">
-    <div class="myprofile-border">
-        <div class="myprofile-title" style="">
-            <span style="">我的资料</span>
-        </div>
-        <div class="myprofile-detail" style="">
-            <div class="myprofile-detail-title" style="">
-                <span class="xyvideo-icon xyvideo-icon-media-record"></span>帐号信息 </div>
-            <div class="myprofile-detail-info" style="">
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">帐号：</label>
-                    <div class="col-sm-10" riot-style="">{$user.username} </div>
-                </div>
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">视频：</label>
-                    <div class="col-sm-10" riot-style=""> {:count($user.vedio)}</div>
-                </div>
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">自拍：</label>
-                    <div class="col-sm-10" riot-style=""> 0 </div>
-                </div>
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">积分：</label>
-                    <div class="col-sm-10" riot-style=""> {$user.score} </div>
-                </div>
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">称号：</label>
-                    <div class="col-sm-10" riot-style=""> 0 </div>
+<div class="my-center-infolist pull-left col-xs-12 col-md-9 col-sm-9">
+    <div class="my-center-infolist-container" riot-tag="rv-profile-data">
+        <div class="myprofile-border">
+            <div class="myprofile-title" style="">
+                <span style="">我的资料</span>
+            </div>
+            <div class="myprofile-detail" style="">
+                <div class="myprofile-detail-title" style="">
+                    <span class="xyvideo-icon xyvideo-icon-media-record"></span>帐号信息 </div>
+                <div class="myprofile-detail-info" style="">
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">{$user.username}</label>
+                        <div class="col-sm-10" riot-style=""> qq8743291 </div>
+                    </div>
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">视频：</label>
+                        <div class="col-sm-10" riot-style=""> {:count($user.vedio)} </div>
+                    </div>
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">自拍：</label>
+                        <div class="col-sm-10" riot-style=""> 0 </div>
+                    </div>
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">积分：</label>
+                        <div class="col-sm-10" riot-style="">{$user.score} </div>
+                    </div>
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">称号：</label>
+                        <div class="col-sm-10" riot-style=""> 0 </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="myprofile-psninfo " style="">
-            <div class="myprofile-info-titile" style="">
-                <span class="xyvideo-icon xyvideo-icon-media-record"></span>个人信息 </div>
-            <div class="myprofile-psninfo-info" style="">
-                <div class="form-group col-sm-12 xvideo-hide" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">用户名：</label>
-                    <div class="col-sm-10" style="width:256px;height:30px;padding:0px;">
-                        <input type="text" class="form-control" id="account" value="{$user.username}" style="height: 30px;">
+            <div class="myprofile-psninfo " style="">
+                <div class="myprofile-info-titile" style="">
+                    <span class="xyvideo-icon xyvideo-icon-media-record"></span>个人信息 </div>
+                <div class="myprofile-psninfo-info" style="">
+                    <div class="form-group col-sm-12 xvideo-hide" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">昵称：</label>
+                        <div class="col-sm-10" style="width:256px;height:30px;padding:0px;">
+                            <input type="text" class="form-control" id="account" style="height: 30px;">
+                        </div>
                     </div>
-                </div>
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">性别：</label>
-                    <div style="">
-                        <label class="checkbox-inline">
-                            <input type="radio" name="sex" value="1" checked=""> 男 </label>
-                        <label class="checkbox-inline">
-                            <input type="radio" name="sex" value="0"> 女 </label>
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">性别：</label>
+                        <div style="">
+                            <label class="checkbox-inline">
+                                <input type="radio" name="sex" value="1" checked=""> 男 </label>
+                            <label class="checkbox-inline">
+                                <input type="radio" name="sex" value="0"> 女 </label>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">地区：</label>
-                    <div class="col-sm-10" style="padding-left: 1px;">
-                        <div class="rv-profile-select-province" riot-tag="rv-profile-select-province">
-                            <div class="form-group" style="display: inline-block;margin:0px;">
-                                <select class="form-control" id="select-province">
-                                    <!--riot placeholder-->
-                                </select>
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">地区：</label>
+                        <div class="col-sm-10" style="padding-left: 1px;">
+                            <div class="rv-profile-select-province" riot-tag="rv-profile-select-province">
+                                <div class="form-group" style="display: inline-block;margin:0px;">
+                                    <select class="form-control" id="select-province">
+                                        <!--riot placeholder-->
+                                    </select>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="form-group col-sm-12" style="margin-left: -14px;">
-                    <label for="account" class="col-sm-2 control-label" style="width:70px;margin-left:-15px;">出生日期：</label>
-                    <div class="col-sm-10">
-                        <input type="text" class="form-control" id="birthday" readonly="" style="height: 34px;" onclick="WdatePicker(readOnly)">
+                    <div class="form-group col-sm-12" style="margin-left: -14px;">
+                        <label for="account" class="col-sm-2 control-label" style="width:70px;margin-left:-15px;">出生日期：</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="birthday" readonly="" style="height: 34px;" onclick="WdatePicker(readOnly)">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="myprofile-myprofile-psninfo-character" style="">
-            <div class="myprofile-character-titile" style="">
-                <span class="xyvideo-icon xyvideo-icon-media-record"></span>个性信息 </div>
-            <div class="myprofile-psninfo-character-info clearfix" style="">
-                <div class="form-group col-sm-12" style="">
-                    <label for="account" class="col-sm-2 control-label" style="">个性签名：</label>
-                    <div class="col-sm-10" style="">
-                        <textarea cols="5" class="form-control" riot-style="">{$user.bio}</textarea>
+            <div class="myprofile-myprofile-psninfo-character" style="">
+                <div class="myprofile-character-titile" style="">
+                    <span class="xyvideo-icon xyvideo-icon-media-record"></span>个性信息 </div>
+                <div class="myprofile-psninfo-character-info clearfix" style="">
+                    <div class="form-group col-sm-12" style="">
+                        <label for="account" class="col-sm-2 control-label" style="">个性签名：</label>
+                        <div class="col-sm-10" style="">
+                            <textarea cols="5" class="form-control" riot-style=""></textarea>
+                        </div>
+                        <div class="myprofile-psninfo-character-info-help-block">
+                            <span class="xyvideo-icon xyvideo-icon-cancel3" style="font-size: 16px;vertical-align: text-bottom;margin-right: 3px;"></span>个性签名的长度不能超过140个字! </div>
                     </div>
-                    <div class="myprofile-psninfo-character-info-help-block">
-                        <span class="xyvideo-icon xyvideo-icon-cancel3" style="font-size: 16px;vertical-align: text-bottom;margin-right: 3px;"></span>个性签名的长度不能超过140个字! </div>
+                </div>
+            </div>
+            <div class="myprofiler-psninfo-btn" style="">
+                <div class="video-pscenter-myprofiler-psninfo-btn-titile" style=""></div>
+                <div class="myprofile-psninfo-btn-info" style="">
+                    <button type="button" name="btn-login" class="btn video-psncenter-info-mail-btn" style=""> 确认修改 </button>
                 </div>
             </div>
         </div>
-        <div class="myprofiler-psninfo-btn" style="">
-            <div class="video-pscenter-myprofiler-psninfo-btn-titile" style=""></div>
-            <div class="myprofile-psninfo-btn-info" style="">
-                <button type="button" name="btn-login" class="btn video-psncenter-info-mail-btn" style=""> 确认修改 </button>
-            </div>
-        </div>
-    </div>
-</div>
     </div>
 </div>
