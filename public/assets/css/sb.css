@@ -279,8 +279,8 @@ table {
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(../fonts/glyphicons-halflings-regular.eot);
-    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(http://vedio.cc/assets/fonts/glyphicons-halflings-regular.eot);
+    src: url(http://vedio.cc/assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(http://vedio.cc/assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(http://vedio.cc/assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(http://vedio.cc/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(http://vedio.cc/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -5211,14 +5211,14 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     background-color: transparent
 }
 
-.navbar-inverse .navbar-toggle {
+/* .navbar-inverse .navbar-toggle {
     border-color: #333
 }
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
     background-color: #333
-}
+} */
 
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff
@@ -14124,11 +14124,11 @@ input[type=search]::-webkit-search-decoration {
 }
 
 .xvideo-img-tips {
-    background: url(../images/spirit-imgs-portal.png) -167px -116px no-repeat
+    background: url(http://vedio.cc/assets/img/spirit-imgs-portal.png) -167px -116px no-repeat
 }
 
 .xvideo-img-warning {
-    background: url(../images/spirit-imgs-portal.png) -237px -123px no-repeat
+    background: url(http://vedio.cc/assets/img/spirit-imgs-portal.png) -237px -123px no-repeat
 }
 
 .xyvideo-icon-video {
@@ -14446,7 +14446,7 @@ a {
 }
 
 .v-layui-layer .v-layui-body .v-layui-img-true {
-    background-image: url(../../images/tips-right.png);
+    background-image: url(http://vedio.cc/assets/img/tips-right.png);
     width: 50px;
     height: 50px;
     margin: -8px auto 20px
@@ -14513,7 +14513,7 @@ a {
 }
 
 .v-layui-layer .v-layui-body .v-layui-img-false {
-    background-image: url(../../images/tips-wrong.png);
+    background-image: url(http://vedio.cc/assets/img/tips-wrong.png);
     width: 50px;
     height: 50px;
     margin: -8px auto 20px
@@ -14609,12 +14609,28 @@ input[type=password]::-ms-reveal {
     margin: 0 auto;
     font-size: 0
 }
-
-@media (min-width:1200px) {
+ 
+/*小于767*/
+@media (max-width: 767px) {
     .v-container {
-        width: 1170px
+      width: 100%;
     }
-}
+  }
+@media (min-width: 768px) { 
+    .v-container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .v-container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .v-container {
+      width: 1170px;
+    }
+  }
 
 .v-advertise {
     text-align: center
@@ -14697,11 +14713,7 @@ body {
     display: table
 }
 
-.xingyu-topnav .topnav-mainnav .topnav-logo-img {
-    margin-right: 40px;
-    margin-top: 7px
-}
-
+/*  
 .xingyu-topnav .topnav-mainnav .mainnav-nav-div {
     display: table-cell;
     vertical-align: middle
@@ -14719,7 +14731,7 @@ body {
 .xingyu-topnav .topnav-mainnav .mainnav-nav-div ul a:hover li {
     background-color: #fff;
     color: #58b49d
-}
+} */
 
 .xingyu-topnav .xingyu-search {
     position: relative;
@@ -14925,7 +14937,7 @@ body {
     padding-left: 8px
 }
 
-.xingyu-topnav ul {
+/* .xingyu-topnav ul {
     font-size: 0;
     line-height: 0
 }
@@ -14952,7 +14964,7 @@ body {
     color: #fff;
     text-decoration: none;
     transition: all .3s ease 0s
-}
+} */
 
 .nav-logo {
     width: 100%;
@@ -14977,7 +14989,7 @@ body {
     position: relative;
     width: 131px;
     height: 39px;
-    background: url(../images/clogoplay.png)
+    background: url(http://vedio.cc/assets/img/clogoplay.png)
 }
 
 .xvideo-footer-partner {
@@ -15041,7 +15053,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    background-image: url(../images/top-nav-logo.png);
+    background-image: url(http://vedio.cc/assets/img/top-nav-logo.png);
     background-size: 131px 40px;
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -15207,7 +15219,7 @@ body {
     min-height: 40px;
     height: 40px;
     padding: 5px 20px;
-    line-height: 30px;
+    line-height: 40px;
     font-size: 16px;
     background-color: #ef3e36;
     border-bottom: 1px solid #dedede;
@@ -15222,18 +15234,10 @@ body {
     margin-bottom: 30px;
     font-size: 14px
 }
-
-.form-group .col-xs-2 {
-    width: 150px
-}
-
-.form-group .col-xs-5 {
-    width: 500px
-}
-
+ 
 .form-group .icheckbox_square-pink,
 .form-group .iradio_square-pink {
-    background: url(../../images/iCheck.pink.png) no-repeat
+    background: url(http://vedio.cc/assets/img/iCheck.pink.png) no-repeat
 }
 
 .form-group .icheckbox_square-pink {
@@ -15282,7 +15286,7 @@ body {
 (min-resolution:120dpi) {
     .form-group .icheckbox_square-pink,
     .form-group .iradio_square-pink {
-        background-image: url(../../images/iCheck.pink@2x.png);
+        background-image: url(http://vedio.cc/assets/img/iCheck.pink@2x.png);
         background-size: 240px 24px
     }
 }

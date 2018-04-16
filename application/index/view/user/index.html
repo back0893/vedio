@@ -8,8 +8,10 @@
                 </div>
             </div>
             <div class="myvideorecord-recredlist-info" riot-tag="rv-myvideo-nothing">
+                <?php $count=0;?>
                 {if count($user.history)}
                 {foreach $user.history as $h}
+                <?php $count++;if($count>4){break;}?>
                 <div class="myvideo-container clearfix">
                     <div class="myvideo-box myvideo-box-marginright-33 myvideo-box-marginbottom-14px">
                         <div class="myvideo-box-top">
@@ -54,9 +56,43 @@
                 </div>
             </div>
             <div class="myvideorecord-myvideolist-info" riot-tag="rv-myvideo-nothing-upload">
+                {if count($upload)}
+                {foreach $upload as $h}
+                <div class="myvideo-container clearfix">
+                    <div class="myvideo-box myvideo-box-marginright-33 myvideo-box-marginbottom-14px">
+                        <div class="myvideo-box-top">
+                            <a target="_blank" style="text-decoration: none;"
+                               href="{:url('vedio/detail',['id'=>$h.id])}"
+                               data-video-id="24557">
+                                <div class="myvideo-search-img"><img
+                                        src="{$h.fengmian}">
+                                </div>
+                            </a><a class="xvideo-thumbnail-mask hide" target="_blank" style=""
+                                   href="{:url('vedio/detail',['id'=>$h.id])}"><i
+                                class="xyvideo-icon xyvideo-icon-play"></i></a>
+                            <div class="myvideo-mask-layer">
+                                <div class="myvideo-mask-layer-left v-float-left">{:mt_rand(1000,10000)}人观看</div>
+                                <div class="myvideo-mask-layer-right v-float-right"><i
+                                        class="xyvideo-icon xyvideo-icon-clock"></i>{$h.time_long}
+                                </div>
+                            </div>
+                            <div class="myvideo-mask-layer-desc">
+                                <div class="myvideo-mask-layer-play-btn"><a target="_blank"
+                                                                            style="text-decoration: none;"
+                                                                            href="{:url('vedio/detail',['id'=>$h.id])}"><i
+                                        class="xyvideo-icon xyvideo-icon-video"></i></a></div>
+                            </div>
+                        </div>
+                        <a class="myvideo-myvideo-name" target="_blank" href="{:url('vedio/detail',['id'=>$h.id])}">{$h.name} </a>
+                    </div>
+                </div>
+                {/foreach}
+                {else/}
                 <div class="myvideo-nothing-upload"><span
                         class="xyvideo-icon xyvideo-icon-warning"></span>您还没有上传视频哦，现在<a href="/v/upload"
                                                                                         style="">上传视频</a></div>
+                {/if}
+
             </div>
         </div>
         <div class="myvideorecord-mycollection clearfix">
@@ -69,7 +105,9 @@
             </div>
             <div class="myvideorecord-mycollection-info" riot-tag="rv-myvideo-nothing">
                 {if count($user.collection)}
+                <?php $l=0;?>
                 {foreach $user['collection'] as $h}
+                <?php $l++;if($l>4){break;}?>
                 <div class="myvideo-container clearfix">
                     <div class="myvideo-box myvideo-box-marginright-33 myvideo-box-marginbottom-14px">
                         <div class="myvideo-box-top">

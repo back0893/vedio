@@ -59,5 +59,4 @@ class Paylog extends Backend
         }
         return $this->view->fetch();
     }
-
 }

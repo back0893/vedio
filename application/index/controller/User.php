@@ -8,6 +8,7 @@ use app\common\model\Vedio;
 use think\Config;
 use think\Cookie;
 use think\Hook;
+use think\model\Collection;
 use think\Session;
 use think\Validate;
 
@@ -61,6 +62,10 @@ class User extends Frontend
     public function index()
     {
         $this->view->assign('title', __('User center'));
+        $upload=Vedio::where(['uid'=>$this->auth->id])
+            ->limit(4)
+            ->select();
+        $this->assign('upload',$upload);
         return $this->view->fetch();
     }
 
@@ -75,6 +80,7 @@ class User extends Frontend
         if ($this->request->isPost()) {
             $username = $this->request->post('username');
             $password = $this->request->post('password');
+            $repassword = $this->request->post('repassword');
             $email = $this->request->post('email');
             $mobile = $this->request->post('mobile', '');
             $captcha = $this->request->post('captcha');
@@ -83,9 +89,10 @@ class User extends Frontend
                 'username'  => 'require|length:3,30',
                 'password'  => 'require|length:6,30',
                 'email'     => 'require|email',
-                'mobile'    => 'regex:/^1\d{10}$/',
-                'captcha'   => 'require|captcha',
+//                'mobile'    => 'regex:/^1\d{10}$/',
+//                'captcha'   => 'require|captcha',
                 '__token__' => 'token',
+                'repassword'=>'require|confirm:password'
             ];
 
             $msg = [
@@ -93,31 +100,29 @@ class User extends Frontend
                 'username.length'  => 'Username must be 3 to 30 characters',
                 'password.require' => 'Password can not be empty',
                 'password.length'  => 'Password must be 6 to 30 characters',
-                'captcha.require'  => 'Captcha can not be empty',
-                'captcha.captcha'  => 'Captcha is incorrect',
+//                'captcha.require'  => 'Captcha can not be empty',
+//                'captcha.captcha'  => 'Captcha is incorrect',
                 'email'            => 'Email is incorrect',
                 'mobile'           => 'Mobile is incorrect',
+                'repassword'=>'2次密码不一致'
             ];
             $data = [
                 'username'  => $username,
                 'password'  => $password,
                 'email'     => $email,
-                'mobile'    => $mobile,
-                'captcha'   => $captcha,
+//                'mobile'    => $mobile,
+//                'captcha'   => $captcha,
                 '__token__' => $token,
+                'repassword'=>$repassword
             ];
             $validate = new Validate($rule, $msg);
             $result = $validate->check($data);
             if (!$result) {
                 $this->error(__($validate->getError()));
             }
-            if ($this->auth->register($username, $password, $email, $mobile)) {
+            if ($this->auth->register($username, $password, $email)) {
                 $synchtml = '';
                 ////////////////同步到Ucenter////////////////
-                if (defined('UC_STATUS') && UC_STATUS) {
-                    $uc = new \addons\ucenter\library\client\Client();
-                    $synchtml = $uc->uc_user_synregister($this->auth->id, $password);
-                }
                 $this->success(__('Sign up successful') . $synchtml, $url ? $url : url('user/index'));
             } else {
                 $this->error($this->auth->getError());
@@ -131,7 +136,8 @@ class User extends Frontend
         }
         $this->view->assign('url', $url);
         $this->view->assign('title', __('Register'));
-        return $this->view->fetch();
+        $this->view->engine(['layout'=>null]);
+        return $this->view->fetch('register1');
     }
 
     /**
@@ -172,11 +178,6 @@ class User extends Frontend
             }
             if ($this->auth->login($account, $password)) {
                 $synchtml = '';
-                ////////////////同步到Ucenter////////////////
-                if (defined('UC_STATUS') && UC_STATUS) {
-                    $uc = new \addons\ucenter\library\client\Client();
-                    $synchtml = $uc->uc_user_synlogin($this->auth->id);
-                }
                 $this->success(__('Logged in successful') . $synchtml, $url ? $url : url('user/index'));
             } else {
                 $this->error($this->auth->getError());
@@ -190,7 +191,8 @@ class User extends Frontend
         }
         $this->view->assign('url', $url);
         $this->view->assign('title', __('Login'));
-        return $this->view->fetch();
+        $this->view->engine(['layout'=>null]);
+        return $this->view->fetch('login1');
     }
 
     /**

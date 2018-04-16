@@ -83,6 +83,7 @@ class Vedio extends Backend
         //搜索字段
         $searchfield = (array) $this->request->request("searchField/a");
         //自定义搜索条件
+        $searchKey=$this->request->request('searchKey');
         $custom = (array) $this->request->request("custom/a");
         $order = [];
         foreach ($orderby as $k => $v)
@@ -94,7 +95,17 @@ class Vedio extends Backend
         //如果有primaryvalue,说明当前是初始化传值
         if ($primaryvalue !== null)
         {
-            $where = [$primarykey => ['in', $primaryvalue]];
+            $primaryvalue=explode(',',$primaryvalue);
+            $list=array_map(function($v){
+                return ['tags'=>$v];
+            },$primaryvalue);
+            return json(['list'=>$list]);
+            $primaryvalue=explode(',',$primaryvalue);
+            $tmp =[];
+            foreach ($primaryvalue as $p){
+                $tmp[]=['exp', " FIND_IN_SET('{$p}',`{$searchKey}`)"];
+            }
+            $where[]=array_merge($tmp,['or']);
         }
         else
         {
@@ -121,7 +132,9 @@ class Vedio extends Backend
             $this->model->where($this->dataLimitField, 'in', $adminIds);
         }
         $list = [];
-        $total = $this->model->where($where)->count();
+        $total = $this->model->whereOr($where)
+            ->group($field)
+            ->count();
         if ($total > 0)
         {
             if (is_array($adminIds))
@@ -132,13 +145,25 @@ class Vedio extends Backend
                 ->order($order)
                 ->page($page, $pagesize)
                 ->field("{$primarykey},{$field}")
+                ->group($field)
                 ->field("password,salt", true)
                 ->select();
+            $list=collection($list)
+                ->column('tags');
+            $tmp=[];
+            foreach ($list as $l){
+                $tmp=array_merge($tmp,$l);
+            }
+            $tmp=array_unique($tmp);
+            $tmp=array_map(function($v){
+                return ['tags'=>$v];
+            },$tmp);
+            $total=count($tmp);
         }else{
             $total=1;
-            $list=[['tags'=>$word[0]]];
+            $tmp=[['tags'=>$word[0]]];
         }
         //这里一定要返回有list这个字段,total是可选的,如果total<=list的数量,则会隐藏分页按钮
-        return json(['list' => $list, 'total' => $total]);
+        return json(['list' => $tmp, 'total' => $total]);
     }
 }

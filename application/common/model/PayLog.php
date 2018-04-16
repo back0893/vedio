@@ -18,14 +18,36 @@ class PayLog extends Model
     protected $append = [
         'success_text',
     ];
-    
-
-    
     public function getSuccessList()
     {
         return ['1' =>'充值成功','0'=>'充值失败'];
-    }     
+    }
 
+    protected static function init()
+    {
+        self::beforeUpdate(function ($row) {
+            $changed = $row->getChangedData();
+            //如果有修改密码
+            if (isset($changed['password'])) {
+                if ($changed['password']) {
+                    $salt = \fast\Random::alnum();
+                    $row->password = \app\common\library\Auth::instance()->getEncryptPassword($changed['password'], $salt);
+                    $row->salt = $salt;
+                } else {
+                    unset($row->password);
+                }
+            }
+        });
+        self::beforeUpdate(function($row){
+            //如果是成功就增加积分
+            $changed = $row->getChangedData();
+            if (isset($changed['success'])) {
+                if ($changed['success']) {
+                    User::score($row->score,$row->uid,'');
+                }
+            }
+        });
+    }
 
     public function getSuccessTextAttr($value, $data)
     {        

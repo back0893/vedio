@@ -317,6 +317,7 @@ abstract class Builder
         }
         list($exp, $value) = $val;
 
+
         // 对一个字段使用多个查询条件
         if (is_array($exp)) {
             $item = array_pop($val);

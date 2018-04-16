@@ -900,11 +900,13 @@
                         <div class="xvideo-tag-list">
                             <div class="ib" style="color:#333;margin-right: 5px;">标签:</div>
                             <ul>
+                                {foreach $vedio.tags as $tag}
                                 <li>
-                                    <a href="{:url('vedio.search',['tag'=>$vedio.tags])}" data-tag-id="95">
-                                        {$vedio.tags}
+                                    <a href="{:url('vedio.search',['tag'=>$tag])}" data-tag-id="95">
+                                        {$tag}
                                     </a>
                                 </li>
+                                {/foreach}
                             </ul>
                         </div>
                         <div class="xvideo-panel-tips hidden-xs">

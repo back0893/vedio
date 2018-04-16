@@ -34,7 +34,9 @@ class Index extends Frontend
    public function search(){
         $tag=input('tag_name');
         $vedio=Vedio::where(['tags'=>['like',"%{$tag}%"]])
-            ->select();
+            ->paginate(30,false,[
+                'query'=>['tag_name'=>$tag]
+            ]);
         $this->assign('vedio',$vedio);
         return $this->fetch();
    }

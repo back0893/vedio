@@ -25,12 +25,14 @@ class Vedio extends Model
         'uid'
     ];
 
-    public function getIsTjList()
+    public static function getIsTjList()
     {
-        return ['4' => __('Is_tj 4')];
+        return [1=>'推荐',0=>'不推荐'];
     }
 
-
+    public function getTagsAttr($value){
+        return explode(',',$value);
+    }
     public function getIsTjTextAttr($value, $data)
     {
         $value = $value ? $value : $data['is_tj'];

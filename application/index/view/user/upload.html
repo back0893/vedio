@@ -1,4 +1,6 @@
-
+<link rel="stylesheet" data-security="security" href="/assets/css/page-upload.css"/>
+<div class="my-center-infolist pull-right col-xs-7 nopadding">
+    <div class="my-center-infolist-container">
 <div class="col-xs-12 nopadding">
     <div class="xvideo-panel">
         <div class="xvideo-panel-header">
@@ -92,7 +94,7 @@
                                 <div class="xvideo-uploadu-tags-container" style="">
 
                                 </div>
-                                <button class="btn xvideo-upload-tags-btn" type="button">选择标签</button>
+                                <button class="btn xvideo-upload-tags-btn" id="tags" type="button">选择标签</button>
                             </div>
                             <div class="col-xs-3">
                                 <div class="help-block" style="display: none;">
@@ -196,7 +198,7 @@
                         <div class="form-hr col-xs-5"></div>
                         <div class="form-group" style="padding-left: 130px;text-align: center;">
                             <div class="col-xs-7">
-                                <input type="submit" class="btn btn-lg btn-upload-video" value="确认上传">
+                                <input type="submit" id="submit" class="btn btn-lg btn-upload-video" value="确认上传">
                             </div>
                         </div>
                     </fieldset>
@@ -205,3 +207,179 @@
         </div>
     </div>
 </div>
+    </div>
+</div>
+
+<div id="dialog" class="xvideo-upload-dialog hide">
+    <div class="xvideo-upload-div">
+        <div class="clearfix">
+            <div class="xvideo-upload-tips hide">
+                <span class="xyvideo-icon xyvideo-icon-warning-white"></span>您最多只能选择五个标签
+            </div>
+            <div class="xvideo-upload-close"></div>
+        </div>
+        <div class="xvideo-upload-container">
+
+            <div class="xvideo-upload-title">
+                <div class="xvideo-upload-tags-title">全部分类</div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">部位</div>
+                <div class="tags-container">
+                    <div class="tag-content" data-tag-id="">蝴蝶逼</div>
+                    <div class="tag-content" data-tag-id="">巨乳</div>
+                    <div class="tag-content" data-tag-id="">平胸</div>
+                    <div class="tag-content" data-tag-id="">巨根</div>
+                    <div class="tag-content" data-tag-id="">白虎</div>
+                    <div class="tag-content" data-tag-id="">馒头</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">分类</div>
+                <div class="tags-container">
+                    <div class="tag-content" data-tag-id="">大陆</div>
+                    <div class="tag-content" data-tag-id="">日本</div>
+                    <div class="tag-content" data-tag-id="">韩国</div>
+                    <div class="tag-content" data-tag-id="">动漫</div>
+                    <div class="tag-content" data-tag-id="">亚太</div>
+                    <div class="tag-content" data-tag-id="">欧美</div>
+                    <div class="tag-content" data-tag-id="">有码</div>
+                    <div class="tag-content" data-tag-id="">无码</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">场景</div>
+                <div class="tags-container">
+                    <div class="tag-content" data-tag-id="">车震</div>
+                    <div class="tag-content" data-tag-id="">酒店</div>
+                    <div class="tag-content" data-tag-id="">野外</div>
+                    <div class="tag-content" data-tag-id="">公共厕所</div>
+                    <div class="tag-content" data-tag-id="">办公室</div>
+                    <div class="tag-content" data-tag-id="">KTV</div>
+                    <div class="tag-content" data-tag-id="">游泳池</div>
+                    <div class="tag-content" data-tag-id="">公园</div>
+                    <div class="tag-content" data-tag-id="">楼梯口</div>
+                    <div class="tag-content" data-tag-id="">教室</div>
+                    <div class="tag-content" data-tag-id="">公交车</div>
+                    <div class="tag-content" data-tag-id="">电车</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">热点类</div>
+                <div class="tags-container">
+                    <div class="tag-content" data-tag-id="">明星</div>
+                    <div class="tag-content" data-tag-id="">偷拍</div>
+                    <div class="tag-content" data-tag-id="">丑闻</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">动作</div>
+                <div class="tags-container">
+                    <div class="tag-content" data-tag-id="">69式</div>
+                    <div class="tag-content" data-tag-id="">后入式</div>
+                    <div class="tag-content" data-tag-id="">女上位</div>
+                    <div class="tag-content" data-tag-id="">无套内射</div>
+                    <div class="tag-content" data-tag-id="">颜射</div>
+                    <div class="tag-content" data-tag-id="">吹箫</div>
+                    <div class="tag-content" data-tag-id="">深喉</div>
+                    <div class="tag-content" data-tag-id="">添阴</div>
+                    <div class="tag-content" data-tag-id="">口爆</div>
+                    <div class="tag-content" data-tag-id="">潮吹</div>
+                    <div class="tag-content" data-tag-id="">手淫</div>
+                    <div class="tag-content" data-tag-id="">打飞机</div>
+                    <div class="tag-content" data-tag-id="">自慰</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">癖好</div>
+                <div class="tags-container">
+                    <div class="tag-left-border"></div>
+                    <div class="tag-content" data-tag-id="">自拍</div>
+                    <div class="tag-content" data-tag-id="">叫床</div>
+                    <div class="tag-content" data-tag-id="">偷窥</div>
+                    <div class="tag-content" data-tag-id="">恋足</div>
+                    <div class="tag-content" data-tag-id="">SM</div>
+                    <div class="tag-content" data-tag-id="">强奸</div>
+                    <div class="tag-content" data-tag-id="">毒龙</div>
+                    <div class="tag-content" data-tag-id="">捆绑</div>
+                    <div class="tag-content" data-tag-id="">鞭打</div>
+                    <div class="tag-content" data-tag-id="">拳交</div>
+                    <div class="tag-content" data-tag-id="">肛交</div>
+                    <div class="tag-content" data-tag-id="">中出</div>
+                    <div class="tag-content" data-tag-id="">狗链</div>
+                    <div class="tag-content" data-tag-id="">滴蜡</div>
+                    <div class="tag-content" data-tag-id="">3P</div>
+                    <div class="tag-content" data-tag-id="">群P</div>
+                    <div class="tag-content" data-tag-id="">同性恋</div>
+                    <div class="tag-content" data-tag-id="">异装癖</div>
+                    <div class="tag-content" data-tag-id="">人妖</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">道具</div>
+                <div class="tags-container">
+                    <div class="tag-left-border"></div>
+                    <div class="tag-content" data-tag-id="">丁字裤</div>
+                    <div class="tag-content" data-tag-id="">蕾丝</div>
+                    <div class="tag-content" data-tag-id="">丝袜</div>
+                    <div class="tag-content" data-tag-id="">假鸡巴</div>
+                    <div class="tag-content" data-tag-id="">跳蛋</div>
+                    <div class="tag-content" data-tag-id="">震动棒</div>
+                    <div class="tag-content" data-tag-id="">眼罩</div>
+                    <div class="tag-content" data-tag-id="">皮鞭</div>
+                    <div class="tag-content" data-tag-id="">蜡烛</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">角色扮演</div>
+                <div class="tags-container">
+                    <div class="tag-left-border"></div>
+                    <div class="tag-content" data-tag-id="">乱伦</div>
+                    <div class="tag-content" data-tag-id="">空姐</div>
+                    <div class="tag-content" data-tag-id="">新娘</div>
+                    <div class="tag-content" data-tag-id="">医生</div>
+                    <div class="tag-content" data-tag-id="">护士</div>
+                    <div class="tag-content" data-tag-id="">警察</div>
+                    <div class="tag-content" data-tag-id="">学生</div>
+                    <div class="tag-content" data-tag-id="">老师</div>
+                    <div class="tag-content" data-tag-id="">秘书</div>
+                    <div class="tag-content" data-tag-id="">女仆</div>
+                    <div class="tag-content" data-tag-id="">强奸</div>
+                    <div class="tag-content" data-tag-id="">技师</div>
+                </div>
+            </div>
+            <div class="xvideo-upload-tags">
+                <div class="tags-tags-title">人群</div>
+                <div class="tags-container">
+                    <div class="tag-left-border"></div>
+                    <div class="tag-content" data-tag-id="">少妇</div>
+                    <div class="tag-content" data-tag-id="">熟女</div>
+                    <div class="tag-content" data-tag-id="">学生</div>
+                    <div class="tag-content" data-tag-id="">妓女</div>
+                    <div class="tag-content" data-tag-id="">小姐</div>
+                    <div class="tag-content" data-tag-id="">鸡</div>
+                    <div class="tag-content" data-tag-id="">嫩模</div>
+                    <div class="tag-content" data-tag-id="">人妻</div>
+                    <div class="tag-content" data-tag-id="">素人</div>
+                    <div class="tag-content" data-tag-id="">痴汉</div>
+                    <div class="tag-content" data-tag-id="">黑人</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="xvideo-upload-btn">
+            <input type="button" class="btn btn-lg btn-upload-choose" value="确认选择">
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function(){
+        layer.alert('上传服务器维护中');
+        $('#submit').click(function(){
+            layer.alert('上传服务器维护中');
+           return false;
+       })
+    })
+</script>
+<script src="/assets/js/frontend/page-upload-file.js"></script>

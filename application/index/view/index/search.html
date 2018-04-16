@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/xingyu-index.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/search.css">
 
 </head>
 
@@ -22,7 +23,8 @@
     <div class="container clearfix">
         <a class="top-nav-fix-guide" href="http://d.z.v2dz.space/qc/?489" target="_blank">地址发布页</a>
         <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
-        <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide" target="_blank">访问指南</a>
+        <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide"
+           target="_blank">访问指南</a>
 
         <div class="pull-right xingyu-topnav-btn-group">
             <a href="{:url('user.login')}" name="btn-login" class="top-nav-fix-guide">登录</a>
@@ -36,7 +38,8 @@
 <header class="xingyu-topnav navbar navbar-static-top navbar-inverse" style="border: none;" id="top">
     <div class="container clearfix topnav-mainnav">
         <div class="navbar-header">
-            <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
+            <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+                    data-target="#bs-navbar"
                     aria-controls="bs-navbar" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -51,16 +54,19 @@
         <nav id="bs-navbar" class="collapse navbar-collapse " style="border:none;">
             <ul class="nav navbar-nav mainnav-nav-div">
                 <li>
-                    <a href="{:url('user/upgrade')}" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', 'VIP'])">VIP</a>
+                    <a href="{:url('user/upgrade')}"
+                       onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', 'VIP'])">VIP</a>
                 </li>
                 <li>
-                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/integral" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '大秀套餐'])">大秀套餐</a>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/integral"
+                       onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '大秀套餐'])">大秀套餐</a>
                 </li>
                 <li>
                     <a href="{:url('user/upload')}" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '上传'])">上传</a>
                 </li>
                 <li>
-                    <a href="http://baicai.bc88.space/prize" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '領紅包'])">領紅包</a>
+                    <a href="http://baicai.bc88.space/prize"
+                       onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '領紅包'])">領紅包</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right visible-lg">
@@ -380,47 +386,73 @@
 </div>
 
 <!-- 视频推荐 -->
-
-<div id="xvideo-video-here" class="v-container vindex-video-container clearfix">
-    <div class="index-video-title">
-        <img src="/assets/img/c-index-video-e61d6f3236.png">视频推荐
-    </div>
-    <div class="xvideo-video-row clearfix">
-        <div class="vindex-video-area clearfix" riot-tag="rv-stvideolist">
-            {foreach $vedio as $v}
-            <div class="v-selftime-list-container v-float-left v-margin-bottom">
-                <div class="v-orginal-img">
-                    <a class="" target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">
-                        <div class="v-img-link">
-                            <img src="{$v.fengmian}">
-                        </div>
-                    </a>
-                    <a class="xvideo-thumbnail-mask hide" target="_blank" style="line-height: 82px;" href="{:url('vedio/detail',['id'=>$v.id])}">
-                        <span class="xyvideo-icon xyvideo-icon-play"></span>
-                    </a>
-                    <div class="v-mask-layer v-float-right hide">
-                        <div class="v-mask-layer-right ">
-                            <i class="xyvideo-icon xyvideo-icon-clock"></i> {$v.time_long} </div>
-                    </div>
-                </div>
-                <div class="v-container-desc">
-                    <div class="v-videoname">
-                        <a target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">{$v.name}</a>
-                    </div>
-                    <div class="v-selftime-content clearfix">
-                        <div class="v-mask-layer-left" style="width:40%;">
-                            <i class="xyvideo-icon xyvideo-icon-clock"></i> {$v.time_long} </div>
-                        <div class="v-mask-layer-right" style="width:60%;"> {:mt_rand(1000,5000)}观看 </div>
-                    </div>
-                </div>
+<div class="search-container">
+    <div class="search-title" riot-tag="rv-video-title-bar">
+        <div class="v-selftime-title-main-search v-float-left">
+            <div class="v-selftime-title-video v-selftime-title-main-video-unclick">视频</div>
+            <div class="v-selftime-title-tag v-selftime-title-main-tag-click">标签</div>
+            <div class="v-selftime-title-user v-selftime-title-main-user">用户</div>
+            <div class="v-selftime-title-main-search" style="margin-left: 20px;"><span
+                    class="xyvideo-icon xyvideo-icon-query"></span><span>{$Think.get.tag_name}</span></div>
+            <div class="v-seachvideo-total" style="color:#999;"><span style="margin-left:15px;color: #999;">找到 <span
+                    style="color: #EF3E36;">{$vedio->total()}</span> 条结果 </span></div>
+        </div>
+        <div class="v-selftime-title-rank">
+            <div class="v-float-right v-seachvideo-rank">
+                <lable class="v-margin-right">默认排序:</lable>
+                <div class="v-margin-right v-lasted-announced-click-xyvideo-icon-query"><a href="javascript:void(0);"
+                                                                                           class="v-latest-announced"
+                                                                                           data-video-url="search"
+                                                                                           data-video-sequence="desc">最新发布</a><i
+                        class="xyvideo-icon xyvideo-icon-arrow-down-thick"></i></div>
+                <div class="v-lasted-play-more-unclick-xyvideo-icon-query"><a href="javascript:void(0);"
+                                                                              class="v-up-to-play"
+                                                                              data-video-url="search"
+                                                                              data-video-sequence="desc">最多播放</a><i
+                        class="xyvideo-icon xyvideo-icon-arrow-down-thick"></i></div>
             </div>
-            {/foreach}
-            <!--riot placeholder-->
         </div>
     </div>
-    <div class="vindex-video-btn-refresh">
-        刷新视频
+    <div class="search-v-body search-block" riot-tag="rv-preview-video-box">
+        {foreach $vedio as $v}
+        <div class="v-search-video-box v-search-video-box-marginright-15 v-search-video-box-marginbottom">
+            <div class="v-search-video-box-video-info"><a target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">
+                <div class="v-search-video-img"><img
+                        src="{$v.fengmian}"></div>
+            </a><a class="xvideo-thumbnail-mask hide" target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}"><span
+                    class="xyvideo-icon xyvideo-icon-play"></span></a>
+                <div class="v-search-video-time"><i class="xyvideo-icon xyvideo-icon-clock"></i>{$v.time_long}</div>
+                <div class="v-mask-video-modify"><a target="_blank" style="text-decoration: none;"
+                                                    href="{:url('vedio/detail',['id'=>$v.id])}">
+                    <div class="v-mask-video-modify-play-btn"></div>
+                </a>
+                    <div class="v-mask-video-modify-font" data-video-id="">编辑</div>
+                </div>
+                <div class="v-mask-video-delete"><a target="_blank" style="text-decoration: none;"
+                                                    href="{:url('vedio/detail',['id'=>$v.id])}">
+                    <div class="v-mask-video-delete-play-btn"></div>
+                </a>
+                    <div class="v-mask-video-delete-font" data-collectionvideo-id="">删除</div>
+                </div>
+            </div>
+            <div class="v-search-video-desc">
+                <div class="v-search-video-name"><a target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">
+                    <lable>{$v.name}</lable>
+                </a></div>
+                <div class="v-search-video-content clearfix">
+                    <div class="v-mask-layer-left" style="color:#aaa;width:40%;"><i
+                            class="xyvideo-icon xyvideo-icon-eye2"></i>{:mt_rand(1000,4000)}
+                    </div>
+                    <div class="v-mask-layer-right" style="color:#aaa;width:60%;"> {$v.created}</div>
+                </div>
+            </div>
+        </div>
+        {/foreach}
+        <div style="clear:both"></div>
     </div>
+</div>
+<div class="search-page-box search-block" riot-tag="rv-page-box">
+    {$vedio->render()}
 </div>
 <div class="xvideo-footer">
 
@@ -439,7 +471,8 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.qingcaodizhi.at.gmail.com.qa0.space/v/search?title=%E5%9B%BD%E4%BA%A7&amp;d=1" class="xvideo-footer-partner-content"
+                    <a href="http://email.qingcaodizhi.at.gmail.com.qa0.space/v/search?title=%E5%9B%BD%E4%BA%A7&amp;d=1"
+                       class="xvideo-footer-partner-content"
                        target="_blank">
                         国产精选视频
                     </a>|
@@ -450,7 +483,8 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.v2dizhi.at.gmail.com.vi2n.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.v2dizhi.at.gmail.com.vi2n.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         V2视频
                     </a>|
                 </div>
@@ -460,7 +494,8 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.ysspdizhi.at.gmx.com.y1es.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.ysspdizhi.at.gmx.com.y1es.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         夜色视频
                     </a>|
                 </div>
@@ -475,17 +510,20 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.hongxingdizhi.at.gmail.com.re3d.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.hongxingdizhi.at.gmail.com.re3d.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         红杏成人视频
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.lvchadz.at.gmx.com.1gta.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.lvchadz.at.gmx.com.1gta.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         绿茶啪啪视频
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.yingtaodizhi.at.gmx.com.yt30.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.yingtaodizhi.at.gmx.com.yt30.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         樱桃视频
                     </a>|
                 </div>
@@ -495,7 +533,8 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.d8dizhi.at.gmail.com.do88.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.d8dizhi.at.gmail.com.do88.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         D8骚逼视频
                     </a>|
                 </div>
@@ -560,7 +599,8 @@
                     </a>|
                 </div>
                 <div>
-                    <a href="http://email.dizhi.at.f2.com.2off.space/" class="xvideo-footer-partner-content" target="_blank">
+                    <a href="http://email.dizhi.at.f2.com.2off.space/" class="xvideo-footer-partner-content"
+                       target="_blank">
                         火兔乱伦视频
                     </a>|
                 </div>
@@ -746,7 +786,8 @@
 
     <div class="xvideo-footer-caution v-container">
         <p>
-            <span style="font-size: 14px;color: #333;">警告</span>: 此网站只适合十八岁或以上人士观看, 此网站内容可能令人反感；不可将此区域的内容派发，传阅，出售，出租，交给或者 借予年龄未满18岁的人士或将本网站内容向该人士出售，播放或放映，如果你是该影片的版权方所有者而要求删除影片的，请联系
+            <span style="font-size: 14px;color: #333;">警告</span>: 此网站只适合十八岁或以上人士观看,
+            此网站内容可能令人反感；不可将此区域的内容派发，传阅，出售，出租，交给或者 借予年龄未满18岁的人士或将本网站内容向该人士出售，播放或放映，如果你是该影片的版权方所有者而要求删除影片的，请联系
             我们，我们会很快做出回复。
         </p>
     </div>

@@ -1,7 +1,4 @@
-[riot-tag=rv-video-title-bar] .v-selftime-title-main-search,
-[riot-tag=rv-video-title-bar] .v-selftime-title-main-tag,
-[riot-tag=rv-video-title-bar] .v-selftime-title-main-user,
-[riot-tag=rv-video-title-bar] .v-selftime-title-main-video {
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-search, [riot-tag=rv-video-title-bar] .v-selftime-title-main-tag, [riot-tag=rv-video-title-bar] .v-selftime-title-main-user, [riot-tag=rv-video-title-bar] .v-selftime-title-main-video {
     display: inline-block;
     font-size: 18px;
     height: 37px;
@@ -17,8 +14,7 @@
     border-bottom: 2px solid #58b49d
 }
 
-[riot-tag=rv-video-title-bar] .v-selftime-title-main-tag,
-[riot-tag=rv-video-title-bar] .v-selftime-title-main-video-unclick {
+[riot-tag=rv-video-title-bar] .v-selftime-title-main-tag, [riot-tag=rv-video-title-bar] .v-selftime-title-main-video-unclick {
     width: 65px;
     display: inline-block;
     color: #999;
@@ -73,8 +69,7 @@
     font-weight: 400
 }
 
-[riot-tag=rv-video-title-bar] .v-seachvideo-rank>div,
-[riot-tag=rv-video-title-bar] .v-seachvideo-rank>label {
+[riot-tag=rv-video-title-bar] .v-seachvideo-rank > div, [riot-tag=rv-video-title-bar] .v-seachvideo-rank > label {
     display: inline-block
 }
 
@@ -119,8 +114,7 @@
     float: right
 }
 
-[riot-tag=rv-stvideolist] .v-float-left,
-[riot-tag=rv-type-bar] .v-ul-type-bar li {
+[riot-tag=rv-stvideolist] .v-float-left, [riot-tag=rv-type-bar] .v-ul-type-bar li {
     float: left
 }
 
@@ -152,63 +146,51 @@
     color: #f72abb
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-newest-self-video,
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-newest-self-video>a {
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-newest-self-video > a {
     color: #ef374c
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-newest-self-video,
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-newest-self-video>a {
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-newest-self-video > a {
     color: #333
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-newest-self-video,
-[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-newest-self-video>a {
+[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-newest-self-video > a {
     color: #ef374c
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-newest-self-video,
-[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-newest-self-video>a {
+[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-newest-self-video, [riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-newest-self-video > a {
     color: #333
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-query,
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-query>a {
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-query > a {
     color: #EF3E36
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-query,
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-query>a {
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-query > a {
     color: #999
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-query,
-[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-query>a {
+[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-query > a {
     color: #EF3E36
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-query,
-[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-query>a {
+[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-query, [riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-query > a {
     color: #333
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-movie,
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-movie>a {
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-play-more-click-xyvideo-icon-movie > a {
     color: #EF3E36
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-movie,
-[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-movie>a {
+[riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-play-more-unclick-xyvideo-icon-movie > a {
     color: #333
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-movie,
-[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-movie>a {
+[riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-announced-click-xyvideo-icon-movie > a {
     color: #EF3E36
 }
 
-[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-movie,
-[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-movie>a {
+[riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-movie, [riot-tag=rv-video-title-bar] .v-lasted-announced-unclick-xyvideo-icon-movie > a {
     color: #333
 }
 
@@ -364,8 +346,7 @@
     background-color: #ccc
 }
 
-[riot-tag=rv-daterankinglist] .v-dateranking-list-container .v-container-left,
-[riot-tag=rv-daterankinglist] .v-monthranking-list-container .v-container-left {
+[riot-tag=rv-daterankinglist] .v-dateranking-list-container .v-container-left, [riot-tag=rv-daterankinglist] .v-monthranking-list-container .v-container-left {
     width: 50px;
     height: 100%;
     float: left;
@@ -465,8 +446,7 @@
     padding-bottom: 18px
 }
 
-[riot-tag=rv-daterankinglist] .v-list-right,
-[riot-tag=rv-daterankinglist] .v-list-right-first {
+[riot-tag=rv-daterankinglist] .v-list-right, [riot-tag=rv-daterankinglist] .v-list-right-first {
     float: right;
     width: 266px;
     height: 118px;
@@ -506,8 +486,7 @@
     color: #999
 }
 
-[riot-tag=rv-page-box] .v-page-forl-button,
-[riot-tag=rv-page-box] .v-page-number-button {
+[riot-tag=rv-page-box] .v-page-forl-button, [riot-tag=rv-page-box] .v-page-number-button {
     height: 100%;
     color: #fff;
     font-size: 12px;
@@ -538,15 +517,13 @@
     padding: 0 14px
 }
 
-[riot-tag=rv-page-box] .v-page-forl-button:hover,
-[riot-tag=rv-page-box] .v-page-number-button:hover {
+[riot-tag=rv-page-box] .v-page-forl-button:hover, [riot-tag=rv-page-box] .v-page-number-button:hover {
     background-color: #58b49d !important;
     color: #fff !important;
     cursor: pointer
 }
 
-[riot-tag=rv-page-box] .v-page-forl-button a:hover,
-[riot-tag=rv-page-box] .v-page-number-button a:hover {
+[riot-tag=rv-page-box] .v-page-forl-button a:hover, [riot-tag=rv-page-box] .v-page-number-button a:hover {
     color: #fff !important
 }
 
@@ -569,8 +546,7 @@
     margin-right: 34px
 }
 
-[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-13,
-[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-20 {
+[riot-tag=rv-preview-video-box] .v-search-video-box-marginright-13, [riot-tag=rv-preview-video-box] .v-search-video-box-marginright-20 {
     margin-right: 5px
 }
 
@@ -611,14 +587,13 @@
     width: 80px
 }
 
-[riot-tag=rv-preview-video-box] .v-mask-layer-left,
-[riot-tag=rv-preview-video-box] .v-mask-layer-right {
+[riot-tag=rv-preview-video-box] .v-mask-layer-left, [riot-tag=rv-preview-video-box] .v-mask-layer-right {
     color: #FFF;
     display: inline-block;
     line-height: 30px;
-    overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap
+    white-space: nowrap;
+    overflow: hidden
 }
 
 [riot-tag=rv-preview-video-box] .v-search-video-img img {
@@ -801,8 +776,7 @@
     vertical-align: middle
 }
 
-[riot-tag=rv-profile-data] .myprofile-detail-title span,
-[riot-tag=rv-profile-data] .myprofile-info-titile span {
+[riot-tag=rv-profile-data] .myprofile-detail-title span, [riot-tag=rv-profile-data] .myprofile-info-titile span {
     vertical-align: text-top
 }
 
@@ -814,8 +788,7 @@
     padding-right: 5px
 }
 
-[riot-tag=rv-pager] .pagination-centered,
-[riot-tag=rv-pager] .xvideo-pager {
+[riot-tag=rv-pager] .pagination-centered, [riot-tag=rv-pager] .xvideo-pager {
     text-align: center
 }
 
@@ -859,7 +832,7 @@
     margin-right: 60px
 }
 
-[riot-tag=rv-vcomment] .xvideo-comment-title>span {
+[riot-tag=rv-vcomment] .xvideo-comment-title > span {
     border-bottom: 2px solid #fc4d51
 }
 
@@ -940,8 +913,7 @@
     background-color: #aaa
 }
 
-[riot-tag=rv-pager] .pagination .active a,
-[riot-tag=rv-pager] .pagination a:hover {
+[riot-tag=rv-pager] .pagination .active a, [riot-tag=rv-pager] .pagination a:hover {
     color: #fff;
     background-color: #58b49d
 }
@@ -952,9 +924,7 @@
     background-color: #58b49d
 }
 
-[riot-tag=rv-pager] .pagination .disabled a,
-[riot-tag=rv-pager] .pagination .disabled a:hover,
-[riot-tag=rv-pager] .pagination .disabled span {
+[riot-tag=rv-pager] .pagination .disabled a, [riot-tag=rv-pager] .pagination .disabled a:hover, [riot-tag=rv-pager] .pagination .disabled span {
     color: #fff;
     background-color: transparent;
     cursor: default
@@ -980,8 +950,7 @@
     text-align: center
 }
 
-[riot-tag=rv-pager] .pager:after,
-[riot-tag=rv-pager] .pager:before {
+[riot-tag=rv-pager] .pager:after, [riot-tag=rv-pager] .pager:before {
     display: table;
     content: ""
 }
@@ -1011,13 +980,11 @@
     float: right
 }
 
-[riot-tag=rv-myvideo-box] .v-float-left,
-[riot-tag=rv-pager] .pager .previous a {
+[riot-tag=rv-myvideo-box] .v-float-left, [riot-tag=rv-pager] .pager .previous a {
     float: left
 }
 
-[riot-tag=rv-pager] .pager .disabled a,
-[riot-tag=rv-pager] .pager .disabled a:hover {
+[riot-tag=rv-pager] .pager .disabled a, [riot-tag=rv-pager] .pager .disabled a:hover {
     color: #999;
     background-color: #fff;
     cursor: default
@@ -1107,14 +1074,14 @@
     font-size: 14px
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-info>div {
+[riot-tag=rv-profile-data] .myprofile-psninfo-info > div {
     margin-top: 20px;
     margin-bottom: 0;
     height: 30px;
     padding: 0
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-info>div label {
+[riot-tag=rv-profile-data] .myprofile-psninfo-info > div label {
     width: 55px;
     height: 30px;
     padding: 0;
@@ -1123,7 +1090,7 @@
     color: #666
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-info>div>div>input {
+[riot-tag=rv-profile-data] .myprofile-psninfo-info > div > div > input {
     width: 300px;
     height: 30px
 }
@@ -1145,7 +1112,7 @@
     font-size: 14px
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-character-info>div {
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div {
     margin-top: 20px;
     margin-bottom: 0;
     height: 30px;
@@ -1153,7 +1120,7 @@
     color: #666
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-character-info>div label {
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div label {
     width: 83px;
     height: 30px;
     padding: 0;
@@ -1161,13 +1128,13 @@
     font-weight: 400
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-character-info>div>div {
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div > div {
     width: 256px;
     height: 30px;
     padding: 0
 }
 
-[riot-tag=rv-profile-data] .myprofile-psninfo-character-info>div>div input {
+[riot-tag=rv-profile-data] .myprofile-psninfo-character-info > div > div input {
     width: 256px;
     height: 100px
 }
@@ -1565,9 +1532,7 @@
     width: 105px
 }
 
-[riot-tag=rv-myvideo-recordlist] .myvideorecord-mycollection,
-[riot-tag=rv-myvideo-recordlist] .myvideorecord-myvideolist,
-[riot-tag=rv-myvideo-recordlist] .myvideorecord-recredlist {
+[riot-tag=rv-myvideo-recordlist] .myvideorecord-mycollection, [riot-tag=rv-myvideo-recordlist] .myvideorecord-myvideolist, [riot-tag=rv-myvideo-recordlist] .myvideorecord-recredlist {
     width: 928px
 }
 
@@ -1747,8 +1712,7 @@
     color: #fff
 }
 
-[riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn .btn:focus,
-[riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn .btn:hover {
+[riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn .btn:focus, [riot-tag=rv-modifymyvideo] .modifyvideo-checkbtn .btn:hover {
     color: #fff
 }
 
@@ -1776,7 +1740,7 @@
     padding-left: 3px
 }
 
-[riot-tag=rv-myphoto] .myphoto-list ul>li {
+[riot-tag=rv-myphoto] .myphoto-list ul > li {
     float: left;
     margin-right: 20px;
     margin-top: 18px
@@ -1800,8 +1764,7 @@
     background-color: #1771ec
 }
 
-[riot-tag=rv-myphoto] .myphoto-content-title,
-[riot-tag=rv-myphoto] .myphoto-set-title {
+[riot-tag=rv-myphoto] .myphoto-content-title, [riot-tag=rv-myphoto] .myphoto-set-title {
     border-bottom: 1px dashed #d9d9d9;
     font-size: 16px;
     color: #58b49d
@@ -1823,8 +1786,7 @@
     margin: 40px 0 0 100px
 }
 
-[riot-tag=rv-myphoto] .myphoto-content-tips,
-[riot-tag=rv-myphoto] .myphoto-set-tips {
+[riot-tag=rv-myphoto] .myphoto-content-tips, [riot-tag=rv-myphoto] .myphoto-set-tips {
     margin-top: 20px;
     margin-left: 15px;
     font-size: 12px;
@@ -1867,8 +1829,7 @@
     color: #fff
 }
 
-[riot-tag=rv-myphoto] .myphoto-photolist-title ul>li a,
-[riot-tag=rv-myphoto] .myphoto-photolist-title ul>li a:hover {
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul > li a, [riot-tag=rv-myphoto] .myphoto-photolist-title ul > li a:hover {
     border: 0;
     width: 100px;
     padding: 0;
@@ -1894,26 +1855,24 @@
     border-bottom: 0
 }
 
-[riot-tag=rv-myphoto] .myphoto-photolist-title ul>li {
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul > li {
     height: 35px;
     width: 100px;
     font-size: 14px;
     border: 0
 }
 
-[riot-tag=rv-myphoto] .myphoto-photolist-title ul>li a:hover {
+[riot-tag=rv-myphoto] .myphoto-photolist-title ul > li a:hover {
     background-color: #CCC
 }
 
-[riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs>li.active>a,
-[riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs>li.active>a:focus,
-[riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs>li.active>a:hover {
+[riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs > li.active > a, [riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs > li.active > a:focus, [riot-tag=rv-myphoto] .myphoto-photolist-title .nav-tabs > li.active > a:hover {
     background-color: #58b49d;
     color: #fff;
     border: none
 }
 
-[riot-tag=rv-myphoto-user-icon] .myphoto-list ul>li {
+[riot-tag=rv-myphoto-user-icon] .myphoto-list ul > li {
     float: left;
     margin-right: 20px;
     margin-top: 18px
@@ -1932,7 +1891,7 @@
     margin: 78px auto auto
 }
 
-[riot-tag=rv-myattlist] .myattention-list ul>li {
+[riot-tag=rv-myattlist] .myattention-list ul > li {
     float: left;
     margin-right: 47px;
     margin-top: 30px
@@ -1988,7 +1947,7 @@
     line-height: 34px
 }
 
-[riot-tag=rv-myattlist] .myattention-content-title>div {
+[riot-tag=rv-myattlist] .myattention-content-title > div {
     display: inline-block;
     text-align: center
 }
@@ -2001,9 +1960,7 @@
     color: #fff
 }
 
-[riot-tag=rv-myattlist] .myattention-content-title div:link,
-[riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-attme,
-[riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-myatt {
+[riot-tag=rv-myattlist] .myattention-content-title div:link, [riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-attme, [riot-tag=rv-myattlist] .xvideo-psncenter-myattention-info-myatt {
     color: #4a4a4a;
     height: 34px;
     width: 100px
@@ -2028,14 +1985,14 @@
     border-bottom: 0
 }
 
-[riot-tag=rv-myattlist] .myattention-content-title ul>li {
+[riot-tag=rv-myattlist] .myattention-content-title ul > li {
     height: 34px;
     width: 100px;
     font-size: 14px;
     border: 0
 }
 
-[riot-tag=rv-myattlist] .myattention-content-title ul>li a {
+[riot-tag=rv-myattlist] .myattention-content-title ul > li a {
     border: 0;
     text-align: center;
     width: 100px;
@@ -2045,7 +2002,7 @@
     color: #666
 }
 
-[riot-tag=rv-myattlist] .myattention-content-title ul>li a:hover {
+[riot-tag=rv-myattlist] .myattention-content-title ul > li a:hover {
     border: 0;
     text-align: center;
     width: 100px;
@@ -2056,15 +2013,13 @@
     color: #fff
 }
 
-[riot-tag=rv-myattlist] .myattention-content-title .nav-tabs>li.active>a,
-[riot-tag=rv-myattlist] .myattention-content-title .nav-tabs>li.active>a:focus,
-[riot-tag=rv-myattlist] .myattention-content-title .nav-tabs>li.active>a:hover {
+[riot-tag=rv-myattlist] .myattention-content-title .nav-tabs > li.active > a, [riot-tag=rv-myattlist] .myattention-content-title .nav-tabs > li.active > a:focus, [riot-tag=rv-myattlist] .myattention-content-title .nav-tabs > li.active > a:hover {
     background-color: #58b49d;
     color: #fff;
     border: none
 }
 
-[riot-tag=rv-mytab-content] .myattention-list ul>li {
+[riot-tag=rv-mytab-content] .myattention-list ul > li {
     float: left;
     margin-right: 47px;
     margin-top: 30px
@@ -2333,8 +2288,7 @@
     line-height: 30px
 }
 
-[riot-tag=rv-psncenter-bindmail-enternewmail] .security-verify-div-first,
-[riot-tag=rv-psncenter-bindmail-enternewmail] .security-verify-div-second {
+[riot-tag=rv-psncenter-bindmail-enternewmail] .security-verify-div-first, [riot-tag=rv-psncenter-bindmail-enternewmail] .security-verify-div-second {
     color: #fff
 }
 
@@ -2648,7 +2602,7 @@
     color: #fea331
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details>span {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details > span {
     margin-top: 20px;
     line-height: 5
 }
@@ -2658,8 +2612,7 @@
     margin-bottom: 0
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div label,
-[riot-tag=rv-psncenter-security-center-bindemail] div {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div label, [riot-tag=rv-psncenter-security-center-bindemail] div {
     padding: 0
 }
 
@@ -2675,20 +2628,20 @@
     padding-right: 20px
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div>div {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div > div {
     width: 256px;
     height: 30px;
     margin-bottom: 20px
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div>div>input {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div > div > input {
     width: 256px;
     height: 30px;
     color: #333;
     background-color: #fff
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div>div>button {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-bindmail-details-table div > div > button {
     width: 256px;
     background-color: #58b49d;
     color: #fff
@@ -2732,8 +2685,7 @@
     margin-bottom: 0
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div label,
-[riot-tag=rv-psncenter-security-center-bindemail] div {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div label, [riot-tag=rv-psncenter-security-center-bindemail] div {
     padding: 0
 }
 
@@ -2747,13 +2699,13 @@
     font-size: 14px
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div>div {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div > div {
     width: 256px;
     height: 30px;
     margin-bottom: 20px
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div>div>input {
+[riot-tag=rv-psncenter-security-center-bindemail] .xvideo-pscenter-modifypwd-table div > div > input {
     width: 256px;
     height: 30px
 }
@@ -2786,9 +2738,7 @@
     color: #ff9311
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-con-pwd-tips,
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips,
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-org-pwd-tips {
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-con-pwd-tips, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-org-pwd-tips {
     color: red;
     display: inline-block;
     width: 140px;
@@ -2806,8 +2756,7 @@
     vertical-align: text-bottom
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-confirm-pwd-tips-help,
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-original-pwd-tips-help {
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-confirm-pwd-tips-help, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-original-pwd-tips-help {
     display: none;
     font-size: 16px;
     color: red;
@@ -2815,9 +2764,7 @@
     margin-right: 3px
 }
 
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-confirm-pwd-tips-warning,
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips-warning,
-[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-original-pwd-tips-warning {
+[riot-tag=rv-psncenter-security-center-bindemail] .security-enter-confirm-pwd-tips-warning, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-new-pwd-tips-warning, [riot-tag=rv-psncenter-security-center-bindemail] .security-enter-original-pwd-tips-warning {
     display: none;
     font-size: 16px;
     color: green;
@@ -2874,8 +2821,7 @@
     line-height: 19px !important
 }
 
-[riot-tag=rv-myvip] .myvip-privilege-HD,
-[riot-tag=rv-myvip] .myvip-privilege-gift {
+[riot-tag=rv-myvip] .myvip-privilege-HD, [riot-tag=rv-myvip] .myvip-privilege-gift {
     background-color: #58b49d
 }
 
@@ -2931,8 +2877,7 @@
     margin-left: 38px
 }
 
-[riot-tag=rv-myvip] .myvip-privilege-HD img,
-[riot-tag=rv-myvip] .myvip-privilege-icon img {
+[riot-tag=rv-myvip] .myvip-privilege-HD img, [riot-tag=rv-myvip] .myvip-privilege-icon img {
     margin-left: 32px
 }
 
@@ -3407,8 +3352,7 @@
     margin-top: 27px
 }
 
-[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.dimred .xvideo-vchunk-morevideos a,
-[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.red .xvideo-vchunk-morevideos a {
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.dimred .xvideo-vchunk-morevideos a, [riot-tag=rv-vtitle-ie8] .xvideo-vtitle-container.red .xvideo-vchunk-morevideos a {
     color: #58b49d;
     font-size: 14px;
     text-decoration: none;
@@ -3473,8 +3417,7 @@
     transition: all .2s cubic-bezier(.22, .61, .36, 1) .2s
 }
 
-[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-order,
-[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-total {
+[riot-tag=rv-vtitle-ie8] .xvideo-vtitle-order, [riot-tag=rv-vtitle-ie8] .xvideo-vtitle-total {
     margin-left: 35px;
     color: #171716;
     font-size: 14px
@@ -3507,8 +3450,7 @@
     font-size: 18px
 }
 
-[riot-tag=rv-profile-title] .profile-title-left,
-[riot-tag=rv-profile-title] .profile-title-right {
+[riot-tag=rv-profile-title] .profile-title-left, [riot-tag=rv-profile-title] .profile-title-right {
     padding-bottom: 3px
 }
 
@@ -3663,286 +3605,53 @@
     flex: 1
 }
 
-.my-primary-center {
-    width: 1200px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 40px
+.search-type-bar {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    overflow: hidden
 }
 
-.my-center-container-left,
-.my-center-personinfo {
-    width: 280px;
+.search-container, .search-title {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.search-title {
+    height: 60px;
+    border-bottom: #c6e4dd solid 2px;
+    margin-bottom: 20px;
+    padding-top: 24px
+}
+
+.search-container, .search-v-body {
+    padding-left: 0;
+    padding-right: 0;
     height: auto
 }
 
-.my-center-personinfo {
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-    background-color: #fff
+.search-v-body {
+    width: 1230px
 }
 
-.xvideo-psncenter-psninfo-info {
-    height: auto;
-    border-bottom: 1px dashed gray
+.v-float-left {
+    float: left
 }
 
-.my-center-psninfo-phote {
-    display: inline-block
+.v-float-right {
+    float: right
 }
 
-.my-center-psninfo-phote img {
-    margin-left: 100px;
-    margin-top: 20px;
-    height: 80px;
-    width: 80px
-}
-
-.xvideo-psncenter-psninfo-info .my-center-psninfo-prifile {
-    margin: 20px 25px auto auto;
-    font-size: 15px;
-    color: #d8d8d8;
-    cursor: pointer
-}
-
-.xvideo-psncenter-psninfo-vipinfo {
-    width: 100%;
-    text-align: center;
-    margin: 10px auto;
-    color: #58b49d;
-    vertical-align: middle
-}
-
-.xvideo-psncenter-psninfo-vipinfo img {
-    vertical-align: baseline;
-    margin-left: 2px
-}
-
-.xvideo-psncenter-psninfo-vipinfo span {
-    line-height: 29px;
-    font-size: 19px
-}
-
-.xvideo-psncenter-psninfo-vip {
-    display: inline-block;
-    background-image: url(../images/spirit-imgs-portal.png);
-    width: 60px;
-    height: 30px;
-    background-position: -226px -27px;
-    vertical-align: bottom
-}
-
-.xvideo-psncenter-psninfo-list {
-    color: #000;
-    width: 100%;
-    text-align: center
-}
-
-.xvideo-psncenter-psninfo-list ul li {
-    display: inline-block
-}
-
-.xvideo-psncenter-psninfo-list ul li div {
-    display: inline-block;
-    line-height: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 8px
-}
-
-.xvideo-psncenter-psninfo-list ul {
-    margin-bottom: 10px;
-    display: inline-block
-}
-
-.xvideo-psncenter-psninfo-list ul li div a {
-    font-size: 16px;
-    color: #666;
-    display: block;
-    text-decoration: none;
-    cursor: default
-}
-
-.xvideo-psncenter-psninfo-list ul li div>a {
-    height: 22px;
-    font-size: 14px;
-    color: #666;
+.search-block {
     display: block
 }
 
-.xvideo-psncenter-psninfo-list ul li span {
-    color: gray;
-    font-size: 26px;
-    vertical-align: text-bottom
-}
-
-.xvideo-psncenter-psninfo-option ul {
-    font-size: 0;
-    line-height: 0;
-    margin-top: 3px
-}
-
-.xvideo-psncenter-psninfo-option ul li {
-    height: 45px;
-    line-height: 45px;
-    font-size: 14px;
-    color: #000;
-    text-align: center
-}
-
-.xvideo-psncenter-psninfo-option span {
-    vertical-align: text-bottom;
-    font-size: 16px;
-    margin-right: 3px
-}
-
-.xvideo-psncenter-psninfo-option ul li a {
-    height: 45px;
-    width: 280px;
-    font-size: 14px;
-    padding: 16px 100px;
-    color: #666
-}
-
-.xvideo-psncenter-psninfo-option ul li a:hover {
-    height: 45px;
-    width: 280px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #58b49d
-}
-
-.my-center-infolist {
-    width: 900px;
-    height: auto
-}
-
-.xvideo-vertical-line {
-    margin-top: 10px;
-    width: 2px;
-    height: 30px;
-    background-color: #666;
-    padding-right: 0 !important;
-    padding-left: 0 !important
-}
-
-.my-center-right {
-    width: 900px;
-    height: auto
-}
-
-.my-center-right .center-right-title {
+.search-page-box {
+    height: 36px;
     width: 100%;
-    font-size: 20px;
-    color: #333;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 4px
-}
-
-.v-rv-page-box,
-.v-rv-page-box ul>li {
-    font-size: 16px
-}
-
-.v-rv-page-box ul>li>a,
-.v-rv-page-box ul>li>span {
-    border: none;
-    margin-right: 5px;
-    padding: 9px 16px;
-    transition: background-color .5s
-}
-
-.v-rv-page-box {
-    text-align: center;
-    color: #666
-}
-
-.v-rv-page-box ul {
-    vertical-align: middle;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
-}
-
-.v-rv-page-box ul>li>span {
-    color: #666;
-    background-color: #ddd;
-    border-radius: 0 !important
-}
-
-.v-rv-page-box ul>li>span:hover {
-    color: #fff;
-    background-color: #58b49d
-}
-
-.v-rv-page-box ul>li>a {
-    color: #666;
-    background-color: #ddd;
-    border-radius: 0 !important
-}
-
-.v-rv-page-box ul .active>a,
-.v-rv-page-box ul .active>a:hover,
-.v-rv-page-box ul .active>span,
-.v-rv-page-box ul .active>span:hover,
-.v-rv-page-box ul>li:hover>a,
-.v-rv-page-box ul>li:hover>span,
-.v-rv-page-box ul>li>a:hover {
-    background-color: #58b49d;
-    color: #fff
-}
-
-.v-rv-page-box ul>li:first-child>a,
-.v-rv-page-box ul>li:first-child>span,
-.v-rv-page-box ul>li:last-child>a,
-.v-rv-page-box ul>li:last-child>span {
-    border: none
-}
-
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    /*个人中心*/
-    [riot-tag=rv-myvideo-recordlist] .myvideorecord-vipinfo,
-    [riot-tag=rv-myvideo-recordlist] .myvideorecord-vtitle-container,
-    [riot-tag=rv-myvideo-recordlist] .myvideorecord-mycollection,
-    [riot-tag=rv-myvideo-recordlist] .myvideorecord-myvideolist,
-    [riot-tag=rv-myvideo-recordlist] .myvideorecord-recredlist {
-   
-        width: 100%;
-    }
-    /*个人信息*/
-    [riot-tag=rv-profile-data] .myprofile-detail,
-    [riot-tag=rv-profile-data] .myprofile-psninfo,
-    [riot-tag=rv-profile-data] .myprofile-myprofile-psninfo-character {
-        width: 100%;
-        margin: 20px 0 0 0px;
-    }
-    [riot-tag=rv-profile-data] .myprofile-psninfo-info div div,
-    [riot-tag=rv-profile-data] .myprofile-detail-info div div {
-        display: inline-block;
-    }
-    [riot-tag=rv-profile-data] .myprofile-psninfo-info>div>div>input {
-        width: 100%;
-    }
-    [riot-tag=rv-profile-data] .myprofiler-psninfo-btn {
-        width: 100% !important;
-        margin: 20px 0 0 0px !important;
-    }
-    [riot-tag=rv-profile-data] .myprofile-psninfo-btn-info {
-        width: 100%;
-        margin-left: 0;
-        margin-top: 60px;
-        text-align: center;
-    }
-    /*我的收藏*/
-    [riot-tag=rv-mycollection] .mycollection-title {
-        width: 100%;
-    }
-    /*我的视频*/
-    [riot-tag=rv-psncenter-myvideo] .myvideo-upload,
-    [riot-tag=rv-psncenter-myvideo] .myvideo-title {
-        width: 100%;
-    }
-    [riot-tag=rv-preview-video-box] .v-search-video-box {
-        margin-left: 20%;
-    }
+    text-align: center !important;
+    margin-top: 5px;
+    margin-bottom: 40px
 }
