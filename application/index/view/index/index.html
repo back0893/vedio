@@ -10,1101 +10,1053 @@
     <meta name="keywords" content="轻草成人视频，免费的色情视频网站，情色视频，高清自拍，美女视频，美女自拍，在线小电影">
     <meta name="description" content="轻草视频专注于打造免费成人视频网站，你可以在 轻草视频免费观看优质的成人视频，还可以上传原创内容并与全世界观众分享您的视频作品。轻草视频，轻轻的进，轻轻的出">
     <title>轻草视频—轻轻的进，轻轻的出</title>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 --> 
+    <link rel="stylesheet" href="/assets/css/sb.css" />
     <link rel="stylesheet" href="/assets/css/xingyu-index.css">
     <link rel="stylesheet" href="/assets/css/main.css">
 
 </head>
 
 <body>
-<div class="topnav-fix-nav black-xingyu-topnav">
-    <div class="container clearfix">
-        <a class="top-nav-fix-guide" href="http://d.z.v2dz.space/qc/?489" target="_blank">地址发布页</a>
-        <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
-        <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide" target="_blank">访问指南</a>
-        <?php $user=\app\common\library\Auth::instance()->getUser();?>
-        {empty name='$user'}
-        <div class="pull-right xingyu-topnav-btn-group">
-            <a href="{:url('user/login')}" name="btn-login" class="top-nav-fix-guide">登录</a>
+    <div class="topnav-fix-nav black-xingyu-topnav">
+        <div class="container clearfix">
+            <a class="top-nav-fix-guide" href="http://d.z.v2dz.space/qc/?489" target="_blank">地址发布页</a>
             <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
-            <a href="{:url('user/register')}" name="btn-register" class="top-nav-fix-guide">注册</a>
-        {else/}
+            <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide" target="_blank">访问指南</a>
+            <?php $user=\app\common\library\Auth::instance()->getUser();?> {empty name='$user'}
             <div class="pull-right xingyu-topnav-btn-group">
-                <div class="topnav-border" style="line-height: 26px;color: #fff">
-                    欢迎                        <div class="btn-group" style="height: 26px;margin-top: -5px;">
-                    <button href="#" class="btn btn-user-profile" title="back0893">{$user.username}</button>
-                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                        <span class="caret" style="color: #58b49d;"></span>
-                        <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu xvideo-dropdown-menu">
-                        <li>
-                            <a href="{:url('user/vip')}">我的帐户</a>
-                            <a href="{:url('user/profile')}">我的资料</a>
-                            <a href="{:url('user/collection')}">我的收藏</a>
-                            <a href="{:url('user/vedio')}">我的视频</a>
-                            <a href="{:url('user/security')}">帐号安全</a>
-                        </li>
-                    </ul>
+                <a href="{:url('user/login')}" name="btn-login" class="top-nav-fix-guide">登录</a>
+                <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
+                <a href="{:url('user/register')}" name="btn-register" class="top-nav-fix-guide">注册</a>
+                {else/}
+                <div class="pull-right xingyu-topnav-btn-group">
+                    <div class="topnav-border" style="line-height: 26px;color: #fff">
+                        欢迎
+                        <div class="btn-group" style="height: 26px;margin-top: -5px;">
+                            <button href="#" class="btn btn-user-profile" title="back0893">{$user.username}</button>
+                            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="caret" style="color: #58b49d;"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu xvideo-dropdown-menu">
+                                <li>
+                                    <a href="{:url('user/vip')}">我的帐户</a>
+                                    <a href="{:url('user/profile')}">我的资料</a>
+                                    <a href="{:url('user/collection')}">我的收藏</a>
+                                    <a href="{:url('user/vedio')}">我的视频</a>
+                                    <a href="{:url('user/security')}">帐号安全</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a class="xingyu-btn-exit" href="{:url('user/logout')}">退出</a>
+                    </div>
+                    {/empty}
                 </div>
-                    <a class="xingyu-btn-exit" href="{:url('user/logout')}">退出</a>
-                </div>
-        {/empty}
+            </div>
         </div>
     </div>
-</div>
-
-<header class="xingyu-topnav navbar navbar-static-top navbar-inverse" style="border: none;" id="top">
-    <div class="container clearfix topnav-mainnav">
-        <div class="navbar-header">
-            <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
+    <header class="xingyu-topnav navbar navbar-static-top navbar-inverse" style="border: none;" id="top">
+        <div class="container clearfix topnav-mainnav">
+            <div class="navbar-header">
+                <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
                     aria-controls="bs-navbar" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="{:url('/')}" class="navbar-brand">
-                <!-- Bootstrap -->
-                <img class="clearfix topnav-logo-img " src="/assets/img/logo.jpg">
-            </a>
-        </div>
-        <nav id="bs-navbar" class="collapse navbar-collapse " style="border:none;">
-            <ul class="nav navbar-nav mainnav-nav-div">
-                <li>
-                    <a href="{:url('user/upgrade')}" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', 'VIP'])">VIP</a>
-                </li>
-                <li>
-                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/integral" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '大秀套餐'])">大秀套餐</a>
-                </li>
-                <li>
-                    <a href="{:url('user/upload')}" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '上传'])">上传</a>
-                </li>
-                <li>
-                    <a href="http://baicai.bc88.space/prize" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '領紅包'])">領紅包</a>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right visible-lg">
-                <li>
-                    <div style="padding-top: 15px;font-size:0;">
-                        <div class="xingyu-search">
-                            <form method="GET" action="{:url('index/search')}" style="width: 265px;">
-                                {:token()}
-                                <input type="text" class="form-control" name="tag" placeholder="">
-                                <a style="text-decoration: none" href="javascript:void(0)" class="xvideo-href-search">
-                                    <span class="xyvideo-icon xyvideo-icon-query"></span>
-                                </a>
-                                <input type="submit" class="hide btn-xvideo-search">
-                            </form>
-                        </div>
-
-                        <div class="top-main-nav-collection">
-                            <img src="/assets/img/collection.png">收藏书签
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-
-<!-- 🎧导航 -->
-<div class="xingyu-top-tag hidden-xs	">
-    <div class="v-container clearfix">
-        <div style="width: 1200px;">
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container" style="width: 45px;">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%97%A5%E6%9C%AC" title="日本">日本</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%A4%A7%E9%99%86" title="大陆">大陆</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%AC%A7%E7%BE%8E" title="欧美">欧美</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%9D%9E%E6%B4%B2" title="非洲">非洲</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%9F%A9%E5%9B%BD" title="韩国">韩国</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E4%BA%9A%E5%A4%AA" title="亚太">亚太</a>
-                        </li>
-                    </ul>
-                </div>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="{:url('/')}" class="navbar-brand">
+                    <!-- Bootstrap -->
+                    <img class="clearfix topnav-logo-img " src="/assets/img/logo.jpg">
+                </a>
             </div>
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=69%E5%BC%8F" title="69式">69式</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%90%8E%E5%85%A5%E5%BC%8F" title="后入式">后入式</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%A5%B3%E4%B8%8A%E4%BD%8D" title="女上位">女上位</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%89%93%E9%A3%9E%E6%9C%BA" title="打飞机">打飞机</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%B7%B1%E5%96%89" title="深喉">深喉</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%87%AA%E6%85%B0" title="自慰">自慰</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%82%9B%E4%BA%A4" title="肛交">肛交</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%8F%A3%E7%88%86" title="口爆">口爆</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%BD%AE%E5%90%B9" title="潮吹">潮吹</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%97%A0%E5%A5%97%E5%86%85%E5%B0%84" title="无套内射">无套内射</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%90%B9%E8%90%A7" title="吹萧">吹萧</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%89%8B%E6%B7%AB" title="手淫">手淫</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%B7%A8%E4%B9%B3" title="巨乳">巨乳</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%B9%B3%E8%83%B8" title="平胸">平胸</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%A6%92%E5%A4%B4" title="馒头">馒头</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%BB%91%E6%9C%A8%E8%80%B3" title="黑木耳">黑木耳</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%A4%A7%E5%B1%81%E8%82%A1" title="大屁股">大屁股</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%A4%A7%E5%85%AC%E9%B8%A1" title="大公鸡">大公鸡</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%9D%B4%E8%9D%B6%E9%80%BC" title="蝴蝶逼">蝴蝶逼</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%B7%A8%E6%A0%B9" title="巨根">巨根</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%8F%AB%E5%BA%8A" title="叫床">叫床</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=3P" title="3P">3P</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=SM" title="SM">SM</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%AF%92%E9%BE%99" title="毒龙">毒龙</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%8D%A2%E5%A6%BB" title="换妻">换妻</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%81%8B%E8%B6%B3" title="恋足">恋足</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%B0%83%E6%95%99" title="调教">调教</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%BC%82%E8%A3%85%E7%99%96" title="异装癖">异装癖</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E4%BA%BA%E5%A6%96" title="人妖">人妖</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%8D%86%E7%BB%91" title="捆绑">捆绑</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%9E%AD%E6%89%93" title="鞭打">鞭打</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%81%B7%E7%AA%A5" title="偷窥">偷窥</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%87%AA%E6%8B%8D" title="自拍">自拍</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=KTV" title="KTV">KTV</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%85%92%E5%BA%97" title="酒店">酒店</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%BD%A6%E9%9C%87" title="车震">车震</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%85%AC%E5%85%B1%E5%8E%95%E6%89%80" title="公共厕所">公共厕所</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%8A%9E%E5%85%AC%E5%AE%A4" title="办公室">办公室</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%AE%A2%E5%8E%85" title="客厅">客厅</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E9%87%8E%E5%A4%96" title="野外">野外</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%B8%B8%E6%B3%B3%E6%B1%A0" title="游泳池">游泳池</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%A5%BC%E6%A2%AF%E5%8F%A3" title="楼梯口">楼梯口</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%95%99%E5%AE%A4" title="教室">教室</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%8A%A4%E5%A3%AB" title="护士">护士</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%AD%A6%E7%94%9F" title="学生">学生</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E7%A9%BA%E5%A7%90" title="空姐">空姐</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%B0%8F%E5%A7%90" title="小姐">小姐</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%AD%A6%E5%AF%9F" title="警察">警察</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%80%81%E5%B8%88" title="老师">老师</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%B0%91%E5%A6%87" title="少妇">少妇</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E7%A7%98%E4%B9%A6" title="秘书">秘书</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%A5%B3%E4%BB%86" title="女仆">女仆</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E4%BA%BA%E5%A6%BB" title="人妻">人妻</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E7%86%9F%E5%A5%B3" title="熟女">熟女</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%96%B0%E5%A8%98" title="新娘">新娘</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E4%BF%9D%E5%A7%86" title="保姆">保姆</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%AB%A9%E6%A8%A1" title="嫩模">嫩模</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="dropdown-tag-menu">
-                <div class="dropdown-tag-container">
-                    <ul>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E4%B8%9D%E8%A2%9C" title="丝袜">丝袜</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%95%BE%E4%B8%9D" title="蕾丝">蕾丝</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E5%81%87%E9%B8%A1%E5%B7%B4" title="假鸡巴">假鸡巴</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%B7%B3%E8%9B%8B" title="跳蛋">跳蛋</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E8%87%AA%E6%85%B0%E6%A3%92" title="自慰棒">自慰棒</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E7%9C%BC%E7%BD%A9" title="眼罩">眼罩</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E4%B8%81%E5%AD%97%E8%A3%A4" title="丁字裤">丁字裤</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E7%9A%AE%E4%BE%BF" title="皮便">皮便</a>
-                        </li>
-                        <li>
-                            <a href="{:url('index/search')}?tag_name=%E6%89%8B%E9%93%90" title="手铐">手铐</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 广告 -->
-<div class="container clearfix ad-container">
-    <div class="row">
-        <div class="col-md-12">
-            <img class="ad-img" src="/assets/img/2018-03-13-16-54-05_W56T4yAZtC.gif">
-        </div>
-        <div class="col-md-12">
-            <img class="ad-img" src="/assets/img/2018-03-13-16-53-43_z6VBlC5FSz.gif">
-        </div>
-        <div class="col-md-12">
-            <img class="ad-img" src="/assets/img/2018-03-26-16-04-21_jM5WMG3ywo.gif">
-        </div>
-        <div class="col-md-12">
-            <img class="ad-img" src="/assets/img/2018-03-26-16-04-47_LjbGnY37yY.gif">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <img class="ad-img" src="/assets/img/2018-01-29-15-02-02_f3QuRKOLXj.jpg">
-        </div>
-        <div class="col-md-6">
-            <img class="ad-img" src="/assets/img/2017-11-02-14-07-29_gHTd7xREKG.gif">
-        </div>
-    </div>
-</div>
-
-<!-- 扫码PC -->
-<div class="xvideo-recommend-container xvideo-primary-recommed-container hidden-xs	">
-    <div class="v-container clearfix" style="padding-left: 0;position: relative">
-        <!-- 大图推荐 -->
-        <div class="xvideo-primary-recommend pull-left col-xs-5 position-relative nopadding" style="width: 440px;height: 260px">
-            <a href="http://download.2s8f.space/mango_v1.0.0.apk" style="width: 440px;height: 260px;" target="_blank">
-                <img class="xvideo-recommed-img-large" src="/assets/img/2018-01-12-17-43-53_HCriyMBV1t.jpg" alt="">
-            </a>
-            <div class=""></div>
-        </div>
-        <div class="xvideo-second-recommed pull-right col-xs-7 nopadding" style="width: 730px;">
-            <div class="xvideo-recommend-group clearfix">
-                <ul class="xvideo-list">
-                    <?php while(count($bc)):;?>
-                    <?php $c=array_splice($bc,0,3);?>
-                    {foreach $c as $b}
-                    <!-- B1 -->
-                    <li class="position-relative" style="margin-bottom: 20px;">
-                        <a href="http://www.nima1b.space/" style="width: 200px;height: 120px;" target="_blank">
-                            <img src="{$b.fengmian}" alt="{$b.name}">
-                        </a>
-
-                        <div class="xvideo-second-recommend-desc">
-                            {$b.name}
-                        </div>
+            <nav id="bs-navbar" class="collapse navbar-collapse " style="border:none;">
+                <ul class="nav navbar-nav mainnav-nav-div">
+                    <li>
+                        <a href="{:url('user/upgrade')}" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', 'VIP'])">VIP</a>
                     </li>
-                    {/foreach}
-                    <?php endwhile;?>
+                    <li>
+                        <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/integral" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '大秀套餐'])">大秀套餐</a>
+                    </li>
+                    <li>
+                        <a href="{:url('user/upload')}" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '上传'])">上传</a>
+                    </li>
+                    <li>
+                        <a href="http://baicai.bc88.space/prize" onclick="_hmt.push(['_trackEvent', 'docv3-navbar', 'click', '領紅包'])">領紅包</a>
+                    </li>
                 </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 移动 -->
-<div class="xvideo-recommend-container xvideo-primary-recommed-container visible-xs-block">
-    <div class="container clearfix">
-        <div class="xvideo-second-recommed nopadding">
-            <div class="xvideo-recommend-group clearfix">
-                <ul class="xvideo-list">
-                    <!-- B1 -->
-                    <li class="position-relative">
-                        <a href="http://www.nima1b.space/" target="_blank">
-                            <img src="/assets/img/2017-09-27-12-21-57_cjPLufROxK.png" alt="大神91KK哥-95年粉嫩翘臀小女友轩儿108P高清完整版">
-                        </a>
+                <ul class="nav navbar-nav navbar-right visible-lg">
+                    <li>
+                        <div style="padding-top: 15px;font-size:0;">
+                            <div class="xingyu-search">
+                                <form method="GET" action="{:url('index/search')}" style="width: 265px;">
+                                    {:token()}
+                                    <input type="text" class="form-control" name="tag" placeholder="">
+                                    <a style="text-decoration: none" href="javascript:void(0)" class="xvideo-href-search">
+                                        <span class="xyvideo-icon xyvideo-icon-query"></span>
+                                    </a>
+                                    <input type="submit" class="hide btn-xvideo-search">
+                                </form>
+                            </div>
 
-                        <div class="xvideo-second-recommend-desc">
-                            大神91KK哥-95年粉嫩翘臀小女友轩儿108P高清完整版
-                        </div>
-                    </li>
-                    <!-- B2 -->
-                    <li class="position-relative">
-                        <a href="http://shu1.space/" target="_blank">
-                            <img src="/assets/img/2017-09-27-12-19-49_m37ZzN2a40.png" alt="91佛爷8月新作第2次约炮良家G奶骚妇草完逼来颗烟">
-                        </a>
-
-                        <div class="xvideo-second-recommend-desc">
-                            91佛爷8月新作第2次约炮良家G奶骚妇草完逼来颗烟
-                        </div>
-                    </li>
-                    <!-- C1 -->
-                    <li class="position-relative">
-                        <a href="http://shu1.space/" target="_blank">
-                            <img src="/assets/img/2017-07-27-12-31-35_paz39uSGLu.png">
-                        </a>
-
-                        <div class="xvideo-second-recommend-desc">
-                            仓本C仔系列全集
-                        </div>
-                    </li>
-                    <!-- B3 -->
-                    <li class="position-relative">
-                        <a href="http://www.nima1b.space/" target="_blank">
-                            <img src="/assets/img/2017-03-03-16-01-42_oQCodxms8Z.jpg" alt="777南航空姐休息室事件">
-                        </a>
-
-                        <div class="xvideo-second-recommend-desc">
-                            777南航空姐休息室事件
-                        </div>
-                    </li>
-                    <!-- B4 -->
-                    <li class="position-relative">
-                        <a href="http://www.nima1b.space/" target="_blank">
-                            <img src="/assets/img/2017-09-27-12-20-56_Y5BDD2pxjf.jpg" alt="草到大声叫唤和老总的秘书兼情妇穿着高跟网袜宾馆">
-                        </a>
-
-                        <div class="xvideo-second-recommend-desc">
-                            草到大声叫唤和老总的秘书兼情妇穿着高跟网袜宾馆
-                        </div>
-                    </li>
-                    <!-- C2 -->
-                    <li class="position-relative">
-                        <a href="http://shu1.space/?src=qingcao" target="_blank">
-                            <img src="/assets/img/2017-07-03-18-14-28_m1jHSjQXfM.jpg" alt="这样的激情让她越来越兴奋">
-                        </a>
-
-                        <div class="xvideo-second-recommend-desc">
-                            这样的激情让她越来越兴奋
+                            <div class="top-main-nav-collection">
+                                <img src="/assets/img/collection.png">收藏书签
+                            </div>
                         </div>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </div>
-    </div>
-</div>
-<!--　美女直播 -->
-<div class="container ">
-    <div class="index-video-title">
-        <img src="/assets/img/c-index-live-671483a5b2.png">美女直播
-        <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/live" target="_blank">查看更多&gt;&gt;</a>
-    </div>
-    <div class="beauty-live-container clearfix">
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">御姐馨</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/0e6fd7c9cc087e8f70ab8fda936e7806">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">官方代充丨灬樱樱</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">4468</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/270480caac01508472bc00aa6aec9460">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">官方代充灬小甜馨</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">2637</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/05091c60a2324d831090088a5f5071f9">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">官方代充丨丹雪</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">7883</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/4046b471bd09c43ac04ae02b6e7735a1">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">小雨双人啪啪</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">329</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/839be8e74dbc1f075758ef7da02bb027">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">花样楚楚</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">2565</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/a17b5403c9b082fc43fc433549a61b6d">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">妩媚儿</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">567</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/8bbf7835aa7916ce3147b9f988e086e2">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">金牌丨灬恋芯</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">2786</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/9c172ce07418a97c1ab55a55f7086501">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">官方代充春端秋清</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">3523</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-        <div class="live-video-box">
-            <div class="live-video-img">
-                <img src="/assets/img/13ccf1dd3c787cdd33a0e7ad44b39a2a">
-            </div>
-            <div class="live-video-title clearfix">
-                <a target="_blank">小船儿</a>
-                <span>
-                        <img src="/assets/img/c-live-favor-8383e46ba0.png">226</span>
-            </div>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
-                <div class="live-video-mask">
-                    <span class="xyvideo-icon xyvideo-icon-play"></span>
-                </div>
-            </a>
-            <span>
-                    正在直播
-                </span>
-        </div>
-    </div>
-</div>
+    </header>
 
-<!-- 视频推荐 -->
+    <!-- 🎧导航 -->
+    <div class="xingyu-top-tag hidden-xs hidden-sm">
+        <div class="container clearfix">
+            <div>
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container" style="width: 45px;">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%97%A5%E6%9C%AC" title="日本">日本</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%A4%A7%E9%99%86" title="大陆">大陆</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%AC%A7%E7%BE%8E" title="欧美">欧美</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%9D%9E%E6%B4%B2" title="非洲">非洲</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%9F%A9%E5%9B%BD" title="韩国">韩国</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E4%BA%9A%E5%A4%AA" title="亚太">亚太</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=69%E5%BC%8F" title="69式">69式</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%90%8E%E5%85%A5%E5%BC%8F" title="后入式">后入式</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%A5%B3%E4%B8%8A%E4%BD%8D" title="女上位">女上位</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%89%93%E9%A3%9E%E6%9C%BA" title="打飞机">打飞机</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%B7%B1%E5%96%89" title="深喉">深喉</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%87%AA%E6%85%B0" title="自慰">自慰</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%82%9B%E4%BA%A4" title="肛交">肛交</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%8F%A3%E7%88%86" title="口爆">口爆</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%BD%AE%E5%90%B9" title="潮吹">潮吹</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%97%A0%E5%A5%97%E5%86%85%E5%B0%84" title="无套内射">无套内射</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%90%B9%E8%90%A7" title="吹萧">吹萧</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%89%8B%E6%B7%AB" title="手淫">手淫</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-<div id="xvideo-video-here" class="v-container vindex-video-container clearfix">
-    <div class="index-video-title">
-        <img src="/assets/img/c-index-video-e61d6f3236.png">视频推荐
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%B7%A8%E4%B9%B3" title="巨乳">巨乳</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%B9%B3%E8%83%B8" title="平胸">平胸</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%A6%92%E5%A4%B4" title="馒头">馒头</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%BB%91%E6%9C%A8%E8%80%B3" title="黑木耳">黑木耳</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%A4%A7%E5%B1%81%E8%82%A1" title="大屁股">大屁股</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%A4%A7%E5%85%AC%E9%B8%A1" title="大公鸡">大公鸡</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%9D%B4%E8%9D%B6%E9%80%BC" title="蝴蝶逼">蝴蝶逼</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%B7%A8%E6%A0%B9" title="巨根">巨根</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%8F%AB%E5%BA%8A" title="叫床">叫床</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=3P" title="3P">3P</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=SM" title="SM">SM</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%AF%92%E9%BE%99" title="毒龙">毒龙</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%8D%A2%E5%A6%BB" title="换妻">换妻</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%81%8B%E8%B6%B3" title="恋足">恋足</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%B0%83%E6%95%99" title="调教">调教</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%BC%82%E8%A3%85%E7%99%96" title="异装癖">异装癖</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E4%BA%BA%E5%A6%96" title="人妖">人妖</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%8D%86%E7%BB%91" title="捆绑">捆绑</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%9E%AD%E6%89%93" title="鞭打">鞭打</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%81%B7%E7%AA%A5" title="偷窥">偷窥</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%87%AA%E6%8B%8D" title="自拍">自拍</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=KTV" title="KTV">KTV</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%85%92%E5%BA%97" title="酒店">酒店</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%BD%A6%E9%9C%87" title="车震">车震</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%85%AC%E5%85%B1%E5%8E%95%E6%89%80" title="公共厕所">公共厕所</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%8A%9E%E5%85%AC%E5%AE%A4" title="办公室">办公室</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%AE%A2%E5%8E%85" title="客厅">客厅</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E9%87%8E%E5%A4%96" title="野外">野外</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%B8%B8%E6%B3%B3%E6%B1%A0" title="游泳池">游泳池</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%A5%BC%E6%A2%AF%E5%8F%A3" title="楼梯口">楼梯口</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%95%99%E5%AE%A4" title="教室">教室</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%8A%A4%E5%A3%AB" title="护士">护士</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%AD%A6%E7%94%9F" title="学生">学生</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E7%A9%BA%E5%A7%90" title="空姐">空姐</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%B0%8F%E5%A7%90" title="小姐">小姐</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%AD%A6%E5%AF%9F" title="警察">警察</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%80%81%E5%B8%88" title="老师">老师</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%B0%91%E5%A6%87" title="少妇">少妇</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E7%A7%98%E4%B9%A6" title="秘书">秘书</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%A5%B3%E4%BB%86" title="女仆">女仆</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E4%BA%BA%E5%A6%BB" title="人妻">人妻</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E7%86%9F%E5%A5%B3" title="熟女">熟女</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%96%B0%E5%A8%98" title="新娘">新娘</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E4%BF%9D%E5%A7%86" title="保姆">保姆</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%AB%A9%E6%A8%A1" title="嫩模">嫩模</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="dropdown-tag-menu">
+                    <div class="dropdown-tag-container">
+                        <ul>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E4%B8%9D%E8%A2%9C" title="丝袜">丝袜</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%95%BE%E4%B8%9D" title="蕾丝">蕾丝</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E5%81%87%E9%B8%A1%E5%B7%B4" title="假鸡巴">假鸡巴</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%B7%B3%E8%9B%8B" title="跳蛋">跳蛋</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E8%87%AA%E6%85%B0%E6%A3%92" title="自慰棒">自慰棒</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E7%9C%BC%E7%BD%A9" title="眼罩">眼罩</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E4%B8%81%E5%AD%97%E8%A3%A4" title="丁字裤">丁字裤</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E7%9A%AE%E4%BE%BF" title="皮便">皮便</a>
+                            </li>
+                            <li>
+                                <a href="{:url('index/search')}?tag_name=%E6%89%8B%E9%93%90" title="手铐">手铐</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="xvideo-video-row clearfix">
-        <div class="vindex-video-area clearfix" riot-tag="rv-stvideolist">
-            {foreach $vedio as $v}
-            <div class="v-selftime-list-container v-float-left v-margin-bottom">
-                <div class="v-orginal-img">
-                    <a class="" target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">
-                        <div class="v-img-link">
-                            <img src="{$v.fengmian}">
+    <!-- 广告 -->
+    <div class="container clearfix ad-container">
+        <div class="row">
+            <div class="col-md-12">
+                <img class="ad-img" src="/assets/img/2018-03-13-16-54-05_W56T4yAZtC.gif">
+            </div>
+            <div class="col-md-12">
+                <img class="ad-img" src="/assets/img/2018-03-13-16-53-43_z6VBlC5FSz.gif">
+            </div>
+            <div class="col-md-12">
+                <img class="ad-img" src="/assets/img/2018-03-26-16-04-21_jM5WMG3ywo.gif">
+            </div>
+            <div class="col-md-12">
+                <img class="ad-img" src="/assets/img/2018-03-26-16-04-47_LjbGnY37yY.gif">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="ad-img" src="/assets/img/2018-01-29-15-02-02_f3QuRKOLXj.jpg">
+            </div>
+            <div class="col-md-6">
+                <img class="ad-img" src="/assets/img/2017-11-02-14-07-29_gHTd7xREKG.gif">
+            </div>
+        </div>
+    </div>
+
+    <!-- 扫码PC -->
+    <div class="xvideo-recommend-container xvideo-primary-recommed-container">
+        <div class="container clearfix" style="position: relative">
+            <!-- 大图推荐 -->
+            <div class="xvideo-primary-recommend pull-left col-lg-5 col-sm-12 position-relative nopadding">
+                <a href="http://download.2s8f.space/mango_v1.0.0.apk" target="_blank">
+                    <img class="xvideo-recommed-img-large" src="/assets/img/2018-01-12-17-43-53_HCriyMBV1t.jpg" alt="">
+                </a>
+                <div class=""></div>
+            </div>
+            <div class="xvideo-second-recommed pull-right col-lg-7  col-sm-12 nopadding">
+                <div class="xvideo-recommend-group clearfix">
+                    <ul class="xvideo-list">
+                        <?php while(count($bc)):;?>
+                        <?php $c=array_splice($bc,0,3);?> {foreach $c as $b}
+                        <!-- B1 -->
+                        <li class="position-relative col-md-4" style="margin-bottom: 20px;">
+                            <a href="http://www.nima1b.space/" target="_blank">
+                                <img src="{$b.fengmian}" alt="{$b.name}">
+                            </a>
+
+                            <div class="xvideo-second-recommend-desc">
+                                {$b.name}
+                            </div>
+                        </li>
+                        {/foreach}
+                        <?php endwhile;?>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--　美女直播 -->
+    <div class="container mvzb">
+        <div class="index-video-title">
+            <img src="/assets/img/c-index-live-671483a5b2.png">美女直播
+            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/live" target="_blank">查看更多&gt;&gt;</a>
+        </div>
+        <div class="beauty-live-container container clearfix">
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
                         </div>
                     </a>
-                    <a class="xvideo-thumbnail-mask hide" target="_blank" style="line-height: 82px;" href="{:url('vedio/detail',['id'=>$v.id])}">
-                        <span class="xyvideo-icon xyvideo-icon-play"></span>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
                     </a>
-                    <div class="v-mask-layer v-float-right hide">
-                        <div class="v-mask-layer-right ">
-                            <i class="xyvideo-icon xyvideo-icon-clock"></i> {$v.time_long} </div>
-                    </div>
-                </div>
-                <div class="v-container-desc">
-                    <div class="v-videoname">
-                        <a target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">{$v.name}</a>
-                    </div>
-                    <div class="v-selftime-content clearfix">
-                        <div class="v-mask-layer-left" style="width:40%;">
-                            <i class="xyvideo-icon xyvideo-icon-clock"></i> {$v.time_long} </div>
-                        <div class="v-mask-layer-right" style="width:60%;"> {:mt_rand(1000,5000)}观看 </div>
-                    </div>
+                    <span>
+                        正在直播
+                    </span>
                 </div>
             </div>
-            {/foreach}
-            <!--riot placeholder-->
-        </div>
-    </div>
-    <div class="vindex-video-btn-refresh">
-        刷新视频
-    </div>
-</div>
-<div class="xvideo-footer">
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
+            <div class="cus-md-2">
+                <div class="live-video-box ">
+                    <div class="live-video-img">
+                        <img src="/assets/img/08ff963e8e56e7408ec7b6eef51cc476">
+                    </div>
+                    <div class="live-video-title clearfix">
+                        <a target="_blank">御姐馨</a>
+                        <span>
+                            <img src="/assets/img/c-live-favor-8383e46ba0.png">4614</span>
+                    </div>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" target="_self">
+                        <div class="live-video-mask">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </div>
+                    </a>
+                    <span>
+                        正在直播
+                    </span>
+                </div>
+            </div>
 
-    <div class="xvideo-footer-partner">
-        <div>
-            <div class="xvideo-footer-partner-title">合作伙伴：</div>
-            <div class="xvideo-footer-partner-container">
-                <div>
-                    <a href="http://nima1b.space/" class="xvideo-footer-partner-content" target="_blank">
-                        尼玛导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://shu1.space/" class="xvideo-footer-partner-content" target="_blank">
-                        熟女导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.qingcaodizhi.at.gmail.com.qa0.space/v/search?title=%E5%9B%BD%E4%BA%A7&amp;d=1" class="xvideo-footer-partner-content"
-                       target="_blank">
-                        国产精选视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://nvyouwp.space/" class="xvideo-footer-partner-content" target="_blank">
-                        找女优导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.v2dizhi.at.gmail.com.vi2n.space/" class="xvideo-footer-partner-content" target="_blank">
-                        V2视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://chunse.c1s0.space/" class="xvideo-footer-partner-content" target="_blank">
-                        春色视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.ysspdizhi.at.gmx.com.y1es.space/" class="xvideo-footer-partner-content" target="_blank">
-                        夜色视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://bense.b71e.space/" class="xvideo-footer-partner-content" target="_blank">
-                        本色视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="https://idiyifulidaohang.space/" class="xvideo-footer-partner-content" target="_blank">
-                        第一福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.hongxingdizhi.at.gmail.com.re3d.space/" class="xvideo-footer-partner-content" target="_blank">
-                        红杏成人视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.lvchadz.at.gmx.com.1gta.space/" class="xvideo-footer-partner-content" target="_blank">
-                        绿茶啪啪视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.yingtaodizhi.at.gmx.com.yt30.space/" class="xvideo-footer-partner-content" target="_blank">
-                        樱桃视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://huangxx.space/" class="xvideo-footer-partner-content" target="_blank">
-                        一个很黄的导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.d8dizhi.at.gmail.com.do88.space/" class="xvideo-footer-partner-content" target="_blank">
-                        D8骚逼视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://5g.d.h.5gnv.space/" class="xvideo-footer-partner-content" target="_blank">
-                        五姑娘导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://caolvcha.d.h.c9ao.space/" class="xvideo-footer-partner-content" target="_blank">
-                        草绿茶导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://dh.19xa.com/" class="xvideo-footer-partner-content" target="_blank">
-                        福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.landh.club/" class="xvideo-footer-partner-content" target="_blank">
-                        蓝导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="https://www.fanqianglu.com/" class="xvideo-footer-partner-content" target="_blank">
-                        翻墙撸导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://bige.d.h.bigegg.space/" class="xvideo-footer-partner-content" target="_blank">
-                        逼格福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://d.officeblog.jp/" class="xvideo-footer-partner-content" target="_blank">
-                        蓝色导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.xx02.info/" class="xvideo-footer-partner-content" target="_blank">
-                        绿桃K导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://chi5.space/" class="xvideo-footer-partner-content" target="_blank">
-                        痴汉导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.lw78.cc/" class="xvideo-footer-partner-content" target="_blank">
-                        老王福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.xx03.info/" class="xvideo-footer-partner-content" target="_blank">
-                        聚百艳导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://998de.com/" class="xvideo-footer-partner-content" target="_blank">
-                        色博士导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://email.dizhi.at.f2.com.2off.space/" class="xvideo-footer-partner-content" target="_blank">
-                        火兔乱伦视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.jjfldh.com/" class="xvideo-footer-partner-content" target="_blank">
-                        JJ福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.3699dhxx.com/" class="xvideo-footer-partner-content" target="_blank">
-                        3699福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://semmdh.com/" class="xvideo-footer-partner-content" target="_blank">
-                        色妹妹导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://dh.fuli.nz/" class="xvideo-footer-partner-content" target="_blank">
-                        福利导航nz
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://fbq.dz2.com.51rd.net/" class="xvideo-footer-partner-content" target="_blank">
-                        51热点社区
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://dfjdh.xyz/" class="xvideo-footer-partner-content" target="_blank">
-                        打飞机专用导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://rddh.me/" class="xvideo-footer-partner-content" target="_blank">
-                        热点导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://103.248.23.203/" class="xvideo-footer-partner-content" target="_blank">
-                        无界导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="https://qsndh.com/" class="xvideo-footer-partner-content" target="_blank">
-                        青少年导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="https://91dh.org/" class="xvideo-footer-partner-content" target="_blank">
-                        91福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.xx01.info/" class="xvideo-footer-partner-content" target="_blank">
-                        色驴子导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://bililidh.com/" class="xvideo-footer-partner-content" target="_blank">
-                        哔哩哩导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://18sx.soup.io/" class="xvideo-footer-partner-content" target="_blank">
-                        18sole成人论坛
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://dajijidaohang.xyz/" class="xvideo-footer-partner-content" target="_blank">
-                        大鸡鸡导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://yptq.d.h.y9p1.space/" class="xvideo-footer-partner-content" target="_blank">
-                        约炮偷情
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.baoma88.me/" class="xvideo-footer-partner-content" target="_blank">
-                        宝马88导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.mimifuli.me/" class="xvideo-footer-partner-content" target="_blank">
-                        秘密导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://qq1kg.com/" class="xvideo-footer-partner-content" target="_blank">
-                        男神视频
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.hong22.com/" class="xvideo-footer-partner-content" target="_blank">
-                        红杏福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.peng55.com/" class="xvideo-footer-partner-content" target="_blank">
-                        超碰福利导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://hudiebi888.com/" class="xvideo-footer-partner-content" target="_blank">
-                        蝴蝶逼导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://laoyadh.com/" class="xvideo-footer-partner-content" target="_blank">
-                        老鸭导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://rock189.com/" class="xvideo-footer-partner-content" target="_blank">
-                        火箭社区
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://daaida.space/" class="xvideo-footer-partner-content" target="_blank">
-                        大爱导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://c.dmb.hk/" class="xvideo-footer-partner-content" target="_blank">
-                        绿色小导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.sosoavdh.com/" class="xvideo-footer-partner-content" target="_blank">
-                        SOAV导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://z.h.g.fa.bu.y.zanghuage.me/" class="xvideo-footer-partner-content" target="_blank">
-                        葬花阁导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.caoliusese.com/" class="xvideo-footer-partner-content" target="_blank">
-                        草榴色色导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://9av.tv/" class="xvideo-footer-partner-content" target="_blank">
-                        9AV导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.lw78.cc/bbs" class="xvideo-footer-partner-content" target="_blank">
-                        老王社区
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://dagongji1.info/" class="xvideo-footer-partner-content" target="_blank">
-                        大公鸡导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.yyai.pw/" class="xvideo-footer-partner-content" target="_blank">
-                        夜夜爱导航
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.papapa88.info/" class="xvideo-footer-partner-content" target="_blank">
-                        啪啪啪论坛
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://223zy.com/" class="xvideo-footer-partner-content" target="_blank">
-                        芒果撸片
-                    </a>|
-                </div>
-                <div>
-                    <a href="http://www.lw78hd.com/" class="xvideo-footer-partner-content" target="_blank">
-                        老王高清视频
-                    </a>|
-                </div>
-            </div>
 
         </div>
     </div>
 
-    <div class="xvideo-footer-caution v-container">
-        <p>
-            <span style="font-size: 14px;color: #333;">警告</span>: 此网站只适合十八岁或以上人士观看, 此网站内容可能令人反感；不可将此区域的内容派发，传阅，出售，出租，交给或者 借予年龄未满18岁的人士或将本网站内容向该人士出售，播放或放映，如果你是该影片的版权方所有者而要求删除影片的，请联系
-            我们，我们会很快做出回复。
+    <!-- 视频推荐 -->
+
+    <div id="xvideo-video-here" class="v-container vindex-video-container clearfix">
+        <div class="index-video-title">
+            <img src="/assets/img/c-index-video-e61d6f3236.png">视频推荐
+        </div>
+        <div class="xvideo-video-row clearfix">
+            <div class="vindex-video-area clearfix" riot-tag="rv-stvideolist">
+                {foreach $vedio as $v}
+
+                <div class="cus-md-2">
+                    <div class="v-selftime-list-container v-float-left v-margin-bottom">
+                        <div class="v-orginal-img">
+                            <a class="" target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">
+                                <div class="v-img-link">
+                                    <img src="{$v.fengmian}">
+                                </div>
+                            </a>
+                            <a class="xvideo-thumbnail-mask hide" target="_blank" style="line-height: 82px;" href="{:url('vedio/detail',['id'=>$v.id])}">
+                                <span class="xyvideo-icon xyvideo-icon-play"></span>
+                            </a>
+                            <div class="v-mask-layer v-float-right hide">
+                                <div class="v-mask-layer-right ">
+                                    <i class="xyvideo-icon xyvideo-icon-clock"></i> {$v.time_long} </div>
+                            </div>
+                        </div>
+                        <div class="v-container-desc">
+                            <div class="v-videoname">
+                                <a target="_blank" href="{:url('vedio/detail',['id'=>$v.id])}">{$v.name}</a>
+                            </div>
+                            <div class="v-selftime-content clearfix">
+                                <div class="v-mask-layer-left col-xs-5">
+                                    <i class="xyvideo-icon xyvideo-icon-clock"></i> {$v.time_long} </div>
+                                <div class="v-mask-layer-right col-xs-7"> {:mt_rand(1000,5000)}观看 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/foreach}
+                <!--riot placeholder-->
+            </div>
+        </div>
+        <div class="vindex-video-btn-refresh">
+            刷新视频
+        </div>
+    </div>
+    <div class="xvideo-footer">
+
+        <div class="xvideo-footer-partner">
+            <div>
+                <div class="xvideo-footer-partner-title">合作伙伴：</div>
+                <div class="xvideo-footer-partner-container">
+                    <div>
+                        <a href="http://nima1b.space/" class="xvideo-footer-partner-content" target="_blank">
+                            尼玛导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://shu1.space/" class="xvideo-footer-partner-content" target="_blank">
+                            熟女导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.qingcaodizhi.at.gmail.com.qa0.space/v/search?title=%E5%9B%BD%E4%BA%A7&amp;d=1" class="xvideo-footer-partner-content"
+                            target="_blank">
+                            国产精选视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://nvyouwp.space/" class="xvideo-footer-partner-content" target="_blank">
+                            找女优导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.v2dizhi.at.gmail.com.vi2n.space/" class="xvideo-footer-partner-content" target="_blank">
+                            V2视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://chunse.c1s0.space/" class="xvideo-footer-partner-content" target="_blank">
+                            春色视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.ysspdizhi.at.gmx.com.y1es.space/" class="xvideo-footer-partner-content" target="_blank">
+                            夜色视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://bense.b71e.space/" class="xvideo-footer-partner-content" target="_blank">
+                            本色视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="https://idiyifulidaohang.space/" class="xvideo-footer-partner-content" target="_blank">
+                            第一福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.hongxingdizhi.at.gmail.com.re3d.space/" class="xvideo-footer-partner-content" target="_blank">
+                            红杏成人视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.lvchadz.at.gmx.com.1gta.space/" class="xvideo-footer-partner-content" target="_blank">
+                            绿茶啪啪视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.yingtaodizhi.at.gmx.com.yt30.space/" class="xvideo-footer-partner-content" target="_blank">
+                            樱桃视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://huangxx.space/" class="xvideo-footer-partner-content" target="_blank">
+                            一个很黄的导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.d8dizhi.at.gmail.com.do88.space/" class="xvideo-footer-partner-content" target="_blank">
+                            D8骚逼视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://5g.d.h.5gnv.space/" class="xvideo-footer-partner-content" target="_blank">
+                            五姑娘导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://caolvcha.d.h.c9ao.space/" class="xvideo-footer-partner-content" target="_blank">
+                            草绿茶导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://dh.19xa.com/" class="xvideo-footer-partner-content" target="_blank">
+                            福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.landh.club/" class="xvideo-footer-partner-content" target="_blank">
+                            蓝导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="https://www.fanqianglu.com/" class="xvideo-footer-partner-content" target="_blank">
+                            翻墙撸导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://bige.d.h.bigegg.space/" class="xvideo-footer-partner-content" target="_blank">
+                            逼格福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://d.officeblog.jp/" class="xvideo-footer-partner-content" target="_blank">
+                            蓝色导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.xx02.info/" class="xvideo-footer-partner-content" target="_blank">
+                            绿桃K导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://chi5.space/" class="xvideo-footer-partner-content" target="_blank">
+                            痴汉导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.lw78.cc/" class="xvideo-footer-partner-content" target="_blank">
+                            老王福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.xx03.info/" class="xvideo-footer-partner-content" target="_blank">
+                            聚百艳导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://998de.com/" class="xvideo-footer-partner-content" target="_blank">
+                            色博士导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://email.dizhi.at.f2.com.2off.space/" class="xvideo-footer-partner-content" target="_blank">
+                            火兔乱伦视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.jjfldh.com/" class="xvideo-footer-partner-content" target="_blank">
+                            JJ福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.3699dhxx.com/" class="xvideo-footer-partner-content" target="_blank">
+                            3699福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://semmdh.com/" class="xvideo-footer-partner-content" target="_blank">
+                            色妹妹导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://dh.fuli.nz/" class="xvideo-footer-partner-content" target="_blank">
+                            福利导航nz
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://fbq.dz2.com.51rd.net/" class="xvideo-footer-partner-content" target="_blank">
+                            51热点社区
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://dfjdh.xyz/" class="xvideo-footer-partner-content" target="_blank">
+                            打飞机专用导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://rddh.me/" class="xvideo-footer-partner-content" target="_blank">
+                            热点导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://103.248.23.203/" class="xvideo-footer-partner-content" target="_blank">
+                            无界导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="https://qsndh.com/" class="xvideo-footer-partner-content" target="_blank">
+                            青少年导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="https://91dh.org/" class="xvideo-footer-partner-content" target="_blank">
+                            91福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.xx01.info/" class="xvideo-footer-partner-content" target="_blank">
+                            色驴子导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://bililidh.com/" class="xvideo-footer-partner-content" target="_blank">
+                            哔哩哩导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://18sx.soup.io/" class="xvideo-footer-partner-content" target="_blank">
+                            18sole成人论坛
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://dajijidaohang.xyz/" class="xvideo-footer-partner-content" target="_blank">
+                            大鸡鸡导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://yptq.d.h.y9p1.space/" class="xvideo-footer-partner-content" target="_blank">
+                            约炮偷情
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.baoma88.me/" class="xvideo-footer-partner-content" target="_blank">
+                            宝马88导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.mimifuli.me/" class="xvideo-footer-partner-content" target="_blank">
+                            秘密导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://qq1kg.com/" class="xvideo-footer-partner-content" target="_blank">
+                            男神视频
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.hong22.com/" class="xvideo-footer-partner-content" target="_blank">
+                            红杏福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.peng55.com/" class="xvideo-footer-partner-content" target="_blank">
+                            超碰福利导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://hudiebi888.com/" class="xvideo-footer-partner-content" target="_blank">
+                            蝴蝶逼导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://laoyadh.com/" class="xvideo-footer-partner-content" target="_blank">
+                            老鸭导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://rock189.com/" class="xvideo-footer-partner-content" target="_blank">
+                            火箭社区
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://daaida.space/" class="xvideo-footer-partner-content" target="_blank">
+                            大爱导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://c.dmb.hk/" class="xvideo-footer-partner-content" target="_blank">
+                            绿色小导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.sosoavdh.com/" class="xvideo-footer-partner-content" target="_blank">
+                            SOAV导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://z.h.g.fa.bu.y.zanghuage.me/" class="xvideo-footer-partner-content" target="_blank">
+                            葬花阁导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.caoliusese.com/" class="xvideo-footer-partner-content" target="_blank">
+                            草榴色色导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://9av.tv/" class="xvideo-footer-partner-content" target="_blank">
+                            9AV导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.lw78.cc/bbs" class="xvideo-footer-partner-content" target="_blank">
+                            老王社区
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://dagongji1.info/" class="xvideo-footer-partner-content" target="_blank">
+                            大公鸡导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.yyai.pw/" class="xvideo-footer-partner-content" target="_blank">
+                            夜夜爱导航
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.papapa88.info/" class="xvideo-footer-partner-content" target="_blank">
+                            啪啪啪论坛
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://223zy.com/" class="xvideo-footer-partner-content" target="_blank">
+                            芒果撸片
+                        </a>|
+                    </div>
+                    <div>
+                        <a href="http://www.lw78hd.com/" class="xvideo-footer-partner-content" target="_blank">
+                            老王高清视频
+                        </a>|
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="xvideo-footer-caution v-container">
+            <p>
+                <span style="font-size: 14px;color: #333;">警告</span>: 此网站只适合十八岁或以上人士观看, 此网站内容可能令人反感；不可将此区域的内容派发，传阅，出售，出租，交给或者 借予年龄未满18岁的人士或将本网站内容向该人士出售，播放或放映，如果你是该影片的版权方所有者而要求删除影片的，请联系
+                我们，我们会很快做出回复。
+            </p>
+        </div>
+        <div class="hidden-xs" style="text-align: left;">
+            <ul class="xvideo-footer-nav v-container" style="padding-left:0px;">
+                <li class="current">
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/question">常见问题</a>
+                    <span>|&nbsp;</span>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/contact">联系我们</a>
+                    <span>|&nbsp;</span>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/privacy">隐私政策</a>
+                    <span>|&nbsp;</span>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/agreement">用户协议</a>
+                    <span>|&nbsp;</span>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/dmca">DMCA</a>
+                    <span>|&nbsp;</span>
+                </li>
+                <li>
+                    <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/partner">合作伙伴</a>
+                </li>
+            </ul>
+        </div>
+
+        <p class="v-container" style="text-align: left;line-height: 18px;color: #666;">
+            Copyright @ 2016 qingcaoav.com, All Rights
         </p>
     </div>
-    <div class="hidden-xs" style="text-align: left;">
-        <ul class="xvideo-footer-nav v-container" style="padding-left:0px;">
-            <li class="current">
-                <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/question">常见问题</a>
-                <span>|&nbsp;</span>
-            </li>
-            <li>
-                <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/contact">联系我们</a>
-                <span>|&nbsp;</span>
-            </li>
-            <li>
-                <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/privacy">隐私政策</a>
-                <span>|&nbsp;</span>
-            </li>
-            <li>
-                <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/agreement">用户协议</a>
-                <span>|&nbsp;</span>
-            </li>
-            <li>
-                <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/dmca">DMCA</a>
-                <span>|&nbsp;</span>
-            </li>
-            <li>
-                <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/partner">合作伙伴</a>
-            </li>
-        </ul>
-    </div>
-
-    <p class="v-container" style="text-align: left;line-height: 18px;color: #666;">
-        Copyright @ 2016 qingcaoav.com, All Rights
-    </p>
-</div>
-<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
-<script src="/assets/js/bootstrap.js"></script>
-<script src="/assets/img/floating-frame.js.下载" type="text/javascript"></script>
-<script src="/assets/assets/img/page-index-df87da3fe8.min.js.下载"></script>
-
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="/assets/js/bootstrap.js"></script>
+    <script src="/assets/img/floating-frame.js.下载" type="text/javascript"></script>
+    <script src="/assets/assets/img/page-index-df87da3fe8.min.js.下载"></script>
 </body>
 
 </html>

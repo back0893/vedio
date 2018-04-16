@@ -195,25 +195,7 @@ body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, ifra
 }
 
 /*顶部导航下面*/
-
-.xingyu-top-tag {
-    font-size: 14px;
-    width: 100%;
-    background-color: #efeff0;
-    color: #58b49d;
-    padding: 20px 0
-}
-
-.xingyu-top-tag .dropdown-tag-menu {
-    display: inline-block;
-    vertical-align: top
-}
-
-.xingyu-top-tag .dropdown-tag-menu .dropdown-tag-title {
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff
-}
+ 
 
 /*AD广告*/
 
@@ -290,14 +272,7 @@ body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, ifra
 .v-advertise .v-advertise-four a, .v-advertise .v-advertise-two a {
     display: inline-block
 }
-
-.xvideo-panel-white {
-    width: 712px;
-}
-
-.xvideo-panel-white-right {
-    width: 458px;
-}
+ 
  
 
 /*小鱼768 笔记本*/
@@ -349,17 +324,11 @@ body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, ifra
     }
     .index-video-title {
         padding: 0 10px;
-    }
-    .container .beauty-live-container.clearfix .live-video-box {
-        left: 25%;
-    }
+    } 
     #xvideo-video-here.vindex-video-container .xvideo-video-row .vindex-video-area, .xvideo-play-video-container, .xvideo-video-descr, div.beauty-live-container {
         width: 100%;
         min-width: 320px;
-    }
-    .vindex-video-container .xvideo-video-row .vindex-video-area div.v-selftime-list-container {
-        margin-left: 25%;
-    }
+    } 
     .xvideo-footer {
         margin-top: 25px;
         padding-top: 10px;
@@ -394,7 +363,6 @@ body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, ifra
         max-height: 170px;
     }
     .xvideo-panel-white {
-        width: initial;
         padding-left: 0px;
     }
     .xvideo-panel-white-right {

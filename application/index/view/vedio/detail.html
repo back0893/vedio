@@ -72,7 +72,8 @@
             font-style: normal;
         }
     </style>
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="/assets/css/sb.css">
     <link rel="stylesheet" href="/assets/css/xingyu-index.css">
     <link rel="stylesheet" href="/assets/css/layer.css">
     <link rel="stylesheet" href="/assets/css/layer.ext.css">
@@ -650,18 +651,34 @@
 </head>
 
 <body>
-<div class="topnav-fix-nav black-xingyu-topnav">
-    <div class="container clearfix">
-        <a class="top-nav-fix-guide" href="http://d.z.v2dz.space/qc/?489" target="_blank">地址发布页</a>
-        <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
-        <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide" target="_blank">访问指南</a>
-
-        <div class="pull-right xingyu-topnav-btn-group">
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" name="btn-login" class="top-nav-fix-guide">登录</a>
-            <span>|</span>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/register" name="btn-register" class="top-nav-fix-guide">注册</a>
-
+<?php $user=\app\common\library\Auth::instance()->getUser();?> {empty name='$user'}
+<div class="pull-right xingyu-topnav-btn-group">
+    <a href="{:url('user/login')}" name="btn-login" class="top-nav-fix-guide">登录</a>
+    <span class="top-nav-fix-guide">&nbsp;|&nbsp;</span>
+    <a href="{:url('user/register')}" name="btn-register" class="top-nav-fix-guide">注册</a>
+    {else/}
+    <div class="pull-right xingyu-topnav-btn-group">
+        <div class="topnav-border" style="line-height: 26px;color: #fff">
+            欢迎
+            <div class="btn-group" style="height: 26px;margin-top: -5px;">
+                <button href="#" class="btn btn-user-profile" title="back0893">{$user.username}</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="caret" style="color: #58b49d;"></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu xvideo-dropdown-menu">
+                    <li>
+                        <a href="{:url('user/vip')}">我的帐户</a>
+                        <a href="{:url('user/profile')}">我的资料</a>
+                        <a href="{:url('user/collection')}">我的收藏</a>
+                        <a href="{:url('user/vedio')}">我的视频</a>
+                        <a href="{:url('user/security')}">帐号安全</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="xingyu-btn-exit" href="{:url('user/logout')}">退出</a>
         </div>
+        {/empty}
     </div>
 </div>
 
@@ -675,7 +692,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/" class="navbar-brand">
+            <a href="/" class="navbar-brand">
                 <!-- Bootstrap -->
                 <img class="clearfix topnav-logo-img " src="/assets/img/logo.jpg">
             </a>
@@ -699,9 +716,9 @@
                 <li>
                     <div style="padding-top: 15px;font-size:0;">
                         <div class="xingyu-search">
-                            <form method="GET" action="http://email.qingcaodizhi.at.gmx.com.q4c7.space/v/search" style="width: 265px;">
-                                <input type="hidden" name="_token" value="4qlbf0t6HQaYSrPALKvvZQINcwfT9LlfcZx2Qitx">
-                                <input type="text" class="form-control" name="title" placeholder="">
+                            <form method="GET" action="{:url('index/search')}" style="width: 265px;">
+                                {:token()}
+                                <input type="text" class="form-control" name="tag_name" placeholder="">
                                 <a style="text-decoration: none" href="javascript:void(0)" class="xvideo-href-search">
                                     <span class="xyvideo-icon xyvideo-icon-query"></span>
                                 </a>
@@ -720,8 +737,8 @@
 </header>
 
 <!-- 广告 -->
-<div class="container clearfix ad-container" style="margin-top:20px;">
-    <div class="row">
+<div class="container clearfix ad-container " style="margin-top:20px;">
+    <div class="">
         <div class="col-md-12">
             <img class="ad-img" src="/assets/img/2018-03-13-16-54-05_W56T4yAZtC.gif">
         </div>
@@ -735,7 +752,7 @@
             <img class="ad-img" src="/assets/img/2018-03-26-16-04-47_LjbGnY37yY.gif">
         </div>
     </div>
-    <div class="row">
+    <div class="">
         <div class="col-md-6">
             <img class="ad-img" src="/assets/img/2018-01-29-15-02-02_f3QuRKOLXj.jpg">
         </div>
@@ -744,7 +761,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="side-advertisement-left-top  hidden-xs">
     <div class="side-adv-img">
@@ -780,10 +796,10 @@
 </div>
 <div id="heimu" style="opacity: 0.95;display: none;"></div>
 
-<div class="xvideo-play-video-container container">
-    <div class="xvideo-container clearfix">
-        <div class="col-xs-12 nopadding">
-            <div class="pull-left col-md-7 xvideo-panel-white">
+<div class="xvideo-play-video-container v-container">
+    <div class="xvideo-container v-container clearfix">
+        <div class="nopadding">
+            <div class="pull-left col-md-7 col-xs-12 xvideo-panel-white" style="padding-left: 0px;">
                 <div style="margin-bottom: 20px;">
                     <div class="xvideo-panel-header">
                         <div class="xvideo-panel-header-title pull-left clearfix">
@@ -880,7 +896,7 @@
                                         </span>
                                 </div>
                             </div>
-                            <div class="pull-right  col-md-3 hidden-xs" style="width: 140px;margin-top: 16px;">
+                            <div class="pull-right  col-md-3 hidden-xs hidden-sm" >
                                 <div class="xvideo-icon-anonymous">
                                     <span class="xyvideo-icon xyvideo-icon-mask"></span>
 
@@ -916,7 +932,7 @@
                     </div>
                 </div>
             </div>
-            <div class="pull-right col-md-5 nopadding xvideo-panel-white-right" style="padding-top: 39px;">
+            <div class="pull-right col-md-5  col-xs-12 nopadding xvideo-panel-white-right" style="padding-top: 39px;">
                 <div class="advertise">
                     <div>
                         <a class="first" href="http://nvyouwp.space/" target="_blank">
@@ -944,14 +960,12 @@
                     </div>
                     <div class="xvideo-guessulike-body clearfix">
                         <ul class="clearfix pull-left xvideo-guessulike-body-left">
-                            <?php $n=0;?>
-                            {foreach $random as $r}
+                            <?php $n=0;?> {foreach $random as $r}
                             <?php $n++;?>
                             <?php if($n>5){
-                                break;
+                            break;
                             };?>
-                            <li class="clearfix position-relative
-                                    mr17px">
+                            <li class="clearfix position-relative mr17px col-sm-6">
                                 <a href="{'vedio/detail',['id'=>$r.id]}" target="_blank">
                                     <img src="{$r.fengmian}" alt="">
 
@@ -961,7 +975,7 @@
                                         </div>
                                         <div class="pull-right">
                                             <span class="xyvideo-icon xyvideo-icon-clock"></span>
-                                          {$r.time_long}
+                                            {$r.time_long}
                                         </div>
                                     </div>
                                     <div class="xvideo-play-guessulike-name">

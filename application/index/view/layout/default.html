@@ -43,7 +43,7 @@
             '</style>');
     </script>
     <!-- <link rel="stylesheet" href="http://qcstatic.qstaic.com/css/vs-daa0d61020.min.css" /> -->
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/sb.css" />
+    <link rel="stylesheet" href="/assets/css/sb.css" />
     <link rel="shortcut icon" href="http://qcstatic.qstaic.com/images/favicon-bc325230c7.ico" />
     <!--[if lte IE 10]>
     <script type="text/javascript" src="http://qcstatic.qstaic.com/js/v-ie8-ae20bd4c59.min.js"></script>
@@ -56,10 +56,10 @@
     <script src="http://qcstatic.qstaic.com/js/vj-020e9fbc3e.min.js"></script>
     <script src="http://qcstatic.qstaic.com/js/ly/layer-1512b84986.min.js"></script>
     <!-- <link rel="stylesheet" data-security="security" href="http://qcstatic.qstaic.com/css/mycenter-6cb5611afd.min.css" /> -->
-
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/mycenter.css" />
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/xingyu-index.css" />
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/main.css" />
+ 
+    <link rel="stylesheet" href="/assets/css/mycenter.css" />
+    <link rel="stylesheet" href="/assets/css/xingyu-index.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
 
 </head>
 
@@ -71,16 +71,31 @@
         <a class="top-nav-fix-guide" href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/about/accessguide" target="_blank">访问指南</a>
 
         <div class="pull-right xingyu-topnav-btn-group">
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/login" name="btn-login" class="top-nav-fix-guide">登录</a>
-            <span>|</span>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/register" name="btn-register" class="top-nav-fix-guide">注册</a>
-
-        </div>
+            <div class="topnav-border" style="line-height: 26px;color: #fff">
+                欢迎
+                <div class="btn-group" style="height: 26px;margin-top: -5px;">
+                    <button href="#" class="btn btn-user-profile" title="back0893">{$user.username}</button>
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret" style="color: #58b49d;"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu xvideo-dropdown-menu">
+                        <li>
+                            <a href="{:url('user/vip')}">我的帐户</a>
+                            <a href="{:url('user/profile')}">我的资料</a>
+                            <a href="{:url('user/collection')}">我的收藏</a>
+                            <a href="{:url('user/vedio')}">我的视频</a>
+                            <a href="{:url('user/security')}">帐号安全</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="xingyu-btn-exit" href="{:url('user/logout')}">退出</a>
+            </div>
     </div>
 </div>
 
 <header class="xingyu-topnav navbar navbar-static-top navbar-inverse" style="border: none;" id="top">
-    <div class="v-container clearfix topnav-mainnav">
+    <div class="container clearfix topnav-mainnav">
         <div class="navbar-header">
             <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
                     aria-controls="bs-navbar" aria-expanded="false">
@@ -89,7 +104,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://email.qingcaodizhi.at.gmx.com.q4c7.space/" class="navbar-brand">
+            <a href="" class="navbar-brand">
                 <img class="clearfix topnav-logo-img " src="http://vedio.cc/assets/img/logo.jpg">
             </a>
         </div>
@@ -131,7 +146,7 @@
         </nav>
     </div>
 </header>
-<div class="v-container clearfix">
+<div class="container clearfix">
     <div class="my-primary-center  nopadding">
         {notempty name='$user'}
         <div class="my-center-container-left pull-left col-xs-12 col-md-3 col-sm-3">
