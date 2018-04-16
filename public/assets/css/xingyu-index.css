@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(../fonts/glyphicons-halflings-regular.eot);
-    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(assets/fonts/glyphicons-halflings-regular.eot);
+    src: url(/assets/fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(/assets/fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(/assets/fonts/glyphicons-halflings-regular.woff) format('woff'), url(/assets/fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(/assets/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
 }
 
 .glyphicon {
@@ -586,10 +586,10 @@
 [riot-tag=rv-preview-video-box] .v-search-video-box-marginright-34 {
     margin-right: 34px
 }
-
+/* 
 [riot-tag=rv-preview-video-box] .v-search-video-box-marginright-13, [riot-tag=rv-preview-video-box] .v-search-video-box-marginright-20 {
     margin-right: 3px
-}
+} */
 
 [riot-tag=rv-preview-video-box] .v-search-video-box-marginbottom {
     margin-bottom: 14px
@@ -613,7 +613,7 @@
 
 [riot-tag=rv-preview-video-box] .v-search-video-box-video-info {
     position: relative;
-    width: 220px
+    /* width: 220px */
 }
 
 [riot-tag=rv-preview-video-box] .v-search-video-box-video-info .v-search-video-time {
@@ -638,7 +638,7 @@
 }
 
 [riot-tag=rv-preview-video-box] .v-search-video-img img {
-    width: 220px;
+    /* width: 220px; */
     height: 140px
 }
 
@@ -680,7 +680,7 @@
     background-color: #fff
 }
 
-[riot-tag=rv-preview-video-box] .v-search-video-name {
+/* [riot-tag=rv-preview-video-box] .v-search-video-name {
     width: 220px;
     height: 53px;
     font-size: 14px;
@@ -698,7 +698,7 @@
 [riot-tag=rv-preview-video-box] .v-search-video-name a {
     color: #666;
     text-decoration: none
-}
+} */
 
 [riot-tag=rv-preview-video-box] .v-mask-video-modify {
     height: 120px;
@@ -1021,9 +1021,9 @@
     float: right
 }
 
-[riot-tag=rv-myvideo-box] .v-float-left, [riot-tag=rv-pager] .pager .previous a {
+/* [riot-tag=rv-myvideo-box] .v-float-left, [riot-tag=rv-pager] .pager .previous a {
     float: left
-}
+} */
 
 [riot-tag=rv-pager] .pager .disabled a, [riot-tag=rv-pager] .pager .disabled a:hover {
     color: #999;
@@ -1046,7 +1046,7 @@
     box-shadow: 0 1px 10px #d8d8d8
 }
 
-[riot-tag=rv-profile-data] .myprofile-title {
+/* [riot-tag=rv-profile-data] .myprofile-title {
     width: 100%;
     height: 40px;
     background-color: #58b49d;
@@ -1054,7 +1054,7 @@
     font-size: 18px;
     color: #FFF;
     line-height: 2.4
-}
+} */
 
 [riot-tag=rv-profile-data] .myprofile-psninfo-info {
     margin-left: 42px;
@@ -1169,30 +1169,30 @@
     margin-bottom: 20px
 }
 
-[riot-tag=rv-myvideo-box] .myvideo-box {
+/* [riot-tag=rv-myvideo-box] .myvideo-box {
     float: left;
     width: 222px;
     border: 1px solid #eee;
     height: auto
-}
+} */
 
-[riot-tag=rv-myvideo-box] .myvideo-box .myvideo-box-top {
+/* [riot-tag=rv-myvideo-box] .myvideo-box .myvideo-box-top {
     position: relative;
     width: 220px
-}
-
+} */
+/* 
 [riot-tag=rv-myvideo-box] .myvideo-box-marginright-33 {
     margin-right: 5px
-}
-
+} */
+/* 
 [riot-tag=rv-myvideo-box] .myvideo-box-marginbottom-14px {
     margin-bottom: 14px
-}
+} */
 
 [riot-tag=rv-myvideo-box] .v-psncenter-margin-bottom-23 {
     margin-bottom: 23px
 }
-
+/* 
 [riot-tag=rv-myvideo-box] .myvideo-mask-layer {
     width: 100%;
     height: 30px;
@@ -1201,13 +1201,13 @@
     bottom: 0;
     opacity: .6;
     line-height: 30px
-}
-
+} */
+/* 
 [riot-tag=rv-myvideo-box] .v-float-right {
     float: right
-}
+} */
 
-[riot-tag=rv-myvideo-box] .myvideo-mask-layer-left {
+/* [riot-tag=rv-myvideo-box] .myvideo-mask-layer-left {
     color: #FFF;
     margin-left: 5px;
     line-height: 30px;
@@ -1216,9 +1216,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     text-align: left
-}
+} */
 
-[riot-tag=rv-myvideo-box] .myvideo-mask-layer-right {
+/* [riot-tag=rv-myvideo-box] .myvideo-mask-layer-right {
     color: #FFF;
     margin-right: 5px;
     line-height: 30px;
@@ -1227,7 +1227,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     text-align: right
-}
+} */
 
 [riot-tag=rv-myvideo-box] .myvideo-mask-layer-desc {
     display: none;
@@ -1461,15 +1461,15 @@
     line-height: 42px;
     width: 105px
 }
-
+/* 
 [riot-tag=rv-myvideo-recordlist] .myvideo-search-img img {
     width: 220px;
     height: 140px
-}
+} */
 
 [riot-tag=rv-mycollection] .mycollection-content {
     margin-top: 20px;
-    width: 928px
+    /* width: 928px */
 }
 
 [riot-tag=rv-psncenter-myvideo] .myvideo-videolist {
@@ -1482,10 +1482,10 @@
     margin: auto
 }
 
-[riot-tag=rv-psncenter-myvideo] .myvideo-videolist-box {
+/* [riot-tag=rv-psncenter-myvideo] .myvideo-videolist-box {
     margin-top: 20px;
     width: 915px
-}
+} */
 
 [riot-tag=rv-modifymyvideo] .modifyvideo-title {
     width: 900px;
@@ -1939,7 +1939,7 @@
 [riot-tag=rv-psncenter-bindmail-verifymail] .security-enter-div {
     font-size: 14px;
     text-align: center;
-    background: url(../images/nav.png) 0 186px;
+    background: url(/assets/img/nav.png) 0 186px;
     height: 30px;
     margin-top: 15px
 }
@@ -2135,7 +2135,7 @@
 [riot-tag=rv-psncenter-bindmail-enternewmail] .security-enter-div {
     font-size: 14px;
     text-align: center;
-    background-image: url(../images/nav.png);
+    background-image: url(/assets/img/nav.png);
     background-position: 0 154px;
     height: 30px;
     margin-top: 15px
@@ -2359,7 +2359,7 @@
 [riot-tag=rv-psncenter-bindmail-success] .security-bindsuc-div {
     font-size: 14px;
     text-align: center;
-    background: url(../images/nav.png) 0 123px;
+    background: url(/assets/img/nav.png) 0 123px;
     height: 30px;
     margin-top: 15px
 }
@@ -2641,7 +2641,7 @@
 }
 
 [riot-tag=rv-myvip] .myvip-info {
-    background-image: url(../../images/VIPcenterbg.jpg);
+    background-image: url(/assets/img/VIPcenterbg.jpg);
     width: 900px;
     height: 222px
 }
@@ -2723,7 +2723,7 @@
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-accelerate {
-    background-image: url(../../images/r1_c1.jpg)
+    background-image: url(/assets/img/r1_c1.jpg)
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-accelerate img {
@@ -2731,7 +2731,7 @@
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-download {
-    background-image: url(../../images/r1_c2.jpg)
+    background-image: url(/assets/img/r1_c2.jpg)
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-download img {
@@ -2743,11 +2743,11 @@
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-icon {
-    background-image: url(../../images/r1_c3.jpg)
+    background-image: url(/assets/img/r1_c3.jpg)
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-noad {
-    background-image: url(../../images/r1_c4.jpg)
+    background-image: url(/assets/img/r1_c4.jpg)
 }
 
 [riot-tag=rv-myvip] .myvip-privilege-noad img {
@@ -3372,7 +3372,7 @@
 }
 
 [riot-tag=rv-profile-left] .psninfo-sex {
-    background: url(../images/sex.png)
+    background: url(assets/img/sex.png)
 }
 
 [riot-tag=rv-profile-left] .profile-footer-report.xvideo-float-right.active {
@@ -3677,7 +3677,7 @@
 .xingyu-top-tag .dropdown-tag-menu .dropdown-tag-container {
     font-size: 14px;
     color: #fff;
-    width: 180px
+    width: 175px
 }
 
 .xingyu-top-tag .dropdown-tag-menu .dropdown-tag-container ul li {
@@ -3872,7 +3872,7 @@
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    background-image: url(../images/top-nav-logo.png);
+    background-image: url(assets/img/top-nav-logo.png);
     background-size: 131px 40px;
     background-position: 0 0;
     background-repeat: no-repeat;

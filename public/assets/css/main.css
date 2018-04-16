@@ -379,4 +379,5 @@ body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, html, ifra
     .vip-accountInfo {
         height: initial;
     }
+    .xvideo-panel-header{line-height:40px;}
 }

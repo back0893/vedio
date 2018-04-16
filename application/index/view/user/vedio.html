@@ -1,6 +1,6 @@
 <div class="my-center-infolist pull-left col-xs-12 col-md-9 col-sm-9">
     <div class="my-center-infolist-container" riot-tag="rv-psncenter-myvideo">
-        <div class="myvideo-border"  riot-tag="rv-preview-video-box">
+        <div class="myvideo-border" riot-tag="rv-preview-video-box">
             <div class="myvideo-title">
                 <span>我的视频</span>
             </div>
@@ -13,52 +13,51 @@
             <?php $collection=$vedio->toArray()['data'];?>
             <?php while(count($collection)):;?>
             <?php $row=array_splice($collection,0,4);?>
-            <!-- <div class="mycollection-content"> -->
-            {foreach($row as $r)}
-            <div class="  col-lg-3  v-search-video-box v-search-video-box-marginbottom">
-                <div class="v-search-video-box-video-info">
-                    <a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
-
-                        <div class="v-search-video-img">
-                            <img src="{$r.fengmian}">
-                        </div>
-                    </a>
-                    <a class="xvideo-thumbnail-mask hide" target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
-                        <span class="xyvideo-icon xyvideo-icon-play"></span>
-                    </a>
-                    <div class="v-mask-layer">
-                        <div class="v-mask-layer-left">{:mt_rand(1000,7000)}人观看</div>
-                        <div class="v-mask-layer-right">
-                            <i class="xyvideo-icon xyvideo-icon-clock"></i> 1:15:54
-                        </div>
-                    </div>
-                    <div class="v-mask-video-modify">
-                        <a target="_blank" style="text-decoration: none;" href="/v/S0k9G3UUMNyiM6fN">
-                            <div class="v-mask-video-modify-play-btn"></div>
-                        </a>
-                        <div class="v-mask-video-modify-font" data-video-id="24557">编辑</div>
-                    </div>
-                    <div class="v-mask-video-delete">
-                        <a target="_blank" style="text-decoration: none;" href="{:url('vedio/detail',['id'=>$r.id])}">
-                            <div class="v-mask-video-delete-play-btn"></div>
-                        </a>
-                        <div class="v-mask-video-delete-font" data-collectionvideo-id="{$r.id}">删除</div>
-                    </div>
-                </div>
-                <div class="v-search-video-desc">
-                    <div class="v-search-video-name">
+            <div class="myvideo-videolist-box">
+                {foreach($row as $r)}
+                <div class="  col-lg-3  v-search-video-box v-search-video-box-marginbottom">
+                    <div class="v-search-video-box-video-info">
                         <a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
-                            <lable>{$r.name}</lable>
+
+                            <div class="v-search-video-img">
+                                <img src="{$r.fengmian}">
+                            </div>
                         </a>
+                        <a class="xvideo-thumbnail-mask hide" target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
+                            <span class="xyvideo-icon xyvideo-icon-play"></span>
+                        </a>
+                        <div class="v-mask-layer">
+                            <div class="v-mask-layer-left">{:mt_rand(1000,7000)}人观看</div>
+                            <div class="v-mask-layer-right">
+                                <i class="xyvideo-icon xyvideo-icon-clock"></i> 1:15:54
+                            </div>
+                        </div>
+                        <div class="v-mask-video-modify">
+                            <a target="_blank" style="text-decoration: none;" href="/v/S0k9G3UUMNyiM6fN">
+                                <div class="v-mask-video-modify-play-btn"></div>
+                            </a>
+                            <div class="v-mask-video-modify-font" data-video-id="24557">编辑</div>
+                        </div>
+                        <div class="v-mask-video-delete">
+                            <a target="_blank" style="text-decoration: none;" href="{:url('vedio/detail',['id'=>$r.id])}">
+                                <div class="v-mask-video-delete-play-btn"></div>
+                            </a>
+                            <div class="v-mask-video-delete-font" data-collectionvideo-id="{$r.id}">删除</div>
+                        </div>
+                    </div>
+                    <div class="v-search-video-desc">
+                        <div class="v-search-video-name">
+                            <a target="_blank" href="{:url('vedio/detail',['id'=>$r.id])}">
+                                <lable>{$r.name}</lable>
+                            </a>
+                        </div>
                     </div>
                 </div>
+                {/foreach}
+                <!-- <div style="clear:both"></div> -->
             </div>
-            {/foreach}
-            <!-- <div style="clear:both"></div> -->
-            <!-- </div> -->
-            <!-- <div class="v-rv-page-box"></div> -->
-            <?php endwhile;?>
-            {else/}
+            <div class="v-rv-page-box"></div>
+            <?php endwhile;?> {else/}
             <div class="myvideo-videolist-box" riot-tag="rv-myvideo-nothing">
                 <div class="myvideo-nothing">
                     <span class="xyvideo-icon xyvideo-icon-warning"></span>暂无记录,去

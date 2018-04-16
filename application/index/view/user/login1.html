@@ -15,7 +15,7 @@
     <meta name="viewport"
           content="width=device-width,initial-scale=.3"/>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
     <meta name="keywords" content="">
     <meta name="description" content="">
@@ -25,11 +25,11 @@
         document.write('<style>' +
             '@font-face {' +
             "font-family: 'xyvideo';" +
-            "src:url('/fonts/xyvideo.eot?mm4ssd');" +
-            "src:url('/fonts/xyvideo.eot?mm4ssd#iefix') format('embedded-opentype')," +
-            "url('/fonts/xyvideo.ttf?mm4ssd') format('truetype')," +
-            "url('/fonts/xyvideo.woff?mm4ssd') format('woff')," +
-            "url('/fonts/xyvideo.svg?mm4ssd#xyvideo') format('svg');" +
+            "src:url('/assets/fonts/xyvideo.eot?mm4ssd');" +
+            "src:url('/assets/fonts/xyvideo.eot?mm4ssd#iefix') format('embedded-opentype')," +
+            "url('/assets/fonts/xyvideo.ttf?mm4ssd') format('truetype')," +
+            "url('/assets/fonts/xyvideo.woff?mm4ssd') format('woff')," +
+            "url('/assets/fonts/xyvideo.svg?mm4ssd#xyvideo') format('svg');" +
             "font-weight: normal;" +
             "font-style: normal;}" +
             '</style>');
@@ -37,10 +37,10 @@
     <!-- <link rel="stylesheet" href="http://qcstatic.qstaic.com/css/vs-daa0d61020.min.css" /> -->
     <link rel="shortcut icon" href="http://qcstatic.qstaic.com/images/favicon-bc325230c7.ico" />
 
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/sb.css" />
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/mycenter.css" />
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/login.css" />
-    <link rel="stylesheet" href="http://vedio.cc/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/sb.css" />
+    <link rel="stylesheet" href="/assets/css/mycenter.css" />
+    <link rel="stylesheet" href="/assets/css/login.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
     <!--[if lte IE 9]>
     <script type="text/javascript" src="http://qcstatic.qstaic.com/js/v-ie8-ae20bd4c59.min.js"></script>
     <![endif]-->
@@ -71,7 +71,7 @@
     </div>
 
     <header class="xingyu-topnav navbar navbar-static-top navbar-inverse" style="border: none;" id="top">
-        <div class="v-container clearfix topnav-mainnav">
+        <div class="container clearfix topnav-mainnav">
             <div class="navbar-header">
                 <button style="border:none;" class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar"
                     aria-controls="bs-navbar" aria-expanded="false">
@@ -114,7 +114,7 @@
                             </div>
 
                             <div class="top-main-nav-collection">
-                                <img src="public/img/collection.png">收藏书签
+                                <img src="/assets/img/collection.png">收藏书签
                             </div>
                         </div>
                     </li>
@@ -159,8 +159,8 @@
         </div>
         <button class="side-adv-btn-cls">关闭</button>
     </div>
-    <div class="v-container xvideo-login-container clearfix" style="">
-        <div class="col-xs-12 nopadding" style="margin-top:25px;margin-bottom:20px">
+    <div class="v-container xvideo-login-container clearfix" >
+        <div class="v-container nopadding" style="margin-top:25px;margin-bottom:20px">
             <div class="col-sm-12 col-lg-6 col-md-3 visible-lg-inline-block visible-md-inline-block" style="text-align: center;padding: 0;height: 498px;display: table;">
                 <div style="display: table-cell;vertical-align: middle;">
 
@@ -180,7 +180,7 @@
                         <form class="xvideo-form form-horizontal" role="form" method="POST" autocomplete="off">
                             {:token()}
                             <div class="form-group">
-                                <label class="col-xs-3 control-label login-lbl">账户:</label> 
+                                <label class="col-xs-3 control-label login-lbl">账户:</label>
                                 <div class="col-xs-8">
                                     <input type="text" style="display:none">
                                     <input type="text" class="form-control" name="account" value="" placeholder="请输入用户名或邮箱" autocomplete="off">
@@ -226,7 +226,7 @@
                             <div class="form-group">
                                 <div class="col-md-8 col-md-offset-2">
                                     <span style="color: #959595;">还没有账户? </span>
-                                    <a class="btn-link" href="{:url('user/register')}" style="">点此注册</a>
+                                    <a class="btn-link" href="{:url('user/register')}" >点此注册</a>
                                 </div>
                                 <div class="col-md-10 col-md-offset-2 xvideo-btn-login text-danger">
                                     <i name="all_check_result" class="has-error"></i>
@@ -573,23 +573,23 @@
             <ul class="xvideo-footer-nav v-container">
                 <li class="current">
                     <a href="/about/question">常见问题</a>
-                    <span style="">|&nbsp;</span>
+                    <span >|&nbsp;</span>
                 </li>
                 <li>
                     <a href="/about/contact">联系我们</a>
-                    <span style="">|&nbsp;</span>
+                    <span >|&nbsp;</span>
                 </li>
                 <li>
                     <a href="/about/privacy">隐私政策</a>
-                    <span style="">|&nbsp;</span>
+                    <span >|&nbsp;</span>
                 </li>
                 <li>
                     <a href="/about/agreement">用户协议</a>
-                    <span style="">|&nbsp;</span>
+                    <span >|&nbsp;</span>
                 </li>
                 <li>
                     <a href="/about/dmca">DMCA</a>
-                    <span style="">|&nbsp;</span>
+                    <span >|&nbsp;</span>
                 </li>
                 <li>
                     <a href="/about/partner">合作伙伴</a>
