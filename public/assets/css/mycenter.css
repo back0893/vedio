@@ -3834,36 +3834,40 @@
     border: none
 }
 
-/*小于等于1024的*/
-
-@media (max-width:1024px) {
-    .xvideo-psncenter-psninfo-option ul li a {
-        padding: 16px 66px;
+@media screen and (max-width: 1170px) {  
+    .my-center-psninfo-phote img {
+        margin-left: 70px; 
     }
+    
     .xvideo-psncenter-psninfo-list ul li div {
         padding: 0px;
     }
-}
-
-@media screen and (max-width: 768px) {
-    .my-center-psninfo-phote img {
-        margin-left: 35px;
-        margin-top: 20px;
-        height: 80px;
-        width: 80px;
+    
+    .xvideo-psncenter-psninfo-option ul li a {
+        padding: 16px 68px;
     }
+} 
+@media screen and (max-width: 992px) { 
     .xvideo-psncenter-psninfo-list ul li {
         width: 100%;
+    }
+    
+    .my-center-psninfo-phote img {
+        margin-left: 35px; 
     }
     .xvideo-psncenter-psninfo-option ul li a {
         padding: 16px 41px;
     }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
+    .my-center-psninfo-phote img{margin-left:320px;}
     .xvideo-psncenter-psninfo-list ul li {
         width: initial;
     }
+}
+
+@media screen and (max-width: 480px) {
+
     .my-center-psninfo-phote img {
         margin-left: 150px;
     }

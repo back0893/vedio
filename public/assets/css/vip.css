@@ -623,19 +623,29 @@
 }
 .vip-privilege-container .col-xs-4{width:29.5%;}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1170px) {   
+    .vip-privilege .vip-privilege-container ul li>img{
+        width: 30px;
+        height: 30px;margin-right:0px;margin-bottom: 15px;
+    }
+    .vip-privilege .vip-privilege-container ul li{margin: 20px 20px 20px 0;}
+} 
+@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 1024px) { */
     .vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw .recharge-package-detail>button{width:80%;}
     .vip-accountInfo-right{margin-top:20px;}
     .vip-privilege .vip-privilege-container ul li{padding:20px 0 0 20px;margin:20px 20px 20px 0;}
     .vip-privilege .vip-privilege-container ul li>img{
         width:45px;height:45px;
+        margin-bottom: 0px;
     } 
+    .vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw>span{right:42px;}
 }
 @media screen and (max-width: 768px) {
-    .vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw>span{right: 42px;}
+    .vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw>span{right: 136px;}
 }
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+    .vip-recharge .vip-recharge-container .vip-recharge-form .vip-recharge-raw>span{right: 16px;}
     div.vip-accountInfo {
         height: initial;
     }

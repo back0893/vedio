@@ -3492,12 +3492,12 @@
 }
 
 .vindex-video-container .xvideo-video-row .vindex-video-area {
-    margin-left: -15px
+    /* margin-left: -15px */
 }
 
 .vindex-video-container .xvideo-video-row .vindex-video-area div.v-selftime-list-container {
     margin-right: 0 !important;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     display: inline
 }
 
@@ -3550,7 +3550,7 @@
 }
 
 .beauty-live-container .live-video-box {
-    float: left;
+    /* float: left; */
     min-width: 160px;
     margin: 0 0px 30px 0;
     position: relative;
@@ -3605,11 +3605,14 @@
     margin-right: 2px
 }
 
+.beauty-live-container .live-video-box .live-video-title{padding-right: 20px;} 
+.beauty-live-container .live-video-box .live-video-title>span{padding-right: 20px;}
+
 .beauty-live-container .live-video-box>span {
     display: inline-block;
     position: absolute;
     top: 10px;
-    right: 0;
+    right: 34px;
     width: 70px;
     height: 24px;
     line-height: 24px;
@@ -3618,7 +3621,6 @@
     text-align: center;
     background-color: #58b49d
 }
-
 .beauty-live-container .live-video-box:hover {
     box-shadow: 0 2px 4px #aaa
 }
@@ -3627,7 +3629,7 @@
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0px;
     height: 150px;
     width: 200px;
     line-height: 150px;
@@ -3656,7 +3658,7 @@
     /* width: 100%; */
     background-color: #efeff0;
     color: #58b49d;
-    padding: 10px;
+    padding: 20px 0;
 }
 
 .xingyu-top-tag .v-container {
@@ -3677,7 +3679,7 @@
 .xingyu-top-tag .dropdown-tag-menu .dropdown-tag-container {
     font-size: 14px;
     color: #fff;
-    width: 175px
+    width: 180px
 }
 
 .xingyu-top-tag .dropdown-tag-menu .dropdown-tag-container ul li {
@@ -3859,7 +3861,7 @@
     padding: 34px 0 0;
     text-align: left;
     border-top: 1px #ddd solid !important;
-    width: 1170px;
+    /* width: 1170px; */
     margin: 0 auto
 }
 
@@ -3926,39 +3928,53 @@
 .xvideo-recommend-container>.v-container {
     padding-left: 15px;
 }
-
+.xvideo-recommend-container .xvideo-primary-recommend.col-lg-5{width:37.66%;}
+.xvideo-recommend-container .xvideo-second-recommed.col-lg-7{width:62.34%;} 
+.ad-container .col-md-12,.ad-container .col-md-6{padding: 0px;}
 @media (max-width: 1170px) {
     .cus-md-2 {
         width: 25%;
         float: left;
-    }
-    .beauty-live-container .live-video-box>span {
-        right: 18%;
-    }
+    } 
     .beauty-live-container .live-video-box {
         margin: 0px;
     }
     .xingyu-top-tag .dropdown-tag-menu .dropdown-tag-container {
         width: 145px;
-    }
-    .xvideo-recommend-container .xvideo-second-recommed {
-        margin-top: 20px;
-    }
+    } 
     .xvideo-recommend-container .xvideo-second-recommed .xvideo-recommend-group ul {
         padding-left: 0px;
     }
     .xvideo-recommend-container .xvideo-second-recommed .xvideo-recommend-group ul li .xvideo-second-recommend-desc {
         width: 89%;
     }
-    .mvzb.container, .ad-container .row div {
+    .ad-container .row div {
         padding: 0px;
     }
     .ad-container {
         margin-top: 20px;
     }
-}
 
-@media (max-width: 768px) {
+    .beauty-live-container .live-video-box .live-video-title{padding: 0 30px;}  
+    .beauty-live-container .live-video-box>span{right:22px;}
+    .vindex-video-container
+    .beauty-live-container{padding:0px;}
+    .beauty-live-container .live-video-box{ text-align: center; }  
+    
+    .beauty-live-container .live-video-box:hover .live-video-mask{left:21px;}
+    .beauty-live-container .live-video-box .live-video-title>span{padding-right: 0px;}
+    
+}  
+@media(max-width: 992px){
+    .beauty-live-container .live-video-box:hover .live-video-mask{left:25px;}
+    
+    .xvideo-recommend-container .xvideo-primary-recommend.col-lg-5{width: 100%;}
+    .xvideo-recommend-container .xvideo-second-recommed.col-lg-7{width: 100%;margin-top:20px;}
+    
+    .xvideo-recommend-container .xvideo-second-recommed .xvideo-recommend-group ul li .xvideo-second-recommend-desc{width:100%;margin-left: 0px;}
+    .beauty-live-container .live-video-box>span{right: 25px;}
+
+    .xvideo-recommend-container .xvideo-second-recommed .xvideo-recommend-group ul li{padding:0px;}
     .xvideo-recommend-container>.v-container {
         padding-left: 0px;
     }
@@ -3975,11 +3991,21 @@
         padding: 0px 0px;
     }
 }
+@media (max-width: 768px) {  
+ 
+}
 
-@media (max-width: 414px) {
-    .beauty-live-container {
-        padding-left: 15px;
+@media (max-width: 480px) {
+    .beauty-live-container .live-video-box:hover .live-video-mask{left:0px;}
+    
+    .beauty-live-container .live-video-box .live-video-title{padding:0 10px;}
+    .beauty-live-container .live-video-box .live-video-title>span{padding-right: 0px;}
+    .container .row{margin:0px;}
+    .vindex-video-container {
+        padding: 0 0px;
     }
+    .beauty-live-container .cus-md-2:nth-child(odd){margin-right: 12px;}
+    .beauty-live-container .live-video-box:hover .live-video-mask,
     .beauty-live-container .live-video-box .live-video-img>img {
         width: 180px;
     }
@@ -3993,18 +4019,25 @@
         padding: 0px;
     }
     .beauty-live-container .live-video-box>span {
-        right: 0px;
+        right: 3px;
     }
     .cus-md-2 {
         width: 48%;
     }
+
+    .vindex-video-container .xvideo-video-row .vindex-video-area div.v-selftime-list-container{margin-left: 10px;}
 }
 
+
 @media (max-width: 380px) {
-    .beauty-live-container .live-video-box, .beauty-live-container .live-video-box .live-video-img>img {
-        width: 160px;
-    }
-    [riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc .v-videoname, [riot-tag=rv-stvideolist] .v-selftime-list-container .v-orginal-img img {
-        width: 160px;
-    }
-}
+    .beauty-live-container .live-video-box:hover .live-video-mask{left:5px;}
+    .beauty-live-container .live-video-box, .beauty-live-container .live-video-box .live-video-img>img,
+    .beauty-live-container .live-video-box:hover .live-video-mask,
+    [riot-tag=rv-stvideolist] .v-selftime-list-container .v-container-desc .v-videoname,
+     [riot-tag=rv-stvideolist] .v-selftime-list-container .v-orginal-img img 
+     {
+        width: 150px;
+    } 
+    .container, .container-fluid{padding-right: 0px;padding-left:0px;}
+    .beauty-live-container .live-video-box>span{right:5px;}
+} 

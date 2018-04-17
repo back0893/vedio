@@ -1556,6 +1556,9 @@ dd {
     .dl-horizontal dd {
         margin-left: 180px
     }
+    .container {
+        width: 750px
+    }
 }
 
 abbr[data-original-title], abbr[title] {
@@ -1674,12 +1677,6 @@ pre code {
     overflow-y: scroll
 }
 
-/* @media (min-width:768px) {
-    .container {
-        width: 750px
-    }
-}
-
 @media (min-width:992px) {
     .container {
         width: 970px
@@ -1690,44 +1687,7 @@ pre code {
     .container {
         width: 1170px
     }
-} */
-
-.container {
-    width: 1170px;
 }
-
-@media (max-width:1170px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (max-width:992px) {
-    .container {
-        width: 750px;
-    }
-}
-/*zzy*/
-/* @media (max-width:780px) {
-    .container {
-        max-width: 480px;
-    }
-} */
-
-@media (max-width:480px) {
-    .container {
-        width: 390px;
-    }
-}
-
-@media (max-width:380px) {
-    .container {
-        width: 360px;
-    }
-}
-
-
-
 
 .row {
     margin-left: -15px;
@@ -13767,7 +13727,7 @@ body {
     padding: 34px 0 0;
     text-align: left;
     border-top: 1px #ddd solid !important;
-    /* width: 1170px; */
+    width: 1170px;
     margin: 0 auto
 }
 
